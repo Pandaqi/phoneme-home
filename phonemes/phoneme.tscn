@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c05kbed0jmra3"]
+
+[ext_resource type="Script" uid="uid://dquwab16t58fx" path="res://phonemes/phoneme.gd" id="1_3wnmr"]
+[ext_resource type="Texture2D" uid="uid://dmw14m6lu8xom" path="res://phonemes/sprites/tiger.webp" id="2_3wnmr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xwkvk"]
+size = Vector2(130, 122)
+
+[node name="Phoneme" type="Node2D" unique_id=130237017 node_paths=PackedStringArray("sprite", "area", "audio_player")]
+script = ExtResource("1_3wnmr")
+sprite = NodePath("Sprite2D")
+area = NodePath("Area2D")
+audio_player = NodePath("AudioPhoneme")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1255508340]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_3wnmr")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=940418828]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1906355702]
+shape = SubResource("RectangleShape2D_xwkvk")
+
+[node name="AudioPhoneme" type="AudioStreamPlayer" parent="." unique_id=861724094]

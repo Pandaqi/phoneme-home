@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cqnytuelskblt"]
+
+[ext_resource type="Script" uid="uid://dt0dutprrbwsr" path="res://main/main.gd" id="1_53q0u"]
+[ext_resource type="Script" uid="uid://chphtvno1nc3a" path="res://generation/puzzle_visualizer.gd" id="2_c651c"]
+[ext_resource type="PackedScene" uid="uid://c05kbed0jmra3" path="res://phonemes/phoneme.tscn" id="3_xwkvk"]
+
+[node name="Main" type="Node2D" unique_id=1864530023 node_paths=PackedStringArray("vis")]
+script = ExtResource("1_53q0u")
+vis = NodePath("PuzzleVisualizer")
+
+[node name="PuzzleVisualizer" type="Node2D" parent="." unique_id=1205035023 node_paths=PackedStringArray("label_debug")]
+script = ExtResource("2_c651c")
+phoneme_scene = ExtResource("3_xwkvk")
+debug = true
+label_debug = NodePath("LabelDebug")
+
+[node name="LabelDebug" type="Label" parent="PuzzleVisualizer" unique_id=898966478]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 502.0
+offset_top = 20.0
+offset_right = 849.0
+offset_bottom = 78.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 32
+text = "Word Here"
+horizontal_alignment = 1
+vertical_alignment = 1

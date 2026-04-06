@@ -1,0 +1,11488 @@
+{
+  "phonemes": {
+    "n": {
+        "sound": "n",
+        "sprites": ["night", "nose", "nest"]
+    },
+
+    "r": {
+        "sound": "r",
+        "sprites": ["rain", "rat", "rhino"]
+    },
+
+    "t": {
+        "sound": "t",
+        "sprites": ["tiger", "tree", "table"]
+    },
+
+    "ĭ": {
+        "sound": "i-short",
+        "sprites": ["image", "ill", "insect"]
+    },
+
+    "ī": {
+        "sound": "i-long",
+        "sprites": ["eye", "ice", "island"]
+    },
+
+    "s": {
+        "sound": "s",
+        "sprites": ["sun", "sky", "socks", "snake"]
+    },
+
+    "d": {
+        "sound": "d",
+        "sprites": ["duck", "door", "dog"]
+    },
+
+    "l": {
+        "sound": "l",
+        "sprites": ["log", "lion", "light"]
+    },
+
+    "ē": {
+        "sound": "e-long",
+        "sprites": ["eat", "eagle", "emote"]
+    },
+
+    "ĕ": {
+        "sound": "e-short",
+        "sprites": ["elbow", "egg", "elephant"]
+    },
+
+    "k": {
+        "sound": "k",
+        "sprites": ["cat", "cow", "car", "cake"]
+    },
+
+    "m": {
+        "sound": "m",
+        "sprites": ["man", "milk", "monkey", "mug"]
+    },
+
+    "p": {
+        "sound": "p",
+        "sprites": ["pin", "panda", "piano", "pizza"]
+    },
+
+    "ă": {
+        "sound": "a-short",
+        "sprites": ["apple", "ant", "aunt"]
+    },
+
+    "ā": {
+        "sound": "a-long",
+        "sprites": ["ape", "eight", "angel"]
+    },
+
+    "z": {
+        "sound": "z",
+        "sprites": ["zebra", "zoo", "zero", "zombie"]
+    },
+
+    "w": {
+        "sound": "w",
+        "sprites": ["wall", "water", "well", "whale", "witch", "wheel", "window"]
+    },
+
+    "b": {
+        "sound": "b",
+        "sprites": ["bee", "box", "ball", "bat", "bone", "banana", "book"]
+    },
+
+    "ō": {
+        "sound": "o-long",
+        "sprites": ["oak", "ocean", "open", "over"]
+    },
+
+    "ŏ": {
+        "sound": "o-short",
+        "sprites": ["otter", "off", "olive"]
+    },
+
+    "h": {
+        "sound": "h",
+        "sprites": ["hat", "horse", "hand", "hair", "house"]
+    },
+
+    "ng": {
+        "sound": "ng",
+        "sprites": ["ring", "king", "wing", "penguin"],
+        "nostart": true
+    },
+
+    "sh": {
+        "sound": "sh",
+        "sprites": ["shoe", "shell", "fish"],
+        "nostart": true
+    },
+
+    "ch": {
+        "sound": "ch",
+        "sprites": ["chair", "cheese", "beach"],
+        "nostart": true
+    },
+
+    "ŭ": {
+        "sound": "u-short",
+        "sprites": ["umbrella", "onion", "bus"],
+        "nostart": true
+    },
+
+    "ū": {
+        "sound": "u-long",
+        "sprites": ["shoe", "moon", "fruit"],
+        "nostart": true
+    },
+
+    "oo": {
+        "sound": "oo",
+        "sprites": ["book", "wolf", "foot"],
+        "nostart": true
+    },
+
+    "v": {
+        "sound": "v",
+        "sprites": ["van", "volcano"]
+    },
+
+    "f": {
+        "sound": "f",
+        "sprites": ["fire", "fly", "fish", "flower", "flute", "flamingo"]
+    },
+
+    "th": {
+        "sound": "th",
+        "sprites": ["three", "thumb", "bath", "earth", "mother", "father"],
+        "nostart": true
+    },
+
+    "y": {
+        "sound": "y",
+        "sprites": ["yes", "you", "yarn", "yellow"]
+    },
+
+    "j": {
+        "sound": "j",
+        "sprites": ["jar", "giraffe", "joy", "gem"]
+    },
+
+    "g": {
+        "sound": "g",
+        "sprites": ["game", "green", "girl", "ghost"]
+    },
+
+    "aw": {
+        "sound": "aw",
+        "sprites": ["arm", "car"],
+        "nostart": true
+    },
+
+    "oy": {
+        "sound": "oy",
+        "sprites": ["toy", "boy"],
+        "nostart": true
+    },
+
+    "ow": {
+        "sound": "ow",
+        "sprites": ["owl", "cow", "house", "cloud", "crown"],
+        "nostart": true
+    },
+
+    "er": {
+        "sound": "er",
+        "sprites": ["earth", "bird", "tiger", "water"],
+        "nostart": true
+    }  
+
+  },
+
+  "words": {
+    "alarm clock": {
+      "syllables": [
+        "a",
+        "LARM",
+        "clock"
+      ],
+      "compound": true
+    },
+    "apartment building": {
+      "syllables": [
+        "a",
+        "PART",
+        "ment",
+        "BUILD",
+        "ing"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "apple pie": {
+      "syllables": [
+        "AP",
+        "ple",
+        "pie"
+      ],
+      "compound": true
+    },
+    "bank account": {
+      "syllables": [
+        "bank",
+        "ac",
+        "COUNT"
+      ],
+      "compound": true
+    },
+    "coffee table": {
+      "syllables": [
+        "COF",
+        "fee",
+        "TA",
+        "ble"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "dining room": {
+      "syllables": [
+        "DIN",
+        "ing",
+        "room"
+      ],
+      "compound": true
+    },
+    "garage door": {
+      "syllables": [
+        "ga",
+        "RAGE",
+        "door"
+      ],
+      "compound": true
+    },
+    "kitchen sink": {
+      "syllables": [
+        "KITCH",
+        "en",
+        "sink"
+      ],
+      "compound": true
+    },
+    "mirror image": {
+      "syllables": [
+        "MIR",
+        "ror",
+        "IM",
+        "age"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "nail polish": {
+      "syllables": [
+        "nail",
+        "PO",
+        "lish"
+      ],
+      "compound": true
+    },
+    "office chair": {
+      "syllables": [
+        "OF",
+        "fice",
+        "chair"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "garbage can": {
+      "syllables": [
+        "GAR",
+        "bage",
+        "can"
+      ],
+      "compound": true
+    },
+    "peanut butter": {
+      "syllables": [
+        "PEA",
+        "nut",
+        "BUT",
+        "ter"
+      ],
+      "compound": true
+    },
+    "photo album": {
+      "syllables": [
+        "PHO",
+        "to",
+        "AL",
+        "bum"
+      ],
+      "compound": true
+    },
+    "pickup truck": {
+      "syllables": [
+        "PICK",
+        "up",
+        "truck"
+      ],
+      "compound": true
+    },
+    "computer cable": {
+      "syllables": [
+        "com",
+        "PUT",
+        "er",
+        "CA",
+        "ble"
+      ],
+      "compound": true
+    },
+    "reading lamp": {
+      "syllables": [
+        "READ",
+        "ing",
+        "lamp"
+      ],
+      "compound": true
+    },
+    "rock band": {
+      "syllables": [
+        "rock",
+        "band"
+      ],
+      "compound": true
+    },
+    "shopping cart": {
+      "syllables": [
+        "SHOP",
+        "ping",
+        "cart"
+      ],
+      "compound": true
+    },
+    "washing machine": {
+      "syllables": [
+        "WASH",
+        "ing",
+        "ma",
+        "CHINE"
+      ],
+      "compound": true
+    },
+    "traffic light": {
+      "syllables": [
+        "TRAF",
+        "fic",
+        "light"
+      ],
+      "compound": true
+    },
+    "sweater vest": {
+      "syllables": [
+        "SWEAT",
+        "er",
+        "vest"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "sleeping bag": {
+      "syllables": [
+        "SLEEP",
+        "ing",
+        "bag"
+      ],
+      "compound": true
+    },
+    "cookie jar": {
+      "syllables": [
+        "COOK",
+        "ie",
+        "jar"
+      ],
+      "compound": true
+    },
+    "birthday party": {
+      "syllables": [
+        "BIRTH",
+        "day",
+        "PAR",
+        "ty"
+      ],
+      "compound": true
+    },
+    "swimming pool": {
+      "syllables": [
+        "SWIM",
+        "ming",
+        "pool"
+      ],
+      "compound": true
+    },
+    "coloring book": {
+      "syllables": [
+        "COL",
+        "or",
+        "ing",
+        "book"
+      ],
+      "compound": true
+    },
+    "animal shelter": {
+      "syllables": [
+        "AN",
+        "i",
+        "mal",
+        "SHEL",
+        "ter"
+      ],
+      "compound": true
+    },
+    "treasure chest": {
+      "syllables": [
+        "TREAS",
+        "ure",
+        "chest"
+      ],
+      "compound": true
+    },
+    "halloween costume": {
+      "syllables": [
+        "hal",
+        "low",
+        "EEN",
+        "COS",
+        "tume"
+      ],
+      "compound": true
+    },
+    "musical instrument": {
+      "syllables": [
+        "MU",
+        "si",
+        "cal",
+        "IN",
+        "stru",
+        "ment"
+      ],
+      "compound": true
+    },
+    "bedtime story": {
+      "syllables": [
+        "BED",
+        "time",
+        "sto",
+        "ry"
+      ],
+      "compound": true
+    },
+    "bicycle ride": {
+      "syllables": [
+        "BI",
+        "cy",
+        "cle",
+        "ride"
+      ],
+      "compound": true
+    },
+    "chicken coop": {
+      "syllables": [
+        "CHICK",
+        "en",
+        "coop"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "vacuum cleaner": {
+      "syllables": [
+        "VAC",
+        "uum",
+        "CLEAN",
+        "er"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "airport": {
+      "syllables": [
+        "AIR",
+        "port"
+      ],
+      "compound": true
+    },
+    "babysitter": {
+      "syllables": [
+        "BA",
+        "by",
+        "sit",
+        "ter"
+      ],
+      "compound": true
+    },
+    "backache": {
+      "syllables": [
+        "BACK",
+        "ache"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "backpack": {
+      "syllables": [
+        "BACK",
+        "pack"
+      ],
+      "compound": true
+    },
+    "ballroom": {
+      "syllables": [
+        "BALL",
+        "room"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "baseball": {
+      "syllables": [
+        "BASE",
+        "ball"
+      ],
+      "compound": true
+    },
+    "bathroom": {
+      "syllables": [
+        "BATH",
+        "room"
+      ],
+      "compound": true
+    },
+    "bedroom": {
+      "syllables": [
+        "BED",
+        "room"
+      ],
+      "compound": true
+    },
+    "billboard": {
+      "syllables": [
+        "BILL",
+        "board"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "blackboard": {
+      "syllables": [
+        "BLACK",
+        "board"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "bookcase": {
+      "syllables": [
+        "BOOK",
+        "case"
+      ],
+      "compound": true
+    },
+    "bookstore": {
+      "syllables": [
+        "BOOK",
+        "store"
+      ],
+      "compound": true
+    },
+    "bus stop": {
+      "syllables": [
+        "BUS",
+        "stop"
+      ],
+      "compound": true
+    },
+    "businessman": {
+      "syllables": [
+        "BUSI",
+        "ness",
+        "man"
+      ],
+      "compound": true
+    },
+    "boyfriend": {
+      "syllables": [
+        "BOY",
+        "friend"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "girlfriend": {
+      "syllables": [
+        "GIRL",
+        "friend"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "cardboard": {
+      "syllables": [
+        "CARD",
+        "board"
+      ],
+      "compound": true
+    },
+    "cellphone": {
+      "syllables": [
+        "CELL",
+        "phone"
+      ],
+      "compound": true
+    },
+    "cheesecake": {
+      "syllables": [
+        "CHEESE",
+        "cake"
+      ],
+      "compound": true
+    },
+    "childcare": {
+      "syllables": [
+        "BOOK",
+        "store"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "classroom": {
+      "syllables": [
+        "CLASS",
+        "room"
+      ],
+      "compound": true
+    },
+    "classmate": {
+      "syllables": [
+        "CLASS",
+        "mate"
+      ],
+      "compound": true
+    },
+    "cookbook": {
+      "syllables": [
+        "COOK",
+        "book"
+      ],
+      "compound": true
+    },
+    "daydream": {
+      "syllables": [
+        "DAY",
+        "dream"
+      ],
+      "compound": true
+    },
+    "deadline": {
+      "syllables": [
+        "DEAD",
+        "line"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "doorbell": {
+      "syllables": [
+        "DOOR",
+        "bell"
+      ],
+      "compound": true
+    },
+    "doorway": {
+      "syllables": [
+        "DOOR",
+        "way"
+      ],
+      "compound": true
+    },
+    "downtown": {
+      "syllables": [
+        "DOWN",
+        "town"
+      ],
+      "compound": true
+    },
+    "driveway": {
+      "syllables": [
+        "DRIVE",
+        "way"
+      ],
+      "compound": true
+    },
+    "earthquake": {
+      "syllables": [
+        "EARTH",
+        "quake"
+      ],
+      "compound": true
+    },
+    "earring": {
+      "syllables": [
+        "EAR",
+        "ring"
+      ],
+      "compound": true
+    },
+    "farmhouse": {
+      "syllables": [
+        "FARM",
+        "house"
+      ],
+      "compound": true
+    },
+    "firefighter": {
+      "syllables": [
+        "FIRE",
+        "fight",
+        "er"
+      ],
+      "compound": true
+    },
+    "fireplace": {
+      "syllables": [
+        "FIRE",
+        "place"
+      ],
+      "compound": true
+    },
+    "firewood": {
+      "syllables": [
+        "FIRE",
+        "wood"
+      ],
+      "compound": true
+    },
+    "fish tank": {
+      "syllables": [
+        "FISH",
+        "tank"
+      ],
+      "compound": true
+    },
+    "flagpole": {
+      "syllables": [
+        "FLAG",
+        "pole"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "flashlight": {
+      "syllables": [
+        "FLASH",
+        "light"
+      ],
+      "compound": true
+    },
+    "football": {
+      "syllables": [
+        "FOOT",
+        "ball"
+      ],
+      "compound": true
+    },
+    "footstep": {
+      "syllables": [
+        "FOOT",
+        "step"
+      ],
+      "compound": true
+    },
+    "friendship": {
+      "syllables": [
+        "FRIEND",
+        "ship"
+      ],
+      "compound": true
+    },
+    "gift shop": {
+      "syllables": [
+        "GIFT",
+        "shop"
+      ],
+      "compound": true
+    },
+    "greenhouse": {
+      "syllables": [
+        "GREEN",
+        "house"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "hairbrush": {
+      "syllables": [
+        "HAIR",
+        "brush"
+      ],
+      "compound": true
+    },
+    "haircut": {
+      "syllables": [
+        "HAIR",
+        "cut"
+      ],
+      "compound": true
+    },
+    "handbag": {
+      "syllables": [
+        "HAND",
+        "bag"
+      ],
+      "compound": true
+    },
+    "handshake": {
+      "syllables": [
+        "HAND",
+        "shake"
+      ],
+      "compound": true
+    },
+    "headache": {
+      "syllables": [
+        "HEAD",
+        "ache"
+      ],
+      "compound": true
+    },
+    "headphone": {
+      "syllables": [
+        "HEAD",
+        "phone"
+      ],
+      "compound": true
+    },
+    "headlight": {
+      "syllables": [
+        "HEAD",
+        "light"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "high school": {
+      "syllables": [
+        "HIGH",
+        "school"
+      ],
+      "compound": true
+    },
+    "highway": {
+      "syllables": [
+        "HIGH",
+        "way"
+      ],
+      "compound": true
+    },
+    "homework": {
+      "syllables": [
+        "HOME",
+        "work"
+      ],
+      "compound": true
+    },
+    "housekeeper": {
+      "syllables": [
+        "HOUSE",
+        "keep",
+        "er"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "keyhole": {
+      "syllables": [
+        "KEY",
+        "hole"
+      ],
+      "compound": true
+    },
+    "kickoff": {
+      "syllables": [
+        "KICK",
+        "off"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "lighthouse": {
+      "syllables": [
+        "LIGHT",
+        "house"
+      ],
+      "compound": true
+    },
+    "lifeboat": {
+      "syllables": [
+        "LIFE",
+        "boat"
+      ],
+      "compound": true
+    },
+    "lifeguard": {
+      "syllables": [
+        "LIFE",
+        "guard"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "lipstick": {
+      "syllables": [
+        "LIP",
+        "stick"
+      ],
+      "compound": true
+    },
+    "mailbox": {
+      "syllables": [
+        "MAIL",
+        "box"
+      ],
+      "compound": true
+    },
+    "mailman": {
+      "syllables": [
+        "MAIL",
+        "man"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "makeup": {
+      "syllables": [
+        "MAKE",
+        "up"
+      ],
+      "compound": true
+    },
+    "marketplace": {
+      "syllables": [
+        "MAR",
+        "ket",
+        "place"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "milkshake": {
+      "syllables": [
+        "MILK",
+        "shake"
+      ],
+      "compound": true
+    },
+    "moonlight": {
+      "syllables": [
+        "MOON",
+        "light"
+      ],
+      "compound": true
+    },
+    "motorcycle": {
+      "syllables": [
+        "MO",
+        "tor",
+        "cy",
+        "cle"
+      ],
+      "compound": true
+    },
+    "nightstand": {
+      "syllables": [
+        "NIGHT",
+        "stand"
+      ],
+      "compound": true
+    },
+    "paintbrush": {
+      "syllables": [
+        "PAINT",
+        "brush"
+      ],
+      "compound": true
+    },
+    "parking lot": {
+      "syllables": [
+        "PARK",
+        "ing",
+        "lot"
+      ],
+      "compound": true
+    },
+    "passport": {
+      "syllables": [
+        "PASS",
+        "port"
+      ],
+      "compound": true
+    },
+    "password": {
+      "syllables": [
+        "PASS",
+        "word"
+      ],
+      "compound": true
+    },
+    "paycheck": {
+      "syllables": [
+        "PAY",
+        "check"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "playground": {
+      "syllables": [
+        "PLAY",
+        "ground"
+      ],
+      "compound": true
+    },
+    "postman": {
+      "syllables": [
+        "POST",
+        "man"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "railroad": {
+      "syllables": [
+        "RAIL",
+        "road"
+      ],
+      "compound": true
+    },
+    "raincoat": {
+      "syllables": [
+        "RAIN",
+        "coat"
+      ],
+      "compound": true
+    },
+    "rainfall": {
+      "syllables": [
+        "RAIN",
+        "fall"
+      ],
+      "compound": true
+    },
+    "raindrop": {
+      "syllables": [
+        "RAIN",
+        "drop"
+      ],
+      "compound": true
+    },
+    "roadmap": {
+      "syllables": [
+        "ROAD",
+        "map"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "roadsign": {
+      "syllables": [
+        "ROAD",
+        "sign"
+      ],
+      "compound": true
+    },
+    "roommate": {
+      "syllables": [
+        "ROOM",
+        "mate"
+      ],
+      "compound": true
+    },
+    "sandcastle": {
+      "syllables": [
+        "SAND",
+        "cas",
+        "tle"
+      ],
+      "compound": true
+    },
+    "schoolbag": {
+      "syllables": [
+        "SCHOOL",
+        "bag"
+      ],
+      "compound": true
+    },
+    "screenshot": {
+      "syllables": [
+        "SCREEN",
+        "shot"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "seatbelt": {
+      "syllables": [
+        "SEAT",
+        "belt"
+      ],
+      "compound": true
+    },
+    "shoelace": {
+      "syllables": [
+        "SHOE",
+        "lace"
+      ],
+      "compound": true
+    },
+    "showroom": {
+      "syllables": [
+        "SHOW",
+        "room"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "skateboard": {
+      "syllables": [
+        "SKATE",
+        "board"
+      ],
+      "compound": true
+    },
+    "skyscraper": {
+      "syllables": [
+        "SKY",
+        "scrap",
+        "er"
+      ],
+      "compound": true
+    },
+    "smartwatch": {
+      "syllables": [
+        "SMART",
+        "watch"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "snowball": {
+      "syllables": [
+        "SNOW",
+        "ball"
+      ],
+      "compound": true
+    },
+    "software": {
+      "syllables": [
+        "SOFT",
+        "ware"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "soundtrack": {
+      "syllables": [
+        "SOUND",
+        "track"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "spaceship": {
+      "syllables": [
+        "SPACE",
+        "ship"
+      ],
+      "compound": true
+    },
+    "spotlight": {
+      "syllables": [
+        "SPOT",
+        "light"
+      ],
+      "compound": true
+    },
+    "staircase": {
+      "syllables": [
+        "STAIR",
+        "case"
+      ],
+      "compound": true
+    },
+    "starfish": {
+      "syllables": [
+        "STAR",
+        "fish"
+      ],
+      "compound": true
+    },
+    "stopwatch": {
+      "syllables": [
+        "STOP",
+        "watch"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "sunbeam": {
+      "syllables": [
+        "SUN",
+        "beam"
+      ],
+      "compound": true
+    },
+    "sunglasses": {
+      "syllables": [
+        "SUN",
+        "glass",
+        "es"
+      ],
+      "compound": true
+    },
+    "sunlight": {
+      "syllables": [
+        "SUN",
+        "light"
+      ],
+      "compound": true
+    },
+    "sunset": {
+      "syllables": [
+        "SUN",
+        "set"
+      ],
+      "compound": true
+    },
+    "sunshine": {
+      "syllables": [
+        "SUN",
+        "shine"
+      ],
+      "compound": true
+    },
+    "superhero": {
+      "syllables": [
+        "SU",
+        "per",
+        "he",
+        "ro"
+      ],
+      "compound": true
+    },
+    "tablecloth": {
+      "syllables": [
+        "TA",
+        "ble",
+        "cloth"
+      ],
+      "compound": true
+    },
+    "teacup": {
+      "syllables": [
+        "TEA",
+        "cup"
+      ],
+      "compound": true
+    },
+    "teaspoon": {
+      "syllables": [
+        "TEA",
+        "spoon"
+      ],
+      "compound": true
+    },
+    "textbook": {
+      "syllables": [
+        "TEXT",
+        "book"
+      ],
+      "compound": true
+    },
+    "toothbrush": {
+      "syllables": [
+        "TOOTH",
+        "brush"
+      ],
+      "compound": true
+    },
+    "toothpaste": {
+      "syllables": [
+        "TOOTH",
+        "paste"
+      ],
+      "compound": true
+    },
+    "toolbox": {
+      "syllables": [
+        "TOOL",
+        "box"
+      ],
+      "compound": true
+    },
+    "treehouse": {
+      "syllables": [
+        "TREE",
+        "house"
+      ],
+      "compound": true
+    },
+    "wallpaper": {
+      "syllables": [
+        "WALL",
+        "pa",
+        "per"
+      ],
+      "compound": true
+    },
+    "wheelchair": {
+      "syllables": [
+        "WHEEL",
+        "chair"
+      ],
+      "compound": true
+    },
+    "windscreen": {
+      "syllables": [
+        "WIND",
+        "screen"
+      ],
+      "compound": true,
+      "diff": 2
+    },
+    "apron": {
+      "syllables": [
+        "A",
+        "pron"
+      ],
+      "phonemes": [
+        "ā",
+        "p",
+        "r",
+        "ŭ",
+        "n"
+      ]
+    },
+    "award": {
+      "syllables": [
+        "a",
+        "WARD"
+      ],
+      "phonemes": [
+        "ŭ",
+        "w",
+        "ō",
+        "r",
+        "d"
+      ]
+    },
+    "anchor": {
+      "syllables": [
+        "AN",
+        "chor"
+      ],
+      "phonemes": [
+        "ā",
+        "ng",
+        "k",
+        "er"
+      ]
+    },
+    "arrow": {
+      "syllables": [
+        "AR",
+        "row"
+      ],
+      "phonemes": [
+        "ā",
+        "r",
+        "ō"
+      ]
+    },
+    "august": {
+      "syllables": [
+        "au",
+        "GUST"
+      ],
+      "phonemes": [
+        "aw",
+        "g",
+        "ŭ",
+        "s",
+        "t"
+      ]
+    },
+    "answer": {
+      "syllables": [
+        "AN",
+        "swer"
+      ],
+      "phonemes": [
+        "ă",
+        "n",
+        "s",
+        "er"
+      ]
+    },
+    "baby": {
+      "syllables": [
+        "BA",
+        "by"
+      ],
+      "phonemes": [
+        "b",
+        "ā",
+        "b",
+        "ē"
+      ]
+    },
+    "balloon": {
+      "syllables": [
+        "bal",
+        "LOON"
+      ],
+      "phonemes": [
+        "b",
+        "ŭ",
+        "l",
+        "ū",
+        "n"
+      ]
+    },
+    "beauty": {
+      "syllables": [
+        "BEAU",
+        "ty"
+      ],
+      "phonemes": [
+        "b",
+        "y",
+        "ū",
+        "t",
+        "ē"
+      ]
+    },
+    "basket": {
+      "syllables": [
+        "BAS",
+        "ket"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "s",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "bowling": {
+      "syllables": [
+        "BOWL",
+        "ing"
+      ],
+      "phonemes": [
+        "b",
+        "ō",
+        "l",
+        "ĭ",
+        "ng"
+      ],
+      "diff": 2
+    },
+    "bamboo": {
+      "syllables": [
+        "bam",
+        "BOO"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "m",
+        "b",
+        "ū"
+      ],
+      "diff": 2
+    },
+    "brilliant": {
+      "syllables": [
+        "BRIL",
+        "liant"
+      ],
+      "phonemes": [
+        "b",
+        "r",
+        "ĭ",
+        "l",
+        "y",
+        "ŭ",
+        "n",
+        "t"
+      ]
+    },
+    "bicker": {
+      "syllables": [
+        "BICK",
+        "er"
+      ],
+      "phonemes": [
+        "b",
+        "ĭ",
+        "k",
+        "er"
+      ]
+    },
+    "castle": {
+      "syllables": [
+        "CAS",
+        "tle"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "s",
+        "ŭ",
+        "l"
+      ]
+    },
+    "circus": {
+      "syllables": [
+        "CIR",
+        "cus"
+      ],
+      "phonemes": [
+        "s",
+        "er",
+        "k",
+        "ŭ",
+        "s"
+      ]
+    },
+    "cello": {
+      "syllables": [
+        "CEL",
+        "lo"
+      ],
+      "phonemes": [
+        "ch",
+        "ĕ",
+        "l",
+        "ō"
+      ],
+      "diff": 2
+    },
+    "camel": {
+      "syllables": [
+        "CAM",
+        "el"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "m",
+        "ŭ",
+        "l"
+      ]
+    },
+    "coffee": {
+      "syllables": [
+        "COF",
+        "fee"
+      ],
+      "phonemes": [
+        "k",
+        "ŏ",
+        "f",
+        "ē"
+      ]
+    },
+    "comic": {
+      "syllables": [
+        "COM",
+        "ic"
+      ],
+      "phonemes": [
+        "k",
+        "ŏ",
+        "m",
+        "ĭ",
+        "k"
+      ]
+    },
+    "children": {
+      "syllables": [
+        "CHIL",
+        "dren"
+      ],
+      "phonemes": [
+        "ch",
+        "ĭ",
+        "l",
+        "d",
+        "r",
+        "ĕ",
+        "n"
+      ]
+    },
+    "coral": {
+      "syllables": [
+        "COR",
+        "al"
+      ],
+      "phonemes": [
+        "k",
+        "ō",
+        "r",
+        "ŭ",
+        "l"
+      ],
+      "diff": 2
+    },
+    "cowboy": {
+      "syllables": [
+        "COW",
+        "boy"
+      ],
+      "phonemes": [
+        "k",
+        "ow",
+        "b",
+        "oy"
+      ]
+    },
+    "crayon": {
+      "syllables": [
+        "CRAY",
+        "on"
+      ],
+      "phonemes": [
+        "k",
+        "r",
+        "ā",
+        "ŏ",
+        "n"
+      ]
+    },
+    "contest": {
+      "syllables": [
+        "CON",
+        "test"
+      ],
+      "phonemes": [
+        "k",
+        "ŏ",
+        "n",
+        "t",
+        "ĕ",
+        "s",
+        "t"
+      ]
+    },
+    "cupcake": {
+      "syllables": [
+        "CUP",
+        "cake"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "p",
+        "k",
+        "ā",
+        "k"
+      ]
+    },
+    "copy": {
+      "syllables": [
+        "COP",
+        "y"
+      ],
+      "phonemes": [
+        "k",
+        "ŏ",
+        "p",
+        "ē"
+      ]
+    },
+    "chapter": {
+      "syllables": [
+        "CHAP",
+        "ter"
+      ],
+      "phonemes": [
+        "ch",
+        "ă",
+        "p",
+        "t",
+        "er"
+      ]
+    },
+    "damage": {
+      "syllables": [
+        "DAM",
+        "age"
+      ],
+      "phonemes": [
+        "d",
+        "ă",
+        "m",
+        "ŭ",
+        "j"
+      ]
+    },
+    "driver": {
+      "syllables": [
+        "DRIV",
+        "er"
+      ],
+      "phonemes": [
+        "d",
+        "r",
+        "ī",
+        "v",
+        "er"
+      ]
+    },
+    "dumpling": {
+      "syllables": [
+        "DUMP",
+        "ling"
+      ],
+      "phonemes": [
+        "d",
+        "ŭ",
+        "m",
+        "p",
+        "l",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "doctor": {
+      "syllables": [
+        "DOC",
+        "tor"
+      ],
+      "phonemes": [
+        "d",
+        "ŏ",
+        "k",
+        "t",
+        "er"
+      ]
+    },
+    "digit": {
+      "syllables": [
+        "DIG",
+        "it"
+      ],
+      "phonemes": [
+        "d",
+        "ĭ",
+        "j",
+        "ĭ",
+        "t"
+      ],
+      "diff": 2
+    },
+    "diaper": {
+      "syllables": [
+        "DIA",
+        "per"
+      ],
+      "phonemes": [
+        "d",
+        "ī",
+        "p",
+        "er"
+      ]
+    },
+    "dinner": {
+      "syllables": [
+        "DIN",
+        "ner"
+      ],
+      "phonemes": [
+        "d",
+        "ĭ",
+        "n",
+        "er"
+      ]
+    },
+    "dessert": {
+      "syllables": [
+        "des",
+        "SERT"
+      ],
+      "phonemes": [
+        "d",
+        "ē",
+        "z",
+        "er",
+        "t"
+      ]
+    },
+    "exam": {
+      "syllables": [
+        "ex",
+        "AM"
+      ],
+      "phonemes": [
+        "ĕ",
+        "k",
+        "s",
+        "ă",
+        "m"
+      ]
+    },
+    "eagle": {
+      "syllables": [
+        "EA",
+        "gle"
+      ],
+      "phonemes": [
+        "ē",
+        "g",
+        "ŭ",
+        "l"
+      ]
+    },
+    "erase": {
+      "syllables": [
+        "e",
+        "RASE"
+      ],
+      "phonemes": [
+        "ē",
+        "r",
+        "ā",
+        "s"
+      ]
+    },
+    "enjoy": {
+      "syllables": [
+        "en",
+        "JOY"
+      ],
+      "phonemes": [
+        "ĕ",
+        "n",
+        "j",
+        "oy"
+      ]
+    },
+    "eggplant": {
+      "syllables": [
+        "EGG",
+        "plant"
+      ],
+      "phonemes": [
+        "ĕ",
+        "g",
+        "p",
+        "l",
+        "ă",
+        "n",
+        "t"
+      ],
+      "diff": 2
+    },
+    "funny": {
+      "syllables": [
+        "FUN",
+        "ny"
+      ],
+      "phonemes": [
+        "f",
+        "ŭ",
+        "n",
+        "ē"
+      ]
+    },
+    "finger": {
+      "syllables": [
+        "FIN",
+        "ger"
+      ],
+      "phonemes": [
+        "f",
+        "ĭ",
+        "ng",
+        "g",
+        "er"
+      ]
+    },
+    "fabric": {
+      "syllables": [
+        "FAB",
+        "ric"
+      ],
+      "phonemes": [
+        "f",
+        "ă",
+        "b",
+        "r",
+        "ĭ",
+        "k"
+      ]
+    },
+    "farmer": {
+      "syllables": [
+        "FARM",
+        "er"
+      ],
+      "phonemes": [
+        "f",
+        "aw",
+        "r",
+        "m",
+        "er"
+      ]
+    },
+    "fairy": {
+      "syllables": [
+        "FAIR",
+        "y"
+      ],
+      "phonemes": [
+        "f",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "freedom": {
+      "syllables": [
+        "FREE",
+        "dom"
+      ],
+      "phonemes": [
+        "f",
+        "r",
+        "ē",
+        "d",
+        "ŭ",
+        "m"
+      ]
+    },
+    "forgive": {
+      "syllables": [
+        "for",
+        "GIVE"
+      ],
+      "phonemes": [
+        "f",
+        "ō",
+        "r",
+        "g",
+        "ĭ",
+        "v"
+      ]
+    },
+    "gentle": {
+      "syllables": [
+        "GEN",
+        "tle"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "n",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "giant": {
+      "syllables": [
+        "GI",
+        "ant"
+      ],
+      "phonemes": [
+        "j",
+        "ī",
+        "ŭ",
+        "n",
+        "t"
+      ]
+    },
+    "garlic": {
+      "syllables": [
+        "GAR",
+        "lic"
+      ],
+      "phonemes": [
+        "g",
+        "aw",
+        "r",
+        "l",
+        "ĭ",
+        "k"
+      ]
+    },
+    "giggle": {
+      "syllables": [
+        "GIG",
+        "gle"
+      ],
+      "phonemes": [
+        "g",
+        "ĭ",
+        "g",
+        "ŭ",
+        "l"
+      ]
+    },
+    "glitter": {
+      "syllables": [
+        "GLIT",
+        "ter"
+      ],
+      "phonemes": [
+        "g",
+        "l",
+        "ĭ",
+        "t",
+        "er"
+      ]
+    },
+    "happy": {
+      "syllables": [
+        "HAP",
+        "py"
+      ],
+      "phonemes": [
+        "h",
+        "ă",
+        "p",
+        "ē"
+      ]
+    },
+    "hotdog": {
+      "syllables": [
+        "HOT",
+        "dog"
+      ],
+      "phonemes": [
+        "h",
+        "ŏ",
+        "t",
+        "d",
+        "ŏ",
+        "g"
+      ]
+    },
+    "honey": {
+      "syllables": [
+        "HON",
+        "ey"
+      ],
+      "phonemes": [
+        "h",
+        "ŭ",
+        "n",
+        "ē"
+      ]
+    },
+    "hello": {
+      "syllables": [
+        "hel",
+        "LO"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "l",
+        "ō"
+      ]
+    },
+    "hungry": {
+      "syllables": [
+        "HUN",
+        "gry"
+      ],
+      "phonemes": [
+        "h",
+        "ŭ",
+        "ng",
+        "g",
+        "r",
+        "ē"
+      ]
+    },
+    "hockey": {
+      "syllables": [
+        "HOCK",
+        "ey"
+      ],
+      "phonemes": [
+        "h",
+        "ŏ",
+        "k",
+        "ē"
+      ]
+    },
+    "harvest": {
+      "syllables": [
+        "HAR",
+        "vest"
+      ],
+      "phonemes": [
+        "h",
+        "aw",
+        "r",
+        "v",
+        "ĕ",
+        "s",
+        "t"
+      ]
+    },
+    "hammer": {
+      "syllables": [
+        "HAM",
+        "mer"
+      ],
+      "phonemes": [
+        "h",
+        "ă",
+        "m",
+        "er"
+      ]
+    },
+    "healthy": {
+      "syllables": [
+        "HEALTH",
+        "y"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "l",
+        "th",
+        "ē"
+      ]
+    },
+    "humor": {
+      "syllables": [
+        "HU",
+        "mor"
+      ],
+      "phonemes": [
+        "h",
+        "y",
+        "ū",
+        "m",
+        "er"
+      ]
+    },
+    "helpful": {
+      "syllables": [
+        "HELP",
+        "ful"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "l",
+        "p",
+        "f",
+        "oo",
+        "l"
+      ]
+    },
+    "hippo": {
+      "syllables": [
+        "HIP",
+        "po"
+      ],
+      "phonemes": [
+        "h",
+        "ĭ",
+        "p",
+        "ō"
+      ]
+    },
+    "husband": {
+      "syllables": [
+        "HUS",
+        "band"
+      ],
+      "phonemes": [
+        "h",
+        "ŭ",
+        "z",
+        "b",
+        "ă",
+        "n",
+        "d"
+      ],
+      "diff": 2
+    },
+    "holy": {
+      "syllables": [
+        "HO",
+        "ly"
+      ],
+      "phonemes": [
+        "h",
+        "ō",
+        "l",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "igloo": {
+      "syllables": [
+        "IG",
+        "loo"
+      ],
+      "phonemes": [
+        "ĭ",
+        "g",
+        "l",
+        "ū"
+      ],
+      "diff": 2
+    },
+    "insect": {
+      "syllables": [
+        "IN",
+        "sect"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "s",
+        "ĕ",
+        "k",
+        "t"
+      ]
+    },
+    "iceberg": {
+      "syllables": [
+        "ICE",
+        "berg"
+      ],
+      "phonemes": [
+        "ī",
+        "s",
+        "b",
+        "er",
+        "g"
+      ]
+    },
+    "income": {
+      "syllables": [
+        "IN",
+        "come"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "k",
+        "ŭ",
+        "m"
+      ]
+    },
+    "invite": {
+      "syllables": [
+        "in",
+        "VITE"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "v",
+        "ī",
+        "t"
+      ]
+    },
+    "input": {
+      "syllables": [
+        "IN",
+        "put"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "p",
+        "oo",
+        "t"
+      ],
+      "diff": 2
+    },
+    "image": {
+      "syllables": [
+        "IM",
+        "age"
+      ],
+      "phonemes": [
+        "ĭ",
+        "m",
+        "ŭ",
+        "j"
+      ]
+    },
+    "jelly": {
+      "syllables": [
+        "JEL",
+        "ly"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "l",
+        "ē"
+      ]
+    },
+    "jacket": {
+      "syllables": [
+        "JACK",
+        "et"
+      ],
+      "phonemes": [
+        "j",
+        "ă",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "jungle": {
+      "syllables": [
+        "JUN",
+        "gle"
+      ],
+      "phonemes": [
+        "j",
+        "ŭ",
+        "ng",
+        "g",
+        "ŭ",
+        "l"
+      ]
+    },
+    "july": {
+      "syllables": [
+        "ju",
+        "LY"
+      ],
+      "phonemes": [
+        "j",
+        "ū",
+        "l",
+        "ī"
+      ]
+    },
+    "jersey": {
+      "syllables": [
+        "JER",
+        "sey"
+      ],
+      "phonemes": [
+        "j",
+        "er",
+        "z",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "joyful": {
+      "syllables": [
+        "JOY",
+        "ful"
+      ],
+      "phonemes": [
+        "j",
+        "oy",
+        "f",
+        "oo",
+        "l"
+      ]
+    },
+    "jealous": {
+      "syllables": [
+        "JEAL",
+        "ous"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "l",
+        "ŭ",
+        "s"
+      ]
+    },
+    "kitten": {
+      "syllables": [
+        "KIT",
+        "ten"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "t",
+        "ĕ",
+        "n"
+      ]
+    },
+    "keyboard": {
+      "syllables": [
+        "KEY",
+        "board"
+      ],
+      "phonemes": [
+        "k",
+        "ē",
+        "b",
+        "ō",
+        "r",
+        "d"
+      ]
+    },
+    "kitchen": {
+      "syllables": [
+        "KITCH",
+        "en"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "ch",
+        "ĕ",
+        "n"
+      ]
+    },
+    "ketchup": {
+      "syllables": [
+        "KETCH",
+        "up"
+      ],
+      "phonemes": [
+        "k",
+        "ĕ",
+        "ch",
+        "ŭ",
+        "p"
+      ]
+    },
+    "keychain": {
+      "syllables": [
+        "KEY",
+        "chain"
+      ],
+      "phonemes": [
+        "k",
+        "ē",
+        "ch",
+        "ā",
+        "n"
+      ]
+    },
+    "kingdom": {
+      "syllables": [
+        "KING",
+        "dom"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "ng",
+        "d",
+        "ŭ",
+        "m"
+      ]
+    },
+    "kettle": {
+      "syllables": [
+        "KET",
+        "tle"
+      ],
+      "phonemes": [
+        "k",
+        "ĕ",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "kidney": {
+      "syllables": [
+        "KID",
+        "ney"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "d",
+        "n",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "knuckle": {
+      "syllables": [
+        "KNUCK",
+        "le"
+      ],
+      "phonemes": [
+        "n",
+        "ŭ",
+        "k",
+        "ŭ",
+        "l"
+      ],
+      "diff": 2
+    },
+    "laptop": {
+      "syllables": [
+        "LAP",
+        "top"
+      ],
+      "phonemes": [
+        "l",
+        "ă",
+        "p",
+        "t",
+        "ŏ",
+        "p"
+      ]
+    },
+    "lizard": {
+      "syllables": [
+        "LIZ",
+        "ard"
+      ],
+      "phonemes": [
+        "l",
+        "ĭ",
+        "z",
+        "er",
+        "d"
+      ]
+    },
+    "letter": {
+      "syllables": [
+        "LET",
+        "ter"
+      ],
+      "phonemes": [
+        "l",
+        "ĕ",
+        "t",
+        "er"
+      ]
+    },
+    "lettuce": {
+      "syllables": [
+        "LET",
+        "tuce"
+      ],
+      "phonemes": [
+        "l",
+        "ĕ",
+        "t",
+        "ŭ",
+        "s"
+      ]
+    },
+    "lemon": {
+      "syllables": [
+        "LEM",
+        "on"
+      ],
+      "phonemes": [
+        "l",
+        "ĕ",
+        "m",
+        "ŭ",
+        "n"
+      ]
+    },
+    "little": {
+      "syllables": [
+        "LIT",
+        "tle"
+      ],
+      "phonemes": [
+        "l",
+        "ĭ",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "laundry": {
+      "syllables": [
+        "LAUN",
+        "dry"
+      ],
+      "phonemes": [
+        "l",
+        "aw",
+        "n",
+        "d",
+        "r",
+        "ē"
+      ]
+    },
+    "leather": {
+      "syllables": [
+        "LEATH",
+        "er"
+      ],
+      "phonemes": [
+        "l",
+        "ĕ",
+        "th",
+        "er"
+      ]
+    },
+    "leopard": {
+      "syllables": [
+        "LEOP",
+        "ard"
+      ],
+      "phonemes": [
+        "l",
+        "ĕ",
+        "p",
+        "er",
+        "d"
+      ]
+    },
+    "menu": {
+      "syllables": [
+        "MEN",
+        "u"
+      ],
+      "phonemes": [
+        "m",
+        "ĕ",
+        "n",
+        "y",
+        "ū"
+      ]
+    },
+    "middle": {
+      "syllables": [
+        "MID",
+        "dle"
+      ],
+      "phonemes": [
+        "m",
+        "ĭ",
+        "d",
+        "ŭ",
+        "l"
+      ]
+    },
+    "monday": {
+      "syllables": [
+        "MON",
+        "day"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "n",
+        "d",
+        "ā"
+      ]
+    },
+    "myself": {
+      "syllables": [
+        "my",
+        "SELF"
+      ],
+      "phonemes": [
+        "m",
+        "ī",
+        "s",
+        "ĕ",
+        "l",
+        "f"
+      ]
+    },
+    "mirror": {
+      "syllables": [
+        "MIR",
+        "ror"
+      ],
+      "phonemes": [
+        "m",
+        "ĭ",
+        "r",
+        "er"
+      ]
+    },
+    "metal": {
+      "syllables": [
+        "MET",
+        "al"
+      ],
+      "phonemes": [
+        "m",
+        "ĕ",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "machine": {
+      "syllables": [
+        "ma",
+        "CHINE"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "sh",
+        "ē",
+        "n"
+      ]
+    },
+    "mobile": {
+      "syllables": [
+        "MO",
+        "bile"
+      ],
+      "phonemes": [
+        "m",
+        "ō",
+        "b",
+        "ĭ",
+        "l"
+      ]
+    },
+    "napkin": {
+      "syllables": [
+        "NAP",
+        "kin"
+      ],
+      "phonemes": [
+        "n",
+        "ă",
+        "p",
+        "k",
+        "ĭ",
+        "n"
+      ]
+    },
+    "nosy": {
+      "syllables": [
+        "NOS",
+        "y"
+      ],
+      "phonemes": [
+        "n",
+        "ō",
+        "z",
+        "ē"
+      ]
+    },
+    "nugget": {
+      "syllables": [
+        "NUG",
+        "get"
+      ],
+      "phonemes": [
+        "n",
+        "ŭ",
+        "g",
+        "ĕ",
+        "t"
+      ]
+    },
+    "novel": {
+      "syllables": [
+        "NOV",
+        "el"
+      ],
+      "phonemes": [
+        "n",
+        "ŏ",
+        "v",
+        "ŭ",
+        "l"
+      ]
+    },
+    "nature": {
+      "syllables": [
+        "NA",
+        "ture"
+      ],
+      "phonemes": [
+        "n",
+        "ā",
+        "ch",
+        "er"
+      ]
+    },
+    "number": {
+      "syllables": [
+        "NUM",
+        "ber"
+      ],
+      "phonemes": [
+        "n",
+        "ŭ",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    "nanny": {
+      "syllables": [
+        "NAN",
+        "ny"
+      ],
+      "phonemes": [
+        "n",
+        "ă",
+        "n",
+        "ē"
+      ]
+    },
+    "ninja": {
+      "syllables": [
+        "NIN",
+        "ja"
+      ],
+      "phonemes": [
+        "n",
+        "ĭ",
+        "n",
+        "j",
+        "ŭ"
+      ]
+    },
+    "neighbor": {
+      "syllables": [
+        "NEIGH",
+        "bor"
+      ],
+      "phonemes": [
+        "n",
+        "ā",
+        "b",
+        "er"
+      ]
+    },
+    "notebook": {
+      "syllables": [
+        "NOTE",
+        "book"
+      ],
+      "phonemes": [
+        "n",
+        "ō",
+        "t",
+        "b",
+        "oo",
+        "k"
+      ],
+      "diff": 2
+    },
+    "ocean": {
+      "syllables": [
+        "O",
+        "cean"
+      ],
+      "phonemes": [
+        "ō",
+        "sh",
+        "ĕ",
+        "n"
+      ]
+    },
+    "oven": {
+      "syllables": [
+        "OV",
+        "en"
+      ],
+      "phonemes": [
+        "ŭ",
+        "v",
+        "ĕ",
+        "n"
+      ]
+    },
+    "other": {
+      "syllables": [
+        "OTH",
+        "er"
+      ],
+      "phonemes": [
+        "ŭ",
+        "th",
+        "er"
+      ]
+    },
+    "otter": {
+      "syllables": [
+        "OT",
+        "ter"
+      ],
+      "phonemes": [
+        "ŏ",
+        "t",
+        "er"
+      ]
+    },
+    "orange": {
+      "syllables": [
+        "OR",
+        "ange"
+      ],
+      "phonemes": [
+        "ō",
+        "r",
+        "ă",
+        "n",
+        "j"
+      ]
+    },
+    "office": {
+      "syllables": [
+        "OF",
+        "fice"
+      ],
+      "phonemes": [
+        "ŏ",
+        "f",
+        "ĭ",
+        "s"
+      ]
+    },
+    "oatmeal": {
+      "syllables": [
+        "OAT",
+        "meal"
+      ],
+      "phonemes": [
+        "ō",
+        "t",
+        "m",
+        "ē",
+        "l"
+      ]
+    },
+    "orchard": {
+      "syllables": [
+        "OR",
+        "chard"
+      ],
+      "phonemes": [
+        "ō",
+        "r",
+        "ch",
+        "er",
+        "d"
+      ],
+      "diff": 2
+    },
+    "orca": {
+      "syllables": [
+        "OR",
+        "ca"
+      ],
+      "phonemes": [
+        "ŏ",
+        "r",
+        "k",
+        "ŭ"
+      ]
+    },
+    "obey": {
+      "syllables": [
+        "o",
+        "BEY"
+      ],
+      "phonemes": [
+        "ō",
+        "b",
+        "ā"
+      ]
+    },
+    "paper": {
+      "syllables": [
+        "PA",
+        "per"
+      ],
+      "phonemes": [
+        "p",
+        "ā",
+        "p",
+        "er"
+      ]
+    },
+    "pencil": {
+      "syllables": [
+        "PEN",
+        "cil"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "n",
+        "s",
+        "ŭ",
+        "l"
+      ]
+    },
+    "person": {
+      "syllables": [
+        "PER",
+        "son"
+      ],
+      "phonemes": [
+        "p",
+        "er",
+        "s",
+        "ŭ",
+        "n"
+      ]
+    },
+    "picnic": {
+      "syllables": [
+        "PIC",
+        "nic"
+      ],
+      "phonemes": [
+        "p",
+        "ĭ",
+        "k",
+        "n",
+        "ĭ",
+        "k"
+      ]
+    },
+    "pancake": {
+      "syllables": [
+        "PAN",
+        "cake"
+      ],
+      "phonemes": [
+        "p",
+        "ă",
+        "n",
+        "k",
+        "ā",
+        "k"
+      ]
+    },
+    "poem": {
+      "syllables": [
+        "PO",
+        "em"
+      ],
+      "phonemes": [
+        "p",
+        "ō",
+        "ĕ",
+        "m"
+      ]
+    },
+    "package": {
+      "syllables": [
+        "PACK",
+        "age"
+      ],
+      "phonemes": [
+        "p",
+        "ă",
+        "k",
+        "ŭ",
+        "j"
+      ]
+    },
+    "postcard": {
+      "syllables": [
+        "POST",
+        "card"
+      ],
+      "phonemes": [
+        "p",
+        "ō",
+        "s",
+        "t",
+        "k",
+        "aw",
+        "r",
+        "d"
+      ],
+      "diff": 2
+    },
+    "party": {
+      "syllables": [
+        "PAR",
+        "ty"
+      ],
+      "phonemes": [
+        "p",
+        "aw",
+        "r",
+        "t",
+        "ē"
+      ]
+    },
+    "penny": {
+      "syllables": [
+        "PEN",
+        "ny"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "n",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "panda": {
+      "syllables": [
+        "PAN",
+        "da"
+      ],
+      "phonemes": [
+        "p",
+        "ă",
+        "n",
+        "d",
+        "ŭ"
+      ]
+    },
+    "palace": {
+      "syllables": [
+        "PAL",
+        "ace"
+      ],
+      "phonemes": [
+        "p",
+        "ă",
+        "l",
+        "ŭ",
+        "s"
+      ]
+    },
+    "people": {
+      "syllables": [
+        "PEO",
+        "ple"
+      ],
+      "phonemes": [
+        "p",
+        "ē",
+        "p",
+        "ŭ",
+        "l"
+      ]
+    },
+    "public": {
+      "syllables": [
+        "PUB",
+        "lic"
+      ],
+      "phonemes": [
+        "p",
+        "ŭ",
+        "b",
+        "l",
+        "ĭ",
+        "k"
+      ]
+    },
+    "pepper": {
+      "syllables": [
+        "PEP",
+        "per"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "p",
+        "er"
+      ]
+    },
+    "poison": {
+      "syllables": [
+        "POI",
+        "son"
+      ],
+      "phonemes": [
+        "p",
+        "oy",
+        "z",
+        "ŭ",
+        "n"
+      ]
+    },
+    "quiet": {
+      "syllables": [
+        "QUI",
+        "et"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "ī",
+        "ĕ",
+        "t"
+      ]
+    },
+    "question": {
+      "syllables": [
+        "QUES",
+        "tion"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "ĕ",
+        "s",
+        "ch",
+        "ŭ",
+        "n"
+      ]
+    },
+    "rabbit": {
+      "syllables": [
+        "RAB",
+        "bit"
+      ],
+      "phonemes": [
+        "r",
+        "ă",
+        "b",
+        "ĭ",
+        "t"
+      ]
+    },
+    "river": {
+      "syllables": [
+        "RIV",
+        "er"
+      ],
+      "phonemes": [
+        "r",
+        "ĭ",
+        "v",
+        "er"
+      ]
+    },
+    "raccoon": {
+      "syllables": [
+        "rac",
+        "COON"
+      ],
+      "phonemes": [
+        "r",
+        "ă",
+        "k",
+        "ū",
+        "n"
+      ]
+    },
+    "reptile": {
+      "syllables": [
+        "REP",
+        "tile"
+      ],
+      "phonemes": [
+        "r",
+        "ĕ",
+        "p",
+        "t",
+        "ī",
+        "l"
+      ],
+      "diff": 2
+    },
+    "reward": {
+      "syllables": [
+        "re",
+        "WARD"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "w",
+        "ō",
+        "r",
+        "d"
+      ]
+    },
+    "relax": {
+      "syllables": [
+        "re",
+        "LAX"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "l",
+        "ă",
+        "k",
+        "s"
+      ]
+    },
+    "robot": {
+      "syllables": [
+        "RO",
+        "bot"
+      ],
+      "phonemes": [
+        "r",
+        "ō",
+        "b",
+        "ŏ",
+        "t"
+      ]
+    },
+    "record": {
+      "syllables": [
+        "REC",
+        "ord"
+      ],
+      "phonemes": [
+        "r",
+        "ĕ",
+        "k",
+        "er",
+        "d"
+      ],
+      "diff": 2
+    },
+    "rubber": {
+      "syllables": [
+        "RUB",
+        "ber"
+      ],
+      "phonemes": [
+        "r",
+        "ŭ",
+        "b",
+        "er"
+      ]
+    },
+    "reason": {
+      "syllables": [
+        "REA",
+        "son"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "z",
+        "ŭ",
+        "n"
+      ]
+    },
+    "remove": {
+      "syllables": [
+        "re",
+        "MOVE"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "m",
+        "ū",
+        "v"
+      ]
+    },
+    "reply": {
+      "syllables": [
+        "re",
+        "PLY"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "p",
+        "l",
+        "ī"
+      ]
+    },
+    "scissors": {
+      "syllables": [
+        "SCIS",
+        "sors"
+      ],
+      "phonemes": [
+        "s",
+        "ĭ",
+        "s",
+        "er",
+        "z"
+      ]
+    },
+    "slipper": {
+      "syllables": [
+        "SLIP",
+        "per"
+      ],
+      "phonemes": [
+        "s",
+        "l",
+        "ĭ",
+        "p",
+        "er"
+      ]
+    },
+    "scooter": {
+      "syllables": [
+        "SCOOT",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "ū",
+        "t",
+        "er"
+      ]
+    },
+    "stable": {
+      "syllables": [
+        "STA",
+        "ble"
+      ],
+      "phonemes": [
+        "s",
+        "t",
+        "ā",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "sparkle": {
+      "syllables": [
+        "SPAR",
+        "kle"
+      ],
+      "phonemes": [
+        "s",
+        "p",
+        "aw",
+        "r",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "selfish": {
+      "syllables": [
+        "SELF",
+        "ish"
+      ],
+      "phonemes": [
+        "s",
+        "ĕ",
+        "l",
+        "f",
+        "ĭ",
+        "sh"
+      ]
+    },
+    "success": {
+      "syllables": [
+        "suc",
+        "CESS"
+      ],
+      "phonemes": [
+        "s",
+        "ŭ",
+        "k",
+        "s",
+        "ĕ",
+        "s"
+      ]
+    },
+    "soccer": {
+      "syllables": [
+        "SOC",
+        "cer"
+      ],
+      "phonemes": [
+        "s",
+        "ŏ",
+        "k",
+        "er"
+      ]
+    },
+    "sandal": {
+      "syllables": [
+        "SAN",
+        "dal"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "d",
+        "ŭ",
+        "l"
+      ]
+    },
+    "shampoo": {
+      "syllables": [
+        "sham",
+        "POO"
+      ],
+      "phonemes": [
+        "sh",
+        "ă",
+        "m",
+        "p",
+        "ū"
+      ]
+    },
+    "super": {
+      "syllables": [
+        "SU",
+        "per"
+      ],
+      "phonemes": [
+        "s",
+        "ū",
+        "p",
+        "er"
+      ]
+    },
+    "seven": {
+      "syllables": [
+        "SEV",
+        "en"
+      ],
+      "phonemes": [
+        "s",
+        "ĕ",
+        "v",
+        "ĕ",
+        "n"
+      ]
+    },
+    "shovel": {
+      "syllables": [
+        "SHOV",
+        "el"
+      ],
+      "phonemes": [
+        "sh",
+        "ŭ",
+        "v",
+        "ŭ",
+        "l"
+      ]
+    },
+    "scarecrow": {
+      "syllables": [
+        "SCARE",
+        "crow"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "ā",
+        "r",
+        "k",
+        "r",
+        "ō"
+      ]
+    },
+    "somewhere": {
+      "syllables": [
+        "SOME",
+        "where"
+      ],
+      "phonemes": [
+        "s",
+        "ŭ",
+        "m",
+        "w",
+        "ā",
+        "r"
+      ]
+    },
+    "today": {
+      "syllables": [
+        "to",
+        "DAY"
+      ],
+      "phonemes": [
+        "t",
+        "ū",
+        "d",
+        "ā"
+      ]
+    },
+    "tuesday": {
+      "syllables": [
+        "TUES",
+        "day"
+      ],
+      "phonemes": [
+        "t",
+        "ū",
+        "z",
+        "d",
+        "ā"
+      ]
+    },
+    "taco": {
+      "syllables": [
+        "TA",
+        "co"
+      ],
+      "phonemes": [
+        "t",
+        "aw",
+        "k",
+        "ō"
+      ]
+    },
+    "turtle": {
+      "syllables": [
+        "TUR",
+        "tle"
+      ],
+      "phonemes": [
+        "t",
+        "er",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "ticket": {
+      "syllables": [
+        "TICK",
+        "et"
+      ],
+      "phonemes": [
+        "t",
+        "ĭ",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "truthful": {
+      "syllables": [
+        "TRUTH",
+        "ful"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ŭ",
+        "th",
+        "f",
+        "oo",
+        "l"
+      ],
+      "diff": 2
+    },
+    "turkey": {
+      "syllables": [
+        "TUR",
+        "key"
+      ],
+      "phonemes": [
+        "t",
+        "er",
+        "k",
+        "ē"
+      ]
+    },
+    "thunder": {
+      "syllables": [
+        "THUN",
+        "der"
+      ],
+      "phonemes": [
+        "th",
+        "ŭ",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    "teapot": {
+      "syllables": [
+        "TEA",
+        "pot"
+      ],
+      "phonemes": [
+        "t",
+        "ē",
+        "p",
+        "ŏ",
+        "t"
+      ]
+    },
+    "tablet": {
+      "syllables": [
+        "TAB",
+        "let"
+      ],
+      "phonemes": [
+        "t",
+        "ă",
+        "b",
+        "l",
+        "ĕ",
+        "t"
+      ]
+    },
+    "tickle": {
+      "syllables": [
+        "TICK",
+        "le"
+      ],
+      "phonemes": [
+        "t",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "teacher": {
+      "syllables": [
+        "TEACH",
+        "er"
+      ],
+      "phonemes": [
+        "t",
+        "ē",
+        "ch",
+        "er"
+      ]
+    },
+    "traffic": {
+      "syllables": [
+        "TRAF",
+        "fic"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ă",
+        "f",
+        "ĭ",
+        "k"
+      ]
+    },
+    "uphill": {
+      "syllables": [
+        "up",
+        "HILL"
+      ],
+      "phonemes": [
+        "ŭ",
+        "p",
+        "h",
+        "ĭ",
+        "l"
+      ]
+    },
+    "under": {
+      "syllables": [
+        "UN",
+        "der"
+      ],
+      "phonemes": [
+        "ŭ",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    "upstairs": {
+      "syllables": [
+        "up",
+        "STAIRS"
+      ],
+      "phonemes": [
+        "ŭ",
+        "p",
+        "s",
+        "t",
+        "ā",
+        "r",
+        "z"
+      ]
+    },
+    "undo": {
+      "syllables": [
+        "un",
+        "DO"
+      ],
+      "phonemes": [
+        "ŭ",
+        "n",
+        "d",
+        "ū"
+      ]
+    },
+    "upset": {
+      "syllables": [
+        "up",
+        "SET"
+      ],
+      "phonemes": [
+        "ŭ",
+        "p",
+        "s",
+        "ĕ",
+        "t"
+      ]
+    },
+    "uncle": {
+      "syllables": [
+        "UN",
+        "cle"
+      ],
+      "phonemes": [
+        "ŭ",
+        "ng",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "ugly": {
+      "syllables": [
+        "UG",
+        "ly"
+      ],
+      "phonemes": [
+        "ŭ",
+        "g",
+        "l",
+        "ē"
+      ]
+    },
+    "very": {
+      "syllables": [
+        "VER",
+        "y"
+      ],
+      "phonemes": [
+        "v",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "visit": {
+      "syllables": [
+        "VIS",
+        "it"
+      ],
+      "phonemes": [
+        "v",
+        "ĭ",
+        "z",
+        "ĭ",
+        "t"
+      ]
+    },
+    "village": {
+      "syllables": [
+        "VIL",
+        "lage"
+      ],
+      "phonemes": [
+        "v",
+        "ĭ",
+        "l",
+        "ŭ",
+        "j"
+      ]
+    },
+    "vulture": {
+      "syllables": [
+        "VUL",
+        "ture"
+      ],
+      "phonemes": [
+        "v",
+        "ŭ",
+        "l",
+        "ch",
+        "er"
+      ],
+      "diff": 2
+    },
+    "vacuum": {
+      "syllables": [
+        "VAC",
+        "uum"
+      ],
+      "phonemes": [
+        "v",
+        "ă",
+        "k",
+        "y",
+        "ū",
+        "m"
+      ],
+      "diff": 2
+    },
+    "waffle": {
+      "syllables": [
+        "WAF",
+        "fle"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "f",
+        "ŭ",
+        "l"
+      ]
+    },
+    "window": {
+      "syllables": [
+        "WIN",
+        "dow"
+      ],
+      "phonemes": [
+        "w",
+        "ĭ",
+        "n",
+        "d",
+        "ō"
+      ]
+    },
+    "walrus": {
+      "syllables": [
+        "WAL",
+        "rus"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "l",
+        "r",
+        "ŭ",
+        "s"
+      ],
+      "diff": 2
+    },
+    "winter": {
+      "syllables": [
+        "WIN",
+        "ter"
+      ],
+      "phonemes": [
+        "w",
+        "ĭ",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    "washer": {
+      "syllables": [
+        "WASH",
+        "er"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "sh",
+        "er"
+      ]
+    },
+    "wedding": {
+      "syllables": [
+        "WED",
+        "ding"
+      ],
+      "phonemes": [
+        "w",
+        "ĕ",
+        "d",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "wagon": {
+      "syllables": [
+        "WAG",
+        "on"
+      ],
+      "phonemes": [
+        "w",
+        "ă",
+        "g",
+        "ŭ",
+        "n"
+      ]
+    },
+    "winner": {
+      "syllables": [
+        "WIN",
+        "ner"
+      ],
+      "phonemes": [
+        "w",
+        "ĭ",
+        "n",
+        "er"
+      ]
+    },
+    "writer": {
+      "syllables": [
+        "WRIT",
+        "er"
+      ],
+      "phonemes": [
+        "r",
+        "ī",
+        "t",
+        "er"
+      ]
+    },
+    "windy": {
+      "syllables": [
+        "WIND",
+        "y"
+      ],
+      "phonemes": [
+        "w",
+        "ĭ",
+        "n",
+        "d",
+        "ē"
+      ]
+    },
+    "yellow": {
+      "syllables": [
+        "YEL",
+        "low"
+      ],
+      "phonemes": [
+        "y",
+        "ĕ",
+        "l",
+        "ō"
+      ]
+    },
+    "yogurt": {
+      "syllables": [
+        "YO",
+        "gurt"
+      ],
+      "phonemes": [
+        "y",
+        "ō",
+        "g",
+        "er",
+        "t"
+      ]
+    },
+    "yoyo": {
+      "syllables": [
+        "YO",
+        "yo"
+      ],
+      "phonemes": [
+        "y",
+        "ō",
+        "y",
+        "ō"
+      ]
+    },
+    "yardstick": {
+      "syllables": [
+        "YARD",
+        "stick"
+      ],
+      "phonemes": [
+        "y",
+        "aw",
+        "r",
+        "d",
+        "s",
+        "t",
+        "ĭ",
+        "k"
+      ],
+      "diff": 2
+    },
+    "zipper": {
+      "syllables": [
+        "ZIP",
+        "per"
+      ],
+      "phonemes": [
+        "z",
+        "ĭ",
+        "p",
+        "er"
+      ]
+    },
+    "zero": {
+      "syllables": [
+        "ZE",
+        "ro"
+      ],
+      "phonemes": [
+        "z",
+        "ē",
+        "r",
+        "ō"
+      ]
+    },
+    "animal": {
+      "syllables": [
+        "AN",
+        "i",
+        "mal"
+      ],
+      "phonemes": [
+        "ă",
+        "n",
+        "ĭ",
+        "m",
+        "ŭ",
+        "l"
+      ]
+    },
+    "astronaut": {
+      "syllables": [
+        "AS",
+        "tro",
+        "naut"
+      ],
+      "phonemes": [
+        "ă",
+        "s",
+        "t",
+        "r",
+        "ō",
+        "n",
+        "aw",
+        "t"
+      ]
+    },
+    "alien": {
+      "syllables": [
+        "A",
+        "li",
+        "en"
+      ],
+      "phonemes": [
+        "ā",
+        "l",
+        "ē",
+        "ĕ",
+        "n"
+      ]
+    },
+    "adventure": {
+      "syllables": [
+        "ad",
+        "VEN",
+        "ture"
+      ],
+      "phonemes": [
+        "ă",
+        "d",
+        "v",
+        "ĕ",
+        "n",
+        "ch",
+        "er"
+      ]
+    },
+    "ambulance": {
+      "syllables": [
+        "AM",
+        "bu",
+        "lance"
+      ],
+      "phonemes": [
+        "ă",
+        "m",
+        "b",
+        "y",
+        "ū",
+        "l",
+        "ă",
+        "n",
+        "s"
+      ]
+    },
+    "computer": {
+      "syllables": [
+        "com",
+        "PUT",
+        "er"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "m",
+        "p",
+        "y",
+        "ū",
+        "t",
+        "er"
+      ]
+    },
+    "chocolate": {
+      "syllables": [
+        "CHOC",
+        "o",
+        "late"
+      ],
+      "phonemes": [
+        "ch",
+        "ŏ",
+        "k",
+        "ō",
+        "l",
+        "ŭ",
+        "t"
+      ]
+    },
+    "chimpanzee": {
+      "syllables": [
+        "chim",
+        "PAN",
+        "zee"
+      ],
+      "phonemes": [
+        "ch",
+        "ĭ",
+        "m",
+        "p",
+        "ă",
+        "n",
+        "z",
+        "ē"
+      ]
+    },
+    "camera": {
+      "syllables": [
+        "CAM",
+        "er",
+        "a"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "m",
+        "er",
+        "ŭ"
+      ]
+    },
+    "cinema": {
+      "syllables": [
+        "CIN",
+        "e",
+        "ma"
+      ],
+      "phonemes": [
+        "s",
+        "ĭ",
+        "n",
+        "ŭ",
+        "m",
+        "ŭ"
+      ]
+    },
+    "cucumber": {
+      "syllables": [
+        "CU",
+        "cum",
+        "ber"
+      ],
+      "phonemes": [
+        "k",
+        "y",
+        "ū",
+        "k",
+        "ŭ",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    "dishwasher": {
+      "syllables": [
+        "DISH",
+        "wash",
+        "er"
+      ],
+      "phonemes": [
+        "d",
+        "ĭ",
+        "sh",
+        "w",
+        "aw",
+        "sh",
+        "er"
+      ]
+    },
+    "dragonfly": {
+      "syllables": [
+        "DRAG",
+        "on",
+        "fly"
+      ],
+      "phonemes": [
+        "d",
+        "r",
+        "ă",
+        "g",
+        "ŭ",
+        "n",
+        "f",
+        "l",
+        "ī"
+      ]
+    },
+    "eyeglasses": {
+      "syllables": [
+        "EYE",
+        "glas",
+        "ses"
+      ],
+      "phonemes": [
+        "ī",
+        "g",
+        "l",
+        "ă",
+        "s",
+        "ĕ",
+        "z"
+      ]
+    },
+    "envelope": {
+      "syllables": [
+        "EN",
+        "ve",
+        "lope"
+      ],
+      "phonemes": [
+        "ĕ",
+        "n",
+        "v",
+        "ŭ",
+        "l",
+        "ō",
+        "p"
+      ]
+    },
+    "electric": {
+      "syllables": [
+        "e",
+        "LEC",
+        "tric"
+      ],
+      "phonemes": [
+        "ē",
+        "l",
+        "ĕ",
+        "k",
+        "t",
+        "r",
+        "ĭ",
+        "k"
+      ]
+    },
+    "factory": {
+      "syllables": [
+        "FAC",
+        "to",
+        "ry"
+      ],
+      "phonemes": [
+        "f",
+        "ă",
+        "k",
+        "t",
+        "er",
+        "ē"
+      ]
+    },
+    "favorite": {
+      "syllables": [
+        "FA",
+        "vor",
+        "ite"
+      ],
+      "phonemes": [
+        "f",
+        "ā",
+        "v",
+        "er",
+        "ĭ",
+        "t"
+      ]
+    },
+    "flamingo": {
+      "syllables": [
+        "fla",
+        "MIN",
+        "go"
+      ],
+      "phonemes": [
+        "f",
+        "l",
+        "ŭ",
+        "m",
+        "ĭ",
+        "ng",
+        "g",
+        "ō"
+      ]
+    },
+    "galaxy": {
+      "syllables": [
+        "GAL",
+        "ax",
+        "y"
+      ],
+      "phonemes": [
+        "g",
+        "ă",
+        "l",
+        "ŭ",
+        "k",
+        "s",
+        "ē"
+      ]
+    },
+    "gorilla": {
+      "syllables": [
+        "go",
+        "RIL",
+        "la"
+      ],
+      "phonemes": [
+        "g",
+        "ŭ",
+        "r",
+        "ĭ",
+        "l",
+        "ŭ"
+      ]
+    },
+    "guitarist": {
+      "syllables": [
+        "gui",
+        "TAR",
+        "ist"
+      ],
+      "phonemes": [
+        "g",
+        "ĭ",
+        "t",
+        "aw",
+        "r",
+        "ĭ",
+        "s",
+        "t"
+      ]
+    },
+    "gentleman": {
+      "syllables": [
+        "GEN",
+        "tle",
+        "man"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "n",
+        "t",
+        "ŭ",
+        "l",
+        "m",
+        "ă",
+        "n"
+      ],
+      "diff": 2
+    },
+    "holiday": {
+      "syllables": [
+        "HOL",
+        "i",
+        "day"
+      ],
+      "phonemes": [
+        "h",
+        "ŏ",
+        "l",
+        "ĭ",
+        "d",
+        "ā"
+      ]
+    },
+    "hospital": {
+      "syllables": [
+        "HOS",
+        "pi",
+        "tal"
+      ],
+      "phonemes": [
+        "h",
+        "ŏ",
+        "s",
+        "p",
+        "ĭ",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "hamburger": {
+      "syllables": [
+        "HAM",
+        "burg",
+        "er"
+      ],
+      "phonemes": [
+        "h",
+        "ă",
+        "m",
+        "b",
+        "er",
+        "g",
+        "er"
+      ]
+    },
+    "hazelnut": {
+      "syllables": [
+        "HA",
+        "zel",
+        "nut"
+      ],
+      "phonemes": [
+        "h",
+        "ā",
+        "z",
+        "ŭ",
+        "l",
+        "n",
+        "ŭ",
+        "t"
+      ]
+    },
+    "handkerchief": {
+      "syllables": [
+        "HAND",
+        "ker",
+        "chief"
+      ],
+      "phonemes": [
+        "h",
+        "ă",
+        "n",
+        "d",
+        "k",
+        "er",
+        "ch",
+        "ĭ",
+        "f"
+      ]
+    },
+    "imitate": {
+      "syllables": [
+        "IM",
+        "i",
+        "tate"
+      ],
+      "phonemes": [
+        "ĭ",
+        "m",
+        "ĭ",
+        "t",
+        "ā",
+        "t"
+      ]
+    },
+    "important": {
+      "syllables": [
+        "im",
+        "POR",
+        "tant"
+      ],
+      "phonemes": [
+        "ĭ",
+        "m",
+        "p",
+        "ō",
+        "r",
+        "t",
+        "ŭ",
+        "n",
+        "t"
+      ]
+    },
+    "icicle": {
+      "syllables": [
+        "I",
+        "ci",
+        "cle"
+      ],
+      "phonemes": [
+        "ī",
+        "s",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "jewelry": {
+      "syllables": [
+        "JEW",
+        "el",
+        "ry"
+      ],
+      "phonemes": [
+        "j",
+        "ū",
+        "ŭ",
+        "l",
+        "r",
+        "ē"
+      ]
+    },
+    "jellybean": {
+      "syllables": [
+        "JEL",
+        "ly",
+        "bean"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "l",
+        "ē",
+        "b",
+        "ē",
+        "n"
+      ]
+    },
+    "koala": {
+      "syllables": [
+        "ko",
+        "A",
+        "la"
+      ],
+      "phonemes": [
+        "k",
+        "ō",
+        "aw",
+        "l",
+        "ŭ"
+      ]
+    },
+    "ladybug": {
+      "syllables": [
+        "LA",
+        "dy",
+        "bug"
+      ],
+      "phonemes": [
+        "l",
+        "ā",
+        "d",
+        "ē",
+        "b",
+        "ŭ",
+        "g"
+      ]
+    },
+    "library": {
+      "syllables": [
+        "LI",
+        "brar",
+        "y"
+      ],
+      "phonemes": [
+        "l",
+        "ī",
+        "b",
+        "r",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "medicine": {
+      "syllables": [
+        "MED",
+        "i",
+        "cine"
+      ],
+      "phonemes": [
+        "m",
+        "ĕ",
+        "d",
+        "ŭ",
+        "s",
+        "ĭ",
+        "n"
+      ]
+    },
+    "microwave": {
+      "syllables": [
+        "MI",
+        "cro",
+        "wave"
+      ],
+      "phonemes": [
+        "m",
+        "ī",
+        "k",
+        "r",
+        "ŏ",
+        "w",
+        "ā",
+        "v"
+      ]
+    },
+    "museum": {
+      "syllables": [
+        "mu",
+        "SE",
+        "um"
+      ],
+      "phonemes": [
+        "m",
+        "y",
+        "ū",
+        "z",
+        "ē",
+        "ŭ",
+        "m"
+      ]
+    },
+    "mystery": {
+      "syllables": [
+        "MYS",
+        "ter",
+        "y"
+      ],
+      "phonemes": [
+        "m",
+        "ĭ",
+        "s",
+        "t",
+        "er",
+        "ē"
+      ]
+    },
+    "memory": {
+      "syllables": [
+        "MEM",
+        "o",
+        "ry"
+      ],
+      "phonemes": [
+        "m",
+        "ĕ",
+        "m",
+        "ō",
+        "r",
+        "ē"
+      ]
+    },
+    "newspaper": {
+      "syllables": [
+        "NEWS",
+        "pa",
+        "per"
+      ],
+      "phonemes": [
+        "n",
+        "ū",
+        "z",
+        "p",
+        "ā",
+        "p",
+        "er"
+      ]
+    },
+    "nectarine": {
+      "syllables": [
+        "NEC",
+        "tar",
+        "ine"
+      ],
+      "phonemes": [
+        "n",
+        "ĕ",
+        "k",
+        "t",
+        "ū",
+        "r",
+        "ē",
+        "n"
+      ]
+    },
+    "netherlands": {
+      "syllables": [
+        "NETH",
+        "er",
+        "lands"
+      ],
+      "phonemes": [
+        "n",
+        "ĕ",
+        "th",
+        "er",
+        "l",
+        "ŭ",
+        "n",
+        "d",
+        "z"
+      ]
+    },
+    "oxygen": {
+      "syllables": [
+        "OX",
+        "y",
+        "gen"
+      ],
+      "phonemes": [
+        "ŏ",
+        "k",
+        "s",
+        "ĭ",
+        "g",
+        "ĕ",
+        "n"
+      ]
+    },
+    "october": {
+      "syllables": [
+        "OC",
+        "to",
+        "ber"
+      ],
+      "phonemes": [
+        "ŏ",
+        "k",
+        "t",
+        "ō",
+        "b",
+        "er"
+      ]
+    },
+    "potato": {
+      "syllables": [
+        "po",
+        "TA",
+        "to"
+      ],
+      "phonemes": [
+        "p",
+        "ŭ",
+        "t",
+        "ā",
+        "t",
+        "ō"
+      ]
+    },
+    "pajamas": {
+      "syllables": [
+        "pa",
+        "JA",
+        "mas"
+      ],
+      "phonemes": [
+        "p",
+        "ŭ",
+        "j",
+        "aw",
+        "m",
+        "ŭ",
+        "z"
+      ]
+    },
+    "pineapple": {
+      "syllables": [
+        "PINE",
+        "ap",
+        "ple"
+      ],
+      "phonemes": [
+        "p",
+        "ī",
+        "n",
+        "ă",
+        "p",
+        "ŭ",
+        "l"
+      ]
+    },
+    "parachute": {
+      "syllables": [
+        "PAR",
+        "a",
+        "chute"
+      ],
+      "phonemes": [
+        "p",
+        "ā",
+        "r",
+        "ŭ",
+        "sh",
+        "ū",
+        "t"
+      ]
+    },
+    "porcupine": {
+      "syllables": [
+        "POR",
+        "cu",
+        "pine"
+      ],
+      "phonemes": [
+        "p",
+        "ŏ",
+        "r",
+        "k",
+        "y",
+        "ū",
+        "p",
+        "ī",
+        "n"
+      ],
+      "diff": 2
+    },
+    "platypus": {
+      "syllables": [
+        "PLAT",
+        "y",
+        "pus"
+      ],
+      "phonemes": [
+        "p",
+        "l",
+        "ă",
+        "t",
+        "ĭ",
+        "p",
+        "oo",
+        "s"
+      ],
+      "diff": 2
+    },
+    "quantity": {
+      "syllables": [
+        "QUAN",
+        "ti",
+        "ty"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "aw",
+        "n",
+        "t",
+        "ĭ",
+        "t",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "quizmaster": {
+      "syllables": [
+        "QUIZ",
+        "mas",
+        "ter"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "ĭ",
+        "z",
+        "m",
+        "ă",
+        "s",
+        "t",
+        "er"
+      ],
+      "diff": 2
+    },
+    "rectangle": {
+      "syllables": [
+        "REC",
+        "tan",
+        "gle"
+      ],
+      "phonemes": [
+        "r",
+        "ĕ",
+        "k",
+        "t",
+        "ā",
+        "ng",
+        "g",
+        "ŭ",
+        "l"
+      ]
+    },
+    "raspberry": {
+      "syllables": [
+        "RASP",
+        "ber",
+        "ry"
+      ],
+      "phonemes": [
+        "r",
+        "ă",
+        "s",
+        "p",
+        "b",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "rattlesnake": {
+      "syllables": [
+        "RAT",
+        "tle",
+        "snake"
+      ],
+      "phonemes": [
+        "r",
+        "ă",
+        "t",
+        "ŭ",
+        "l",
+        "s",
+        "n",
+        "ā",
+        "k"
+      ],
+      "diff": 2
+    },
+    "spaghetti": {
+      "syllables": [
+        "spa",
+        "GHET",
+        "ti"
+      ],
+      "phonemes": [
+        "s",
+        "p",
+        "ŭ",
+        "g",
+        "ĕ",
+        "t",
+        "ē"
+      ]
+    },
+    "skeleton": {
+      "syllables": [
+        "SKEL",
+        "e",
+        "ton"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "ĕ",
+        "l",
+        "ŭ",
+        "t",
+        "ŭ",
+        "n"
+      ]
+    },
+    "screwdriver": {
+      "syllables": [
+        "SCREW",
+        "driv",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "r",
+        "ū",
+        "d",
+        "r",
+        "ī",
+        "v",
+        "er"
+      ]
+    },
+    "spatula": {
+      "syllables": [
+        "SPAT",
+        "u",
+        "la"
+      ],
+      "phonemes": [
+        "s",
+        "p",
+        "ă",
+        "ch",
+        "ū",
+        "l",
+        "ŭ"
+      ]
+    },
+    "scorpion": {
+      "syllables": [
+        "SCOR",
+        "pi",
+        "on"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "ō",
+        "r",
+        "p",
+        "ē",
+        "ŭ",
+        "n"
+      ]
+    },
+    "socialize": {
+      "syllables": [
+        "SO",
+        "cial",
+        "ize"
+      ],
+      "phonemes": [
+        "s",
+        "ō",
+        "sh",
+        "ŭ",
+        "l",
+        "ī",
+        "z"
+      ],
+      "diff": 2
+    },
+    "tomorrow": {
+      "syllables": [
+        "to",
+        "MOR",
+        "row"
+      ],
+      "phonemes": [
+        "t",
+        "ū",
+        "m",
+        "ŏ",
+        "r",
+        "ō"
+      ]
+    },
+    "typewriter": {
+      "syllables": [
+        "TYPE",
+        "writ",
+        "er"
+      ],
+      "phonemes": [
+        "t",
+        "ī",
+        "p",
+        "r",
+        "ī",
+        "t",
+        "er"
+      ],
+      "diff": 2
+    },
+    "thunderstorm": {
+      "syllables": [
+        "THUN",
+        "der",
+        "storm"
+      ],
+      "phonemes": [
+        "th",
+        "ŭ",
+        "n",
+        "d",
+        "er",
+        "s",
+        "t",
+        "ō",
+        "r",
+        "m"
+      ]
+    },
+    "trampoline": {
+      "syllables": [
+        "TRAM",
+        "po",
+        "line"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ă",
+        "m",
+        "p",
+        "ō",
+        "l",
+        "ē",
+        "n"
+      ]
+    },
+    "telephone": {
+      "syllables": [
+        "TEL",
+        "e",
+        "phone"
+      ],
+      "phonemes": [
+        "t",
+        "ĕ",
+        "l",
+        "ŭ",
+        "f",
+        "ō",
+        "n"
+      ]
+    },
+    "terrific": {
+      "syllables": [
+        "ter",
+        "RIF",
+        "ic"
+      ],
+      "phonemes": [
+        "t",
+        "er",
+        "ĭ",
+        "f",
+        "ĭ",
+        "k"
+      ]
+    },
+    "unicorn": {
+      "syllables": [
+        "U",
+        "ni",
+        "corn"
+      ],
+      "phonemes": [
+        "y",
+        "ū",
+        "n",
+        "ĭ",
+        "k",
+        "ō",
+        "r",
+        "n"
+      ]
+    },
+    "understand": {
+      "syllables": [
+        "un",
+        "der",
+        "STAND"
+      ],
+      "phonemes": [
+        "ŭ",
+        "n",
+        "d",
+        "er",
+        "s",
+        "t",
+        "ă",
+        "n",
+        "d"
+      ]
+    },
+    "vehicle": {
+      "syllables": [
+        "VE",
+        "hi",
+        "cle"
+      ],
+      "phonemes": [
+        "v",
+        "ē",
+        "h",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "vacation": {
+      "syllables": [
+        "va",
+        "CA",
+        "tion"
+      ],
+      "phonemes": [
+        "v",
+        "ā",
+        "k",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "victory": {
+      "syllables": [
+        "VIC",
+        "to",
+        "ry"
+      ],
+      "phonemes": [
+        "v",
+        "ĭ",
+        "k",
+        "t",
+        "ō",
+        "r",
+        "ē"
+      ]
+    },
+    "visitor": {
+      "syllables": [
+        "VIS",
+        "i",
+        "tor"
+      ],
+      "phonemes": [
+        "v",
+        "ĭ",
+        "z",
+        "ĭ",
+        "t",
+        "er"
+      ]
+    },
+    "worktable": {
+      "syllables": [
+        "WORK",
+        "ta",
+        "ble"
+      ],
+      "phonemes": [
+        "w",
+        "er",
+        "k",
+        "t",
+        "ā",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "yesterday": {
+      "syllables": [
+        "YES",
+        "ter",
+        "day"
+      ],
+      "phonemes": [
+        "y",
+        "ĕ",
+        "s",
+        "t",
+        "er",
+        "d",
+        "ā"
+      ]
+    },
+    "zookeeper": {
+      "syllables": [
+        "ZOO",
+        "keep",
+        "er"
+      ],
+      "phonemes": [
+        "z",
+        "ū",
+        "k",
+        "ē",
+        "p",
+        "er"
+      ]
+    },
+    "aquarium": {
+      "syllables": [
+        "a",
+        "QUAR",
+        "i",
+        "um"
+      ],
+      "phonemes": [
+        "ŭ",
+        "k",
+        "w",
+        "ā",
+        "r",
+        "ē",
+        "ŭ",
+        "m"
+      ]
+    },
+    "automobile": {
+      "syllables": [
+        "au",
+        "to",
+        "MO",
+        "bile"
+      ],
+      "phonemes": [
+        "aw",
+        "t",
+        "ŭ",
+        "m",
+        "ō",
+        "b",
+        "ē",
+        "l"
+      ]
+    },
+    "affordable": {
+      "syllables": [
+        "af",
+        "FORD",
+        "a",
+        "ble"
+      ],
+      "phonemes": [
+        "ŭ",
+        "f",
+        "ō",
+        "r",
+        "d",
+        "ŭ",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "avocado": {
+      "syllables": [
+        "av",
+        "o",
+        "CA",
+        "do"
+      ],
+      "phonemes": [
+        "aw",
+        "v",
+        "ŭ",
+        "k",
+        "aw",
+        "d",
+        "ō"
+      ]
+    },
+    "bacteria": {
+      "syllables": [
+        "bac",
+        "TE",
+        "ri",
+        "a"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "k",
+        "t",
+        "ē",
+        "r",
+        "ē",
+        "ŭ"
+      ]
+    },
+    "ballerina": {
+      "syllables": [
+        "bal",
+        "le",
+        "RI",
+        "na"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "l",
+        "er",
+        "ē",
+        "n",
+        "ŭ"
+      ]
+    },
+    "binoculars": {
+      "syllables": [
+        "bin",
+        "OC",
+        "u",
+        "lars"
+      ],
+      "phonemes": [
+        "b",
+        "ĭ",
+        "n",
+        "ŏ",
+        "k",
+        "y",
+        "ū",
+        "l",
+        "er",
+        "z"
+      ],
+      "diff": 2
+    },
+    "calculator": {
+      "syllables": [
+        "CAL",
+        "cu",
+        "la",
+        "tor"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "l",
+        "k",
+        "y",
+        "ū",
+        "l",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "communicate": {
+      "syllables": [
+        "com",
+        "MU",
+        "ni",
+        "cate"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "m",
+        "y",
+        "ū",
+        "n",
+        "ĭ",
+        "k",
+        "ā",
+        "t"
+      ]
+    },
+    "cauliflower": {
+      "syllables": [
+        "CAU",
+        "li",
+        "flow",
+        "er"
+      ],
+      "phonemes": [
+        "k",
+        "aw",
+        "l",
+        "ĭ",
+        "f",
+        "l",
+        "ow",
+        "er"
+      ],
+      "diff": 2
+    },
+    "celebration": {
+      "syllables": [
+        "cel",
+        "e",
+        "BRA",
+        "tion"
+      ],
+      "phonemes": [
+        "s",
+        "ĕ",
+        "l",
+        "ŭ",
+        "b",
+        "r",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "decoration": {
+      "syllables": [
+        "dec",
+        "o",
+        "RA",
+        "tion"
+      ],
+      "phonemes": [
+        "d",
+        "ĕ",
+        "k",
+        "er",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "dangerously": {
+      "syllables": [
+        "DAN",
+        "ger",
+        "ous",
+        "ly"
+      ],
+      "phonemes": [
+        "d",
+        "ā",
+        "n",
+        "j",
+        "er",
+        "ŭ",
+        "s",
+        "l",
+        "ē"
+      ]
+    },
+    "elevator": {
+      "syllables": [
+        "EL",
+        "e",
+        "va",
+        "tor"
+      ],
+      "phonemes": [
+        "ĕ",
+        "l",
+        "ŭ",
+        "v",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "entertaining": {
+      "syllables": [
+        "en",
+        "ter",
+        "TAIN",
+        "ing"
+      ],
+      "phonemes": [
+        "ĕ",
+        "n",
+        "t",
+        "er",
+        "t",
+        "ā",
+        "n",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "educated": {
+      "syllables": [
+        "ED",
+        "u",
+        "cat",
+        "ed"
+      ],
+      "phonemes": [
+        "ĕ",
+        "j",
+        "ū",
+        "k",
+        "ā",
+        "t",
+        "ĕ",
+        "d"
+      ],
+      "diff": 2
+    },
+    "economy": {
+      "syllables": [
+        "e",
+        "CON",
+        "o",
+        "my"
+      ],
+      "phonemes": [
+        "ē",
+        "k",
+        "ŏ",
+        "n",
+        "ŭ",
+        "m",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "fantastical": {
+      "syllables": [
+        "fan",
+        "TAS",
+        "ti",
+        "cal"
+      ],
+      "phonemes": [
+        "f",
+        "ă",
+        "n",
+        "t",
+        "ă",
+        "s",
+        "t",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ],
+      "diff": 2
+    },
+    "gentlewoman": {
+      "syllables": [
+        "GEN",
+        "tle",
+        "wom",
+        "an"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "n",
+        "t",
+        "ŭ",
+        "l",
+        "w",
+        "oo",
+        "m",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "helicopter": {
+      "syllables": [
+        "HEL",
+        "i",
+        "cop",
+        "ter"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "l",
+        "ĭ",
+        "k",
+        "ŏ",
+        "p",
+        "t",
+        "er"
+      ]
+    },
+    "harmonica": {
+      "syllables": [
+        "har",
+        "MON",
+        "i",
+        "ca"
+      ],
+      "phonemes": [
+        "h",
+        "aw",
+        "r",
+        "m",
+        "ŏ",
+        "n",
+        "ĭ",
+        "k",
+        "ŭ"
+      ]
+    },
+    "identity": {
+      "syllables": [
+        "i",
+        "DEN",
+        "ti",
+        "ty"
+      ],
+      "phonemes": [
+        "ī",
+        "d",
+        "ĕ",
+        "n",
+        "t",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "interaction": {
+      "syllables": [
+        "in",
+        "ter",
+        "AC",
+        "tion"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "t",
+        "er",
+        "ă",
+        "k",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "information": {
+      "syllables": [
+        "in",
+        "for",
+        "MA",
+        "tion"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "f",
+        "ō",
+        "r",
+        "m",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "january": {
+      "syllables": [
+        "JAN",
+        "u",
+        "ar",
+        "y"
+      ],
+      "phonemes": [
+        "j",
+        "ă",
+        "n",
+        "y",
+        "ū",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "jellyfishes": {
+      "syllables": [
+        "JEL",
+        "ly",
+        "fish",
+        "es"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "l",
+        "ē",
+        "f",
+        "ĭ",
+        "sh",
+        "ŭ",
+        "s"
+      ]
+    },
+    "kindergarten": {
+      "syllables": [
+        "KIN",
+        "der",
+        "gar",
+        "ten"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "n",
+        "d",
+        "er",
+        "g",
+        "aw",
+        "r",
+        "t",
+        "ĕ",
+        "n"
+      ]
+    },
+    "kilometer": {
+      "syllables": [
+        "KIL",
+        "o",
+        "me",
+        "ter"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "l",
+        "ŏ",
+        "m",
+        "ĕ",
+        "t",
+        "er"
+      ]
+    },
+    "librarian": {
+      "syllables": [
+        "li",
+        "BRAR",
+        "i",
+        "an"
+      ],
+      "phonemes": [
+        "l",
+        "ī",
+        "b",
+        "r",
+        "ā",
+        "r",
+        "ē",
+        "ŭ",
+        "n"
+      ]
+    },
+    "luminescent": {
+      "syllables": [
+        "lu",
+        "mi",
+        "NES",
+        "cent"
+      ],
+      "phonemes": [
+        "l",
+        "y",
+        "ū",
+        "m",
+        "ĭ",
+        "n",
+        "ĕ",
+        "s",
+        "ĕ",
+        "n",
+        "t"
+      ],
+      "diff": 2
+    },
+    "lavatory": {
+      "syllables": [
+        "LAV",
+        "a",
+        "to",
+        "ry"
+      ],
+      "phonemes": [
+        "l",
+        "ă",
+        "v",
+        "ŭ",
+        "t",
+        "ō",
+        "r",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "machinery": {
+      "syllables": [
+        "ma",
+        "CHIN",
+        "er",
+        "y"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "sh",
+        "ē",
+        "n",
+        "er",
+        "ē"
+      ]
+    },
+    "macaroni": {
+      "syllables": [
+        "mac",
+        "a",
+        "RO",
+        "ni"
+      ],
+      "phonemes": [
+        "m",
+        "ă",
+        "k",
+        "ŭ",
+        "r",
+        "ō",
+        "n",
+        "ē"
+      ]
+    },
+    "magnetical": {
+      "syllables": [
+        "mag",
+        "NET",
+        "i",
+        "cal"
+      ],
+      "phonemes": [
+        "m",
+        "ă",
+        "g",
+        "n",
+        "ĕ",
+        "t",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ],
+      "diff": 2
+    },
+    "madagascar": {
+      "syllables": [
+        "mad",
+        "a",
+        "GAS",
+        "car"
+      ],
+      "phonemes": [
+        "m",
+        "ă",
+        "d",
+        "ŭ",
+        "g",
+        "ă",
+        "s",
+        "k",
+        "aw",
+        "r"
+      ],
+      "diff": 2
+    },
+    "magically": {
+      "syllables": [
+        "MAG",
+        "i",
+        "cal",
+        "ly"
+      ],
+      "phonemes": [
+        "m",
+        "ă",
+        "j",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l",
+        "ē"
+      ]
+    },
+    "navigator": {
+      "syllables": [
+        "NAV",
+        "i",
+        "ga",
+        "tor"
+      ],
+      "phonemes": [
+        "n",
+        "ă",
+        "v",
+        "ĭ",
+        "g",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "neanderthal": {
+      "syllables": [
+        "ne",
+        "AN",
+        "der",
+        "thal"
+      ],
+      "phonemes": [
+        "n",
+        "ē",
+        "ă",
+        "n",
+        "d",
+        "er",
+        "th",
+        "aw",
+        "l"
+      ],
+      "diff": 2
+    },
+    "nomination": {
+      "syllables": [
+        "nom",
+        "i",
+        "NA",
+        "tion"
+      ],
+      "phonemes": [
+        "n",
+        "ŏ",
+        "m",
+        "ĭ",
+        "n",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "operator": {
+      "syllables": [
+        "OP",
+        "er",
+        "a",
+        "tor"
+      ],
+      "phonemes": [
+        "ŏ",
+        "p",
+        "er",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "opposition": {
+      "syllables": [
+        "op",
+        "po",
+        "SI",
+        "tion"
+      ],
+      "phonemes": [
+        "ŏ",
+        "p",
+        "ŭ",
+        "z",
+        "ĭ",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "observation": {
+      "syllables": [
+        "ob",
+        "ser",
+        "VA",
+        "tion"
+      ],
+      "phonemes": [
+        "ŏ",
+        "b",
+        "z",
+        "er",
+        "v",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "officially": {
+      "syllables": [
+        "of",
+        "FI",
+        "cial",
+        "ly"
+      ],
+      "phonemes": [
+        "ŭ",
+        "f",
+        "ĭ",
+        "sh",
+        "ŭ",
+        "l",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "participant": {
+      "syllables": [
+        "par",
+        "TIC",
+        "i",
+        "pant"
+      ],
+      "phonemes": [
+        "p",
+        "aw",
+        "r",
+        "t",
+        "ĭ",
+        "s",
+        "ĭ",
+        "p",
+        "ŭ",
+        "n",
+        "t"
+      ]
+    },
+    "photographer": {
+      "syllables": [
+        "pho",
+        "TOG",
+        "ra",
+        "pher"
+      ],
+      "phonemes": [
+        "f",
+        "ŭ",
+        "t",
+        "ŏ",
+        "g",
+        "r",
+        "ŭ",
+        "f",
+        "er"
+      ]
+    },
+    "pedestrian": {
+      "syllables": [
+        "pe",
+        "DES",
+        "tri",
+        "an"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "d",
+        "ĕ",
+        "s",
+        "t",
+        "r",
+        "ē",
+        "ŭ",
+        "n"
+      ]
+    },
+    "peculiar": {
+      "syllables": [
+        "pe",
+        "CU",
+        "li",
+        "ar"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "k",
+        "y",
+        "ū",
+        "l",
+        "y",
+        "er"
+      ],
+      "diff": 2
+    },
+    "questionable": {
+      "syllables": [
+        "QUES",
+        "tion",
+        "a",
+        "ble"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "ĕ",
+        "s",
+        "ch",
+        "ŭ",
+        "n",
+        "ŭ",
+        "b",
+        "ŭ",
+        "l"
+      ],
+      "diff": 2
+    },
+    "radiator": {
+      "syllables": [
+        "RA",
+        "di",
+        "a",
+        "tor"
+      ],
+      "phonemes": [
+        "r",
+        "ā",
+        "d",
+        "ē",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "rhinoceros": {
+      "syllables": [
+        "rhi",
+        "NOC",
+        "er",
+        "os"
+      ],
+      "phonemes": [
+        "r",
+        "ī",
+        "n",
+        "ŏ",
+        "s",
+        "er",
+        "ō",
+        "s"
+      ]
+    },
+    "remembering": {
+      "syllables": [
+        "re",
+        "MEM",
+        "ber",
+        "ing"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "m",
+        "ĕ",
+        "m",
+        "b",
+        "er",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "repercussion": {
+      "syllables": [
+        "re",
+        "per",
+        "CUS",
+        "sion"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "p",
+        "er",
+        "k",
+        "ŭ",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "sensational": {
+      "syllables": [
+        "sen",
+        "SA",
+        "tion",
+        "al"
+      ],
+      "phonemes": [
+        "s",
+        "ĕ",
+        "n",
+        "s",
+        "ā",
+        "sh",
+        "ŭ",
+        "n",
+        "ŭ",
+        "l"
+      ]
+    },
+    "semicircle": {
+      "syllables": [
+        "SEM",
+        "i",
+        "cir",
+        "cle"
+      ],
+      "phonemes": [
+        "s",
+        "ĕ",
+        "m",
+        "ī",
+        "s",
+        "er",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "sanitation": {
+      "syllables": [
+        "san",
+        "i",
+        "TA",
+        "tion"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "ĭ",
+        "t",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "sanitary": {
+      "syllables": [
+        "SAN",
+        "i",
+        "tar",
+        "y"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "ĭ",
+        "t",
+        "ā",
+        "r",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "salivation": {
+      "syllables": [
+        "sal",
+        "i",
+        "VA",
+        "tion"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "l",
+        "ĭ",
+        "v",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "territory": {
+      "syllables": [
+        "TER",
+        "ri",
+        "to",
+        "ry"
+      ],
+      "phonemes": [
+        "t",
+        "ā",
+        "r",
+        "ĭ",
+        "t",
+        "ō",
+        "r",
+        "ē"
+      ]
+    },
+    "technically": {
+      "syllables": [
+        "TECH",
+        "ni",
+        "cal",
+        "ly"
+      ],
+      "phonemes": [
+        "t",
+        "ĕ",
+        "ch",
+        "n",
+        "ĭ",
+        "k",
+        "l",
+        "ē"
+      ]
+    },
+    "unbearable": {
+      "syllables": [
+        "un",
+        "BEAR",
+        "a",
+        "ble"
+      ],
+      "phonemes": [
+        "ŭ",
+        "n",
+        "b",
+        "ā",
+        "r",
+        "ŭ",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "ukelele": {
+      "syllables": [
+        "u",
+        "ke",
+        "LE",
+        "le"
+      ],
+      "phonemes": [
+        "y",
+        "ū",
+        "k",
+        "ŭ",
+        "l",
+        "ā",
+        "l",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "vaccinated": {
+      "syllables": [
+        "VAC",
+        "ci",
+        "nat",
+        "ed"
+      ],
+      "phonemes": [
+        "v",
+        "ă",
+        "k",
+        "s",
+        "ĭ",
+        "n",
+        "ā",
+        "t",
+        "ĕ",
+        "d"
+      ]
+    },
+    "ventilation": {
+      "syllables": [
+        "ven",
+        "ti",
+        "LA",
+        "tion"
+      ],
+      "phonemes": [
+        "v",
+        "ĕ",
+        "n",
+        "t",
+        "ŭ",
+        "l",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "vegetation": {
+      "syllables": [
+        "veg",
+        "e",
+        "TA",
+        "tion"
+      ],
+      "phonemes": [
+        "v",
+        "ĕ",
+        "g",
+        "ĕ",
+        "t",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "wonderfully": {
+      "syllables": [
+        "WON",
+        "der",
+        "ful",
+        "ly"
+      ],
+      "phonemes": [
+        "w",
+        "ŭ",
+        "n",
+        "d",
+        "er",
+        "f",
+        "ŭ",
+        "l",
+        "ē"
+      ]
+    },
+    "zoology": {
+      "syllables": [
+        "zo",
+        "OL",
+        "o",
+        "gy"
+      ],
+      "phonemes": [
+        "z",
+        "ū",
+        "ŏ",
+        "l",
+        "ō",
+        "j",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "alphabetical": {
+      "syllables": [
+        "al",
+        "pha",
+        "BET",
+        "i",
+        "cal"
+      ],
+      "phonemes": [
+        "ă",
+        "l",
+        "f",
+        "ŭ",
+        "b",
+        "ĕ",
+        "t",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "brachiosaurus": {
+      "syllables": [
+        "bra",
+        "chi",
+        "o",
+        "SAUR",
+        "us"
+      ],
+      "phonemes": [
+        "b",
+        "r",
+        "aw",
+        "k",
+        "ē",
+        "ō",
+        "s",
+        "aw",
+        "r",
+        "ŭ",
+        "s"
+      ],
+      "diff": 2
+    },
+    "capability": {
+      "syllables": [
+        "ca",
+        "pa",
+        "BIL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "k",
+        "ā",
+        "p",
+        "ŭ",
+        "b",
+        "ĭ",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "communication": {
+      "syllables": [
+        "com",
+        "mu",
+        "ni",
+        "CA",
+        "tion"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "m",
+        "y",
+        "ū",
+        "n",
+        "ĭ",
+        "k",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "disobedient": {
+      "syllables": [
+        "dis",
+        "o",
+        "BE",
+        "di",
+        "ent"
+      ],
+      "phonemes": [
+        "d",
+        "ĭ",
+        "s",
+        "ō",
+        "b",
+        "ē",
+        "d",
+        "ē",
+        "ĕ",
+        "n",
+        "t"
+      ]
+    },
+    "deactivated": {
+      "syllables": [
+        "de",
+        "AC",
+        "ti",
+        "vat",
+        "ed"
+      ],
+      "phonemes": [
+        "d",
+        "ē",
+        "ă",
+        "k",
+        "t",
+        "ĭ",
+        "v",
+        "ā",
+        "t",
+        "ĕ",
+        "d"
+      ]
+    },
+    "electricity": {
+      "syllables": [
+        "e",
+        "lec",
+        "TRIC",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "ē",
+        "l",
+        "ĕ",
+        "k",
+        "t",
+        "r",
+        "ĭ",
+        "s",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "educational": {
+      "syllables": [
+        "ed",
+        "u",
+        "CA",
+        "tion",
+        "al"
+      ],
+      "phonemes": [
+        "ĕ",
+        "j",
+        "ū",
+        "k",
+        "ā",
+        "sh",
+        "ŭ",
+        "n",
+        "ŭ",
+        "l"
+      ]
+    },
+    "flexibility": {
+      "syllables": [
+        "flex",
+        "i",
+        "BIL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "f",
+        "l",
+        "ĕ",
+        "k",
+        "s",
+        "ŭ",
+        "b",
+        "ĭ",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "geographical": {
+      "syllables": [
+        "ge",
+        "o",
+        "GRAPH",
+        "i",
+        "cal"
+      ],
+      "phonemes": [
+        "j",
+        "ē",
+        "ŏ",
+        "g",
+        "r",
+        "ă",
+        "f",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "generosity": {
+      "syllables": [
+        "gen",
+        "er",
+        "OS",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "n",
+        "er",
+        "ŏ",
+        "s",
+        "ĭ",
+        "t",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "hippopotamus": {
+      "syllables": [
+        "hip",
+        "po",
+        "POT",
+        "a",
+        "mus"
+      ],
+      "phonemes": [
+        "h",
+        "ĭ",
+        "p",
+        "ō",
+        "p",
+        "ŏ",
+        "t",
+        "ŭ",
+        "m",
+        "ŭ",
+        "s"
+      ]
+    },
+    "imagination": {
+      "syllables": [
+        "im",
+        "ag",
+        "i",
+        "NA",
+        "tion"
+      ],
+      "phonemes": [
+        "ĭ",
+        "m",
+        "ă",
+        "j",
+        "ĭ",
+        "n",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "laboratory": {
+      "syllables": [
+        "LAB",
+        "o",
+        "ra",
+        "to",
+        "ry"
+      ],
+      "phonemes": [
+        "l",
+        "ă",
+        "b",
+        "er",
+        "ŭ",
+        "t",
+        "ō",
+        "r",
+        "ē"
+      ]
+    },
+    "musicality": {
+      "syllables": [
+        "mu",
+        "si",
+        "CAL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "m",
+        "y",
+        "ū",
+        "z",
+        "ĭ",
+        "k",
+        "ă",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "memorization": {
+      "syllables": [
+        "mem",
+        "o",
+        "ri",
+        "ZA",
+        "tion"
+      ],
+      "phonemes": [
+        "m",
+        "ĕ",
+        "m",
+        "ō",
+        "r",
+        "ĭ",
+        "z",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "negativity": {
+      "syllables": [
+        "neg",
+        "a",
+        "TIV",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "n",
+        "ĕ",
+        "g",
+        "ŭ",
+        "t",
+        "ĭ",
+        "v",
+        "ĭ",
+        "t",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "positivity": {
+      "syllables": [
+        "pos",
+        "i",
+        "TIV",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "p",
+        "ŏ",
+        "z",
+        "ĭ",
+        "t",
+        "ĭ",
+        "v",
+        "ĭ",
+        "t",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "opportunity": {
+      "syllables": [
+        "op",
+        "por",
+        "TU",
+        "ni",
+        "ty"
+      ],
+      "phonemes": [
+        "ŏ",
+        "p",
+        "er",
+        "t",
+        "ū",
+        "n",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "qualification": {
+      "syllables": [
+        "qual",
+        "i",
+        "fi",
+        "CA",
+        "tion"
+      ],
+      "phonemes": [
+        "k",
+        "w",
+        "aw",
+        "l",
+        "ĭ",
+        "f",
+        "ĭ",
+        "k",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "readability": {
+      "syllables": [
+        "read",
+        "a",
+        "BIL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "d",
+        "ŭ",
+        "b",
+        "ĭ",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "radioactive": {
+      "syllables": [
+        "ra",
+        "di",
+        "o",
+        "AC",
+        "tive"
+      ],
+      "phonemes": [
+        "r",
+        "ā",
+        "d",
+        "ē",
+        "ō",
+        "ă",
+        "k",
+        "t",
+        "ĭ",
+        "v"
+      ],
+      "diff": 2
+    },
+    "inaccessible": {
+      "syllables": [
+        "in",
+        "ac",
+        "CES",
+        "si",
+        "ble"
+      ],
+      "phonemes": [
+        "ĭ",
+        "n",
+        "ă",
+        "k",
+        "s",
+        "ĕ",
+        "s",
+        "ĭ",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "ultraviolet": {
+      "syllables": [
+        "ul",
+        "tra",
+        "VI",
+        "o",
+        "let"
+      ],
+      "phonemes": [
+        "ŭ",
+        "l",
+        "t",
+        "r",
+        "ŭ",
+        "v",
+        "ī",
+        "ŭ",
+        "l",
+        "ĕ",
+        "t"
+      ],
+      "diff": 2
+    },
+    "veterinarian": {
+      "syllables": [
+        "vet",
+        "er",
+        "i",
+        "NAR",
+        "i",
+        "an"
+      ],
+      "phonemes": [
+        "v",
+        "ĕ",
+        "t",
+        "er",
+        "ĭ",
+        "n",
+        "ā",
+        "r",
+        "ē",
+        "ŭ",
+        "n"
+      ]
+    },
+    "responsibility": {
+      "syllables": [
+        "re",
+        "spon",
+        "si",
+        "BIL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "r",
+        "ē",
+        "s",
+        "p",
+        "ŏ",
+        "n",
+        "s",
+        "ĭ",
+        "b",
+        "ĭ",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "identification": {
+      "syllables": [
+        "i",
+        "den",
+        "ti",
+        "fi",
+        "CA",
+        "tion"
+      ],
+      "phonemes": [
+        "ī",
+        "d",
+        "ĕ",
+        "n",
+        "t",
+        "ĭ",
+        "f",
+        "ĭ",
+        "k",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "categorization": {
+      "syllables": [
+        "cat",
+        "e",
+        "go",
+        "ri",
+        "ZA",
+        "tion"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "t",
+        "ŭ",
+        "g",
+        "er",
+        "ĭ",
+        "z",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "hospitalization": {
+      "syllables": [
+        "hos",
+        "pi",
+        "tal",
+        "i",
+        "ZA",
+        "tion"
+      ],
+      "phonemes": [
+        "h",
+        "ŏ",
+        "s",
+        "p",
+        "ĭ",
+        "t",
+        "ŭ",
+        "l",
+        "ĭ",
+        "z",
+        "ā",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "familiarity": {
+      "syllables": [
+        "fa",
+        "mil",
+        "i",
+        "AR",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "f",
+        "ŭ",
+        "m",
+        "ĭ",
+        "l",
+        "ē",
+        "ā",
+        "r",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "encyclopedia": {
+      "syllables": [
+        "en",
+        "cy",
+        "clo",
+        "PE",
+        "di",
+        "a"
+      ],
+      "phonemes": [
+        "ĕ",
+        "n",
+        "s",
+        "ī",
+        "k",
+        "l",
+        "ō",
+        "p",
+        "ē",
+        "d",
+        "ē",
+        "ŭ"
+      ]
+    },
+    "survivability": {
+      "syllables": [
+        "sur",
+        "viv",
+        "a",
+        "BIL",
+        "i",
+        "ty"
+      ],
+      "phonemes": [
+        "s",
+        "er",
+        "v",
+        "ī",
+        "v",
+        "ŭ",
+        "b",
+        "ĭ",
+        "l",
+        "ĭ",
+        "t",
+        "ē"
+      ],
+      "diff": 2
+    },
+    "revolutionary": {
+      "syllables": [
+        "rev",
+        "o",
+        "LU",
+        "tion",
+        "ar",
+        "y"
+      ],
+      "phonemes": [
+        "r",
+        "ĕ",
+        "v",
+        "ō",
+        "l",
+        "ū",
+        "sh",
+        "ŭ",
+        "n",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "apple": {
+      "frame": 0,
+      "syllables": [
+        "AP",
+        "ple"
+      ],
+      "phonemes": [
+        "ă",
+        "p",
+        "ŭ",
+        "l"
+      ]
+    },
+    "pillow": {
+      "frame": 1,
+      "syllables": [
+        "PIL",
+        "low"
+      ],
+      "phonemes": [
+        "p",
+        "ĭ",
+        "l",
+        "ō"
+      ]
+    },
+    "table": {
+      "frame": 2,
+      "syllables": [
+        "TA",
+        "ble"
+      ],
+      "phonemes": [
+        "t",
+        "ā",
+        "b",
+        "ŭ",
+        "l"
+      ]
+    },
+    "rainbow": {
+      "frame": 3,
+      "syllables": [
+        "RAIN",
+        "bow"
+      ],
+      "phonemes": [
+        "r",
+        "ā",
+        "n",
+        "b",
+        "ō"
+      ]
+    },
+    "snowman": {
+      "frame": 4,
+      "syllables": [
+        "SNOW",
+        "man"
+      ],
+      "phonemes": [
+        "s",
+        "n",
+        "ō",
+        "m",
+        "ă",
+        "n"
+      ],
+      "compound": true
+    },
+    "airplane": {
+      "frame": 5,
+      "syllables": [
+        "AIR",
+        "plane"
+      ],
+      "phonemes": [
+        "ā",
+        "r",
+        "p",
+        "l",
+        "ā",
+        "n"
+      ],
+      "compound": true
+    },
+    "tiger": {
+      "frame": 6,
+      "syllables": [
+        "TI",
+        "ger"
+      ],
+      "phonemes": [
+        "t",
+        "ī",
+        "g",
+        "er"
+      ]
+    },
+    "monkey": {
+      "frame": 7,
+      "syllables": [
+        "MON",
+        "key"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "ng",
+        "k",
+        "ē"
+      ]
+    },
+    "piano": {
+      "frame": 8,
+      "syllables": [
+        "pi",
+        "AN",
+        "o"
+      ],
+      "phonemes": [
+        "p",
+        "ē",
+        "ă",
+        "n",
+        "ō"
+      ]
+    },
+    "elephant": {
+      "frame": 9,
+      "syllables": [
+        "EL",
+        "e",
+        "phant"
+      ],
+      "phonemes": [
+        "ĕ",
+        "l",
+        "ŭ",
+        "f",
+        "ŭ",
+        "n",
+        "t"
+      ]
+    },
+    "bicycle": {
+      "frame": 10,
+      "syllables": [
+        "BI",
+        "cy",
+        "cle"
+      ],
+      "phonemes": [
+        "b",
+        "ī",
+        "s",
+        "ĭ",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "banana": {
+      "frame": 11,
+      "syllables": [
+        "ba",
+        "NAN",
+        "a"
+      ],
+      "phonemes": [
+        "b",
+        "ŭ",
+        "n",
+        "ă",
+        "n",
+        "ŭ"
+      ]
+    },
+    "dinosaur": {
+      "frame": 12,
+      "syllables": [
+        "DI",
+        "no",
+        "saur"
+      ],
+      "phonemes": [
+        "d",
+        "ī",
+        "n",
+        "ŏ",
+        "s",
+        "aw",
+        "r"
+      ]
+    },
+    "sunflower": {
+      "frame": 13,
+      "syllables": [
+        "SUN",
+        "flow",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "ŭ",
+        "n",
+        "f",
+        "l",
+        "ow",
+        "er"
+      ]
+    },
+    "tomato": {
+      "frame": 14,
+      "syllables": [
+        "to",
+        "MA",
+        "to"
+      ],
+      "phonemes": [
+        "t",
+        "ŭ",
+        "m",
+        "ā",
+        "t",
+        "ō"
+      ]
+    },
+    "kangaroo": {
+      "frame": 15,
+      "syllables": [
+        "KAN",
+        "ga",
+        "roo"
+      ],
+      "phonemes": [
+        "k",
+        "ā",
+        "ng",
+        "g",
+        "ŭ",
+        "r",
+        "ū"
+      ]
+    },
+    "caterpillar": {
+      "frame": 17,
+      "syllables": [
+        "CAT",
+        "er",
+        "pil",
+        "lar"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "t",
+        "er",
+        "p",
+        "ĭ",
+        "l",
+        "er"
+      ]
+    },
+    "watermelon": {
+      "frame": 18,
+      "syllables": [
+        "WA",
+        "ter",
+        "mel",
+        "on"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "t",
+        "er",
+        "m",
+        "ĕ",
+        "l",
+        "ŭ",
+        "n"
+      ]
+    },
+    "butterfly": {
+      "frame": 19,
+      "syllables": [
+        "BUT",
+        "ter",
+        "fly"
+      ],
+      "phonemes": [
+        "b",
+        "ŭ",
+        "t",
+        "er",
+        "f",
+        "l",
+        "ī"
+      ]
+    },
+    "alligator": {
+      "frame": 20,
+      "syllables": [
+        "AL",
+        "li",
+        "ga",
+        "tor"
+      ],
+      "phonemes": [
+        "ă",
+        "l",
+        "ĭ",
+        "g",
+        "ā",
+        "t",
+        "er"
+      ]
+    },
+    "umbrella": {
+      "frame": 21,
+      "syllables": [
+        "um",
+        "BREL",
+        "la"
+      ],
+      "phonemes": [
+        "ŭ",
+        "m",
+        "b",
+        "r",
+        "ĕ",
+        "l",
+        "ŭ"
+      ]
+    },
+    "jellyfish": {
+      "frame": 22,
+      "syllables": [
+        "JEL",
+        "ly",
+        "fish"
+      ],
+      "phonemes": [
+        "j",
+        "ĕ",
+        "l",
+        "ē",
+        "f",
+        "ĭ",
+        "sh"
+      ]
+    },
+    "basketball": {
+      "frame": 23,
+      "syllables": [
+        "BAS",
+        "ket",
+        "ball"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "s",
+        "k",
+        "ĕ",
+        "t",
+        "b",
+        "aw",
+        "l"
+      ],
+      "compound": true
+    },
+    "cat": {
+      "frame": 24,
+      "syllables": [
+        "cat"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "t"
+      ]
+    },
+    "dog": {
+      "frame": 25,
+      "syllables": [
+        "dog"
+      ],
+      "phonemes": [
+        "d",
+        "ŏ",
+        "g"
+      ]
+    },
+    "fly": {
+      "frame": 26,
+      "syllables": [
+        "fly"
+      ],
+      "phonemes": [
+        "f",
+        "l",
+        "ī"
+      ]
+    },
+    "frog": {
+      "frame": 27,
+      "syllables": [
+        "frog"
+      ],
+      "phonemes": [
+        "f",
+        "r",
+        "ŏ",
+        "g"
+      ]
+    },
+    "tree": {
+      "frame": 28,
+      "syllables": [
+        "tree"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ē"
+      ]
+    },
+    "train": {
+      "frame": 29,
+      "syllables": [
+        "train"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ā",
+        "n"
+      ]
+    },
+    "chair": {
+      "frame": 30,
+      "syllables": [
+        "chair"
+      ],
+      "phonemes": [
+        "ch",
+        "ā",
+        "r"
+      ]
+    },
+    "house": {
+      "frame": 31,
+      "syllables": [
+        "house"
+      ],
+      "phonemes": [
+        "h",
+        "ow",
+        "s"
+      ]
+    },
+    "candy": {
+      "frame": 32,
+      "syllables": [
+        "CAN",
+        "dy"
+      ],
+      "phonemes": [
+        "k",
+        "ă",
+        "n",
+        "d",
+        "ē"
+      ]
+    },
+    "giraffe": {
+      "frame": 33,
+      "syllables": [
+        "gi",
+        "RAFFE"
+      ],
+      "phonemes": [
+        "j",
+        "ĭ",
+        "r",
+        "ă",
+        "f"
+      ]
+    },
+    "guitar": {
+      "frame": 34,
+      "syllables": [
+        "gui",
+        "TAR"
+      ],
+      "phonemes": [
+        "g",
+        "ĭ",
+        "t",
+        "aw",
+        "r"
+      ]
+    },
+    "bunny": {
+      "frame": 35,
+      "syllables": [
+        "BUN",
+        "ny"
+      ],
+      "phonemes": [
+        "b",
+        "ŭ",
+        "n",
+        "ē"
+      ]
+    },
+    "dragon": {
+      "frame": 36,
+      "syllables": [
+        "DRAG",
+        "on"
+      ],
+      "phonemes": [
+        "d",
+        "r",
+        "ă",
+        "g",
+        "ŭ",
+        "n"
+      ]
+    },
+    "cookie": {
+      "frame": 37,
+      "syllables": [
+        "COOK",
+        "ie"
+      ],
+      "phonemes": [
+        "k",
+        "oo",
+        "k",
+        "ē"
+      ]
+    },
+    "flower": {
+      "frame": 38,
+      "syllables": [
+        "FLOW",
+        "er"
+      ],
+      "phonemes": [
+        "f",
+        "l",
+        "ow",
+        "er"
+      ]
+    },
+    "spider": {
+      "frame": 39,
+      "syllables": [
+        "SPI",
+        "der"
+      ],
+      "phonemes": [
+        "s",
+        "p",
+        "ī",
+        "d",
+        "er"
+      ]
+    },
+    "sandwich": {
+      "frame": 40,
+      "syllables": [
+        "SAND",
+        "wich"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "d",
+        "w",
+        "ĭ",
+        "ch"
+      ]
+    },
+    "dolphin": {
+      "frame": 41,
+      "syllables": [
+        "DOL",
+        "phin"
+      ],
+      "phonemes": [
+        "d",
+        "ŏ",
+        "l",
+        "f",
+        "ĭ",
+        "n"
+      ]
+    },
+    "octopus": {
+      "frame": 42,
+      "syllables": [
+        "OC",
+        "to",
+        "pus"
+      ],
+      "phonemes": [
+        "ŏ",
+        "k",
+        "t",
+        "ŭ",
+        "p",
+        "oo",
+        "s"
+      ]
+    },
+    "squirrel": {
+      "frame": 43,
+      "syllables": [
+        "SQUIR",
+        "rel"
+      ],
+      "phonemes": [
+        "s",
+        "k",
+        "w",
+        "er",
+        "ŭ",
+        "l"
+      ]
+    },
+    "strawberry": {
+      "frame": 44,
+      "syllables": [
+        "STRAW",
+        "ber",
+        "ry"
+      ],
+      "phonemes": [
+        "s",
+        "t",
+        "r",
+        "aw",
+        "b",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "mosquito": {
+      "frame": 46,
+      "syllables": [
+        "mos",
+        "QUI",
+        "to"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "s",
+        "k",
+        "ē",
+        "t",
+        "ō"
+      ]
+    },
+    "lollipop": {
+      "frame": 47,
+      "syllables": [
+        "LOL",
+        "li",
+        "pop"
+      ],
+      "phonemes": [
+        "l",
+        "ŏ",
+        "l",
+        "ē",
+        "p",
+        "ŏ",
+        "p"
+      ]
+    },
+    "zebra": {
+      "frame": 48,
+      "syllables": [
+        "ZE",
+        "bra"
+      ],
+      "phonemes": [
+        "z",
+        "ē",
+        "b",
+        "r",
+        "ŭ"
+      ]
+    },
+    "xylophone": {
+      "frame": 49,
+      "syllables": [
+        "XY",
+        "lo",
+        "phone"
+      ],
+      "phonemes": [
+        "z",
+        "ī",
+        "l",
+        "ŭ",
+        "f",
+        "ō",
+        "n"
+      ]
+    },
+    "penguin": {
+      "frame": 50,
+      "syllables": [
+        "PEN",
+        "guin"
+      ],
+      "phonemes": [
+        "p",
+        "ĕ",
+        "ng",
+        "g",
+        "w",
+        "ĭ",
+        "n"
+      ]
+    },
+    "bathtub": {
+      "frame": 51,
+      "syllables": [
+        "BATH",
+        "tub"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "th",
+        "t",
+        "ŭ",
+        "b"
+      ],
+      "compound": true
+    },
+    "box": {
+      "frame": 52,
+      "syllables": [
+        "box"
+      ],
+      "phonemes": [
+        "b",
+        "ŏ",
+        "k",
+        "s"
+      ]
+    },
+    "mushroom": {
+      "frame": 53,
+      "syllables": [
+        "MUSH",
+        "room"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "sh",
+        "r",
+        "ū",
+        "m"
+      ]
+    },
+    "mother": {
+      "frame": 54,
+      "syllables": [
+        "MOTH",
+        "er"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "th",
+        "er"
+      ]
+    },
+    "volcano": {
+      "frame": 55,
+      "syllables": [
+        "vol",
+        "CA",
+        "no"
+      ],
+      "phonemes": [
+        "v",
+        "ŏ",
+        "l",
+        "k",
+        "ā",
+        "n",
+        "ō"
+      ]
+    },
+    "ice cream": {
+      "frame": 56,
+      "syllables": [
+        "ICE",
+        "cream"
+      ],
+      "phonemes": [
+        "ī",
+        "s",
+        "k",
+        "r",
+        "ē",
+        "m"
+      ],
+      "compound": true
+    },
+    "lightning": {
+      "frame": 57,
+      "syllables": [
+        "LIGHT",
+        "ning"
+      ],
+      "phonemes": [
+        "l",
+        "ī",
+        "t",
+        "n",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "angel": {
+      "frame": 58,
+      "syllables": [
+        "AN",
+        "gel"
+      ],
+      "phonemes": [
+        "ā",
+        "n",
+        "j",
+        "ŭ",
+        "l"
+      ]
+    },
+    "mountain": {
+      "frame": 59,
+      "syllables": [
+        "MOUN",
+        "tain"
+      ],
+      "phonemes": [
+        "m",
+        "ow",
+        "n",
+        "t",
+        "ĕ",
+        "n"
+      ]
+    },
+    "elbow": {
+      "frame": 60,
+      "syllables": [
+        "EL",
+        "bow"
+      ],
+      "phonemes": [
+        "ĕ",
+        "l",
+        "b",
+        "ō"
+      ]
+    },
+    "chicken": {
+      "frame": 61,
+      "syllables": [
+        "CHICK",
+        "en"
+      ],
+      "phonemes": [
+        "ch",
+        "ĭ",
+        "k",
+        "ĕ",
+        "n"
+      ]
+    },
+    "floor": {
+      "frame": 62,
+      "syllables": [
+        "floor"
+      ],
+      "phonemes": [
+        "f",
+        "l",
+        "ō",
+        "r"
+      ]
+    },
+    "broccoli": {
+      "frame": 63,
+      "syllables": [
+        "BROC",
+        "co",
+        "li"
+      ],
+      "phonemes": [
+        "b",
+        "r",
+        "ŏ",
+        "k",
+        "ō",
+        "l",
+        "ē"
+      ]
+    },
+    "ball": {
+      "phonemes": [
+        "b",
+        "aw",
+        "l"
+      ]
+    },
+    "doll": {
+      "phonemes": [
+        "d",
+        "ŏ",
+        "l"
+      ]
+    },
+    "block": {
+      "phonemes": [
+        "b",
+        "l",
+        "ŏ",
+        "k"
+      ]
+    },
+    "car": {
+      "phonemes": [
+        "k",
+        "aw",
+        "r"
+      ]
+    },
+    "truck": {
+      "phonemes": [
+        "t",
+        "r",
+        "ŭ",
+        "k"
+      ]
+    },
+    "bike": {
+      "phonemes": [
+        "b",
+        "ī",
+        "k"
+      ]
+    },
+    "puzzle": {
+      "syllables": [
+        "PUZ",
+        "zle"
+      ],
+      "phonemes": [
+        "p",
+        "ŭ",
+        "z",
+        "ŭ",
+        "l"
+      ]
+    },
+    "mommy": {
+      "syllables": [
+        "MOM",
+        "my"
+      ],
+      "phonemes": [
+        "m",
+        "ŏ",
+        "m",
+        "ē"
+      ]
+    },
+    "daddy": {
+      "syllables": [
+        "DAD",
+        "dy"
+      ],
+      "phonemes": [
+        "d",
+        "ă",
+        "d",
+        "ē"
+      ]
+    },
+    "friend": {
+      "phonemes": [
+        "f",
+        "r",
+        "ĕ",
+        "n",
+        "d"
+      ]
+    },
+    "hand": {
+      "phonemes": [
+        "h",
+        "ă",
+        "n",
+        "d"
+      ]
+    },
+    "foot": {
+      "phonemes": [
+        "f",
+        "oo",
+        "t"
+      ]
+    },
+    "eye": {
+      "phonemes": [
+        "ī"
+      ]
+    },
+    "nose": {
+      "phonemes": [
+        "n",
+        "ō",
+        "z"
+      ]
+    },
+    "mouth": {
+      "phonemes": [
+        "m",
+        "ow",
+        "th"
+      ]
+    },
+    "bed": {
+      "phonemes": [
+        "b",
+        "ĕ",
+        "d"
+      ]
+    },
+    "cup": {
+      "phonemes": [
+        "k",
+        "ŭ",
+        "p"
+      ]
+    },
+    "shoe": {
+      "phonemes": [
+        "sh",
+        "ū"
+      ]
+    },
+    "hat": {
+      "phonemes": [
+        "h",
+        "ă",
+        "t"
+      ]
+    },
+    "book": {
+      "phonemes": [
+        "b",
+        "oo",
+        "k"
+      ]
+    },
+    "blanket": {
+      "syllables": [
+        "BLAN",
+        "ket"
+      ],
+      "phonemes": [
+        "b",
+        "l",
+        "ā",
+        "ng",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "bus": {
+      "phonemes": [
+        "b",
+        "ŭ",
+        "s"
+      ]
+    },
+    "boat": {
+      "phonemes": [
+        "b",
+        "ō",
+        "t"
+      ]
+    },
+    "arm": {
+      "phonemes": [
+        "aw",
+        "r",
+        "m"
+      ]
+    },
+    "ear": {
+      "phonemes": [
+        "ē",
+        "r"
+      ]
+    },
+    "face": {
+      "phonemes": [
+        "f",
+        "ā",
+        "s"
+      ]
+    },
+    "hair": {
+      "phonemes": [
+        "h",
+        "ā",
+        "r"
+      ]
+    },
+    "heart": {
+      "phonemes": [
+        "h",
+        "aw",
+        "r",
+        "t"
+      ]
+    },
+    "body": {
+      "phonemes": [
+        "b",
+        "ŏ",
+        "d",
+        "ē"
+      ]
+    },
+    "smile": {
+      "phonemes": [
+        "s",
+        "m",
+        "ī",
+        "l"
+      ]
+    },
+    "tail": {
+      "phonemes": [
+        "t",
+        "ā",
+        "l"
+      ]
+    },
+    "bag": {
+      "phonemes": [
+        "b",
+        "ă",
+        "g"
+      ]
+    },
+    "boot": {
+      "phonemes": [
+        "b",
+        "ū",
+        "t"
+      ]
+    },
+    "glasses": {
+      "syllables": [
+        "GLAS",
+        "ses"
+      ],
+      "phonemes": [
+        "g",
+        "l",
+        "ă",
+        "s",
+        "ĕ",
+        "z"
+      ]
+    },
+    "watch": {
+      "phonemes": [
+        "w",
+        "aw",
+        "ch"
+      ]
+    },
+    "trousers": {
+      "syllables": [
+        "TROU",
+        "sers"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ow",
+        "z",
+        "er",
+        "z"
+      ]
+    },
+    "jeans": {
+      "phonemes": [
+        "j",
+        "ē",
+        "n",
+        "z"
+      ]
+    },
+    "dress": {
+      "phonemes": [
+        "d",
+        "r",
+        "ĕ",
+        "s"
+      ]
+    },
+    "headphones": {
+      "syllables": [
+        "HEAD",
+        "phones"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "d",
+        "f",
+        "ō",
+        "n",
+        "z"
+      ],
+      "compound": true
+    },
+    "ring": {
+      "phonemes": [
+        "r",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "shirt": {
+      "phonemes": [
+        "sh",
+        "er",
+        "t"
+      ]
+    },
+    "skirt": {
+      "phonemes": [
+        "s",
+        "k",
+        "er",
+        "t"
+      ]
+    },
+    "sock": {
+      "phonemes": [
+        "s",
+        "ŏ",
+        "k"
+      ]
+    },
+    "card": {
+      "phonemes": [
+        "k",
+        "aw",
+        "r",
+        "d"
+      ]
+    },
+    "controller": {
+      "syllables": [
+        "con",
+        "TROL",
+        "ler"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "n",
+        "t",
+        "r",
+        "ō",
+        "l",
+        "er"
+      ]
+    },
+    "dice": {
+      "phonemes": [
+        "d",
+        "ī",
+        "s"
+      ]
+    },
+    "flag": {
+      "phonemes": [
+        "f",
+        "l",
+        "ă",
+        "g"
+      ]
+    },
+    "gun": {
+      "phonemes": [
+        "g",
+        "ŭ",
+        "n"
+      ]
+    },
+    "pawn": {
+      "phonemes": [
+        "p",
+        "aw",
+        "n"
+      ]
+    },
+    "fire": {
+      "phonemes": [
+        "f",
+        "ī",
+        "er"
+      ]
+    },
+    "ghost": {
+      "phonemes": [
+        "g",
+        "ō",
+        "s",
+        "t"
+      ]
+    },
+    "microphone": {
+      "syllables": [
+        "MI",
+        "cro",
+        "phone"
+      ],
+      "phonemes": [
+        "m",
+        "ī",
+        "k",
+        "r",
+        "ō",
+        "f",
+        "ō",
+        "n"
+      ]
+    },
+    "fairy tale": {
+      "syllables": [
+        "FAIR",
+        "y",
+        "tale"
+      ],
+      "phonemes": [
+        "f",
+        "ā",
+        "r",
+        "ē",
+        "t",
+        "ā",
+        "l"
+      ]
+    },
+    "poetry": {
+      "syllables": [
+        "PO",
+        "et",
+        "ry"
+      ],
+      "phonemes": [
+        "p",
+        "ō",
+        "ĕ",
+        "t",
+        "r",
+        "ē"
+      ]
+    },
+    "phone": {
+      "phonemes": [
+        "f",
+        "ō",
+        "n"
+      ]
+    },
+    "screen": {
+      "phonemes": [
+        "s",
+        "k",
+        "r",
+        "ē",
+        "n"
+      ]
+    },
+    "speaker": {
+      "syllables": [
+        "SPEAK",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "p",
+        "ē",
+        "k",
+        "er"
+      ]
+    },
+    "warning": {
+      "syllables": [
+        "WARN",
+        "ing"
+      ],
+      "phonemes": [
+        "w",
+        "ō",
+        "r",
+        "n",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "problem": {
+      "syllables": [
+        "PROB",
+        "lem"
+      ],
+      "phonemes": [
+        "p",
+        "r",
+        "ŏ",
+        "b",
+        "l",
+        "ĕ",
+        "m"
+      ]
+    },
+    "drummer": {
+      "syllables": [
+        "DRUM",
+        "mer"
+      ],
+      "phonemes": [
+        "d",
+        "r",
+        "ŭ",
+        "m",
+        "er"
+      ]
+    },
+    "flute": {
+      "phonemes": [
+        "f",
+        "l",
+        "ū",
+        "t"
+      ]
+    },
+    "pianist": {
+      "syllables": [
+        "pi",
+        "AN",
+        "ist"
+      ],
+      "phonemes": [
+        "p",
+        "ē",
+        "ŭ",
+        "n",
+        "ĭ",
+        "s",
+        "t"
+      ]
+    },
+    "singer": {
+      "syllables": [
+        "SING",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "ĭ",
+        "ng",
+        "er"
+      ]
+    },
+    "circle": {
+      "phonemes": [
+        "s",
+        "er",
+        "k",
+        "ŭ",
+        "l"
+      ]
+    },
+    "cube": {
+      "phonemes": [
+        "k",
+        "y",
+        "ū",
+        "b"
+      ]
+    },
+    "cylinder": {
+      "syllables": [
+        "CYL",
+        "in",
+        "der"
+      ],
+      "phonemes": [
+        "s",
+        "ĭ",
+        "l",
+        "ĭ",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    "diamond": {
+      "syllables": [
+        "DIA",
+        "mond"
+      ],
+      "phonemes": [
+        "d",
+        "ī",
+        "m",
+        "ŭ",
+        "n",
+        "d"
+      ]
+    },
+    "ellipse": {
+      "syllables": [
+        "el",
+        "LIPSE"
+      ],
+      "phonemes": [
+        "ē",
+        "l",
+        "ĭ",
+        "p",
+        "s"
+      ]
+    },
+    "hexagon": {
+      "syllables": [
+        "HEX",
+        "a",
+        "gon"
+      ],
+      "phonemes": [
+        "h",
+        "ĕ",
+        "k",
+        "s",
+        "ŭ",
+        "g",
+        "ŏ",
+        "n"
+      ]
+    },
+    "point": {
+      "phonemes": [
+        "p",
+        "oy",
+        "n",
+        "t"
+      ]
+    },
+    "polygon": {
+      "syllables": [
+        "POL",
+        "y",
+        "gon"
+      ],
+      "phonemes": [
+        "p",
+        "ŏ",
+        "l",
+        "ē",
+        "g",
+        "ŏ",
+        "n"
+      ]
+    },
+    "pyramid": {
+      "syllables": [
+        "PYR",
+        "a",
+        "mid"
+      ],
+      "phonemes": [
+        "p",
+        "ē",
+        "r",
+        "ŭ",
+        "m",
+        "ĭ",
+        "d"
+      ]
+    },
+    "sphere": {
+      "phonemes": [
+        "s",
+        "f",
+        "ē",
+        "r"
+      ]
+    },
+    "square": {
+      "phonemes": [
+        "s",
+        "k",
+        "w",
+        "ā",
+        "r"
+      ]
+    },
+    "star": {
+      "phonemes": [
+        "s",
+        "t",
+        "aw",
+        "r"
+      ]
+    },
+    "triangle": {
+      "syllables": [
+        "TRI",
+        "an",
+        "gle"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ī",
+        "ā",
+        "ng",
+        "g",
+        "ŭ",
+        "l"
+      ]
+    },
+    "beach": {
+      "phonemes": [
+        "b",
+        "ē",
+        "ch"
+      ]
+    },
+    "cloud": {
+      "phonemes": [
+        "k",
+        "l",
+        "ow",
+        "d"
+      ]
+    },
+    "desert": {
+      "syllables": [
+        "de",
+        "SERT"
+      ],
+      "phonemes": [
+        "d",
+        "ĕ",
+        "z",
+        "er",
+        "t"
+      ]
+    },
+    "forest": {
+      "syllables": [
+        "FOR",
+        "est"
+      ],
+      "phonemes": [
+        "f",
+        "ō",
+        "r",
+        "ĕ",
+        "s",
+        "t"
+      ]
+    },
+    "ice": {
+      "phonemes": [
+        "ī",
+        "s"
+      ]
+    },
+    "island": {
+      "syllables": [
+        "IS",
+        "land"
+      ],
+      "phonemes": [
+        "ī",
+        "l",
+        "ă",
+        "n",
+        "d"
+      ]
+    },
+    "leaf": {
+      "phonemes": [
+        "l",
+        "ē",
+        "f"
+      ]
+    },
+    "moon": {
+      "phonemes": [
+        "m",
+        "ū",
+        "n"
+      ]
+    },
+    "sand": {
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "d"
+      ]
+    },
+    "sun": {
+      "phonemes": [
+        "s",
+        "ŭ",
+        "n"
+      ]
+    },
+    "waterfall": {
+      "syllables": [
+        "WA",
+        "ter",
+        "fall"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "t",
+        "er",
+        "f",
+        "aw",
+        "l"
+      ]
+    },
+    "wave": {
+      "phonemes": [
+        "w",
+        "ā",
+        "v"
+      ]
+    },
+    "rain": {
+      "phonemes": [
+        "r",
+        "ā",
+        "n"
+      ]
+    },
+    "snow": {
+      "phonemes": [
+        "s",
+        "n",
+        "ō"
+      ]
+    },
+    "snowflake": {
+      "syllables": [
+        "SNOW",
+        "flake"
+      ],
+      "phonemes": [
+        "s",
+        "n",
+        "ō",
+        "f",
+        "l",
+        "ā",
+        "k"
+      ]
+    },
+    "wind": {
+      "phonemes": [
+        "w",
+        "ĭ",
+        "n",
+        "d"
+      ]
+    },
+    "bridge": {
+      "phonemes": [
+        "b",
+        "r",
+        "ĭ",
+        "j"
+      ]
+    },
+    "hotel": {
+      "syllables": [
+        "HO",
+        "tel"
+      ],
+      "phonemes": [
+        "h",
+        "ō",
+        "t",
+        "ĕ",
+        "l"
+      ]
+    },
+    "map": {
+      "phonemes": [
+        "m",
+        "ă",
+        "p"
+      ]
+    },
+    "pilot": {
+      "syllables": [
+        "PI",
+        "lot"
+      ],
+      "phonemes": [
+        "p",
+        "ī",
+        "l",
+        "ŭ",
+        "t"
+      ]
+    },
+    "sidewalk": {
+      "syllables": [
+        "SIDE",
+        "walk"
+      ],
+      "phonemes": [
+        "s",
+        "ī",
+        "d",
+        "w",
+        "aw",
+        "k"
+      ]
+    },
+    "traffic sign": {
+      "syllables": [
+        "TRAF",
+        "fic",
+        "sign"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ă",
+        "f",
+        "ĭ",
+        "k",
+        "s",
+        "ī",
+        "n"
+      ],
+      "compound": true
+    },
+    "tunnel": {
+      "syllables": [
+        "TUN",
+        "nel"
+      ],
+      "phonemes": [
+        "t",
+        "ŭ",
+        "n",
+        "ŭ",
+        "l"
+      ]
+    },
+    "way": {
+      "phonemes": [
+        "w",
+        "ā"
+      ]
+    },
+    "rocket": {
+      "syllables": [
+        "ROCK",
+        "et"
+      ],
+      "phonemes": [
+        "r",
+        "ŏ",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "ship": {
+      "phonemes": [
+        "sh",
+        "ĭ",
+        "p"
+      ]
+    },
+    "motorbike": {
+      "syllables": [
+        "MO",
+        "tor",
+        "bike"
+      ],
+      "phonemes": [
+        "m",
+        "ō",
+        "t",
+        "er",
+        "b",
+        "ī",
+        "k"
+      ]
+    },
+    "boy": {
+      "phonemes": [
+        "b",
+        "oy"
+      ]
+    },
+    "brother": {
+      "syllables": [
+        "BROTH",
+        "er"
+      ],
+      "phonemes": [
+        "b",
+        "r",
+        "ŭ",
+        "th",
+        "er"
+      ]
+    },
+    "dad": {
+      "phonemes": [
+        "d",
+        "ă",
+        "d"
+      ]
+    },
+    "dwarf": {
+      "phonemes": [
+        "d",
+        "w",
+        "ō",
+        "r",
+        "f"
+      ]
+    },
+    "father": {
+      "syllables": [
+        "FA",
+        "ther"
+      ],
+      "phonemes": [
+        "f",
+        "aw",
+        "th",
+        "er"
+      ]
+    },
+    "girl": {
+      "phonemes": [
+        "g",
+        "er",
+        "l"
+      ]
+    },
+    "grandma": {
+      "syllables": [
+        "GRAND",
+        "ma"
+      ],
+      "phonemes": [
+        "g",
+        "r",
+        "ă",
+        "n",
+        "d",
+        "m",
+        "aw"
+      ]
+    },
+    "grandpa": {
+      "syllables": [
+        "GRAND",
+        "pa"
+      ],
+      "phonemes": [
+        "g",
+        "r",
+        "ă",
+        "n",
+        "d",
+        "p",
+        "aw"
+      ]
+    },
+    "monster": {
+      "syllables": [
+        "MON",
+        "ster"
+      ],
+      "phonemes": [
+        "m",
+        "ŏ",
+        "n",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    "kid": {
+      "phonemes": [
+        "k",
+        "ĭ",
+        "d"
+      ]
+    },
+    "man": {
+      "phonemes": [
+        "m",
+        "ă",
+        "n"
+      ]
+    },
+    "mom": {
+      "phonemes": [
+        "m",
+        "ŏ",
+        "m"
+      ]
+    },
+    "parent": {
+      "syllables": [
+        "PAR",
+        "ent"
+      ],
+      "phonemes": [
+        "p",
+        "ā",
+        "r",
+        "ĕ",
+        "n",
+        "t"
+      ]
+    },
+    "sister": {
+      "syllables": [
+        "SIS",
+        "ter"
+      ],
+      "phonemes": [
+        "s",
+        "ĭ",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    "witch": {
+      "phonemes": [
+        "w",
+        "ĭ",
+        "ch"
+      ]
+    },
+    "wizard": {
+      "syllables": [
+        "WIZ",
+        "ard"
+      ],
+      "phonemes": [
+        "w",
+        "ĭ",
+        "z",
+        "er",
+        "d"
+      ]
+    },
+    "woman": {
+      "syllables": [
+        "WOM",
+        "an"
+      ],
+      "phonemes": [
+        "w",
+        "oo",
+        "m",
+        "ŭ",
+        "n"
+      ]
+    },
+    "family": {
+      "syllables": [
+        "FAM",
+        "i",
+        "ly"
+      ],
+      "phonemes": [
+        "f",
+        "ă",
+        "m",
+        "ŭ",
+        "l",
+        "ē"
+      ]
+    },
+    "son": {
+      "phonemes": [
+        "s",
+        "ŭ",
+        "n"
+      ]
+    },
+    "daughter": {
+      "syllables": [
+        "DAUGH",
+        "ter"
+      ],
+      "phonemes": [
+        "d",
+        "aw",
+        "t",
+        "er"
+      ]
+    },
+    "board": {
+      "phonemes": [
+        "b",
+        "ō",
+        "r",
+        "d"
+      ]
+    },
+    "cheerleader": {
+      "syllables": [
+        "CHEER",
+        "lead",
+        "er"
+      ],
+      "phonemes": [
+        "ch",
+        "ē",
+        "r",
+        "l",
+        "ē",
+        "d",
+        "er"
+      ]
+    },
+    "chess": {
+      "phonemes": [
+        "ch",
+        "ĕ",
+        "s"
+      ]
+    },
+    "field": {
+      "phonemes": [
+        "f",
+        "ē",
+        "l",
+        "d"
+      ]
+    },
+    "frisbee": {
+      "syllables": [
+        "FRIS",
+        "bee"
+      ],
+      "phonemes": [
+        "f",
+        "r",
+        "ĭ",
+        "z",
+        "b",
+        "ē"
+      ]
+    },
+    "game": {
+      "phonemes": [
+        "g",
+        "ā",
+        "m"
+      ]
+    },
+    "golf": {
+      "phonemes": [
+        "g",
+        "ŏ",
+        "l",
+        "f"
+      ]
+    },
+    "net": {
+      "phonemes": [
+        "n",
+        "ĕ",
+        "t"
+      ]
+    },
+    "table tennis": {
+      "syllables": [
+        "TA",
+        "ble",
+        "ten",
+        "nis"
+      ],
+      "phonemes": [
+        "t",
+        "ā",
+        "b",
+        "ŭ",
+        "l",
+        "t",
+        "ĕ",
+        "n",
+        "ĭ",
+        "s"
+      ]
+    },
+    "race": {
+      "phonemes": [
+        "r",
+        "ā",
+        "s"
+      ]
+    },
+    "shot": {
+      "phonemes": [
+        "sh",
+        "ŏ",
+        "t"
+      ]
+    },
+    "surfer": {
+      "syllables": [
+        "SURF",
+        "er"
+      ],
+      "phonemes": [
+        "s",
+        "er",
+        "f",
+        "er"
+      ]
+    },
+    "swimmer": {
+      "syllables": [
+        "SWIM",
+        "mer"
+      ],
+      "phonemes": [
+        "s",
+        "w",
+        "ĭ",
+        "m",
+        "er"
+      ]
+    },
+    "tennis": {
+      "syllables": [
+        "TEN",
+        "nis"
+      ],
+      "phonemes": [
+        "t",
+        "ĕ",
+        "n",
+        "ĭ",
+        "s"
+      ]
+    },
+    "volleyball": {
+      "syllables": [
+        "VOL",
+        "ley",
+        "ball"
+      ],
+      "phonemes": [
+        "v",
+        "ŏ",
+        "l",
+        "ē",
+        "b",
+        "aw",
+        "l"
+      ],
+      "compound": true
+    },
+    "baker": {
+      "syllables": [
+        "BA",
+        "ker"
+      ],
+      "phonemes": [
+        "b",
+        "ā",
+        "k",
+        "er"
+      ]
+    },
+    "clown": {
+      "phonemes": [
+        "k",
+        "l",
+        "ow",
+        "n"
+      ]
+    },
+    "cook": {
+      "phonemes": [
+        "k",
+        "oo",
+        "k"
+      ]
+    },
+    "musician": {
+      "syllables": [
+        "mu",
+        "SI",
+        "cian"
+      ],
+      "phonemes": [
+        "m",
+        "y",
+        "ū",
+        "z",
+        "ĭ",
+        "sh",
+        "ŭ",
+        "n"
+      ]
+    },
+    "police": {
+      "syllables": [
+        "po",
+        "LICE"
+      ],
+      "phonemes": [
+        "p",
+        "ŭ",
+        "l",
+        "ē",
+        "s"
+      ]
+    },
+    "prince": {
+      "phonemes": [
+        "p",
+        "r",
+        "ĭ",
+        "n",
+        "s"
+      ]
+    },
+    "princess": {
+      "syllables": [
+        "PRIN",
+        "cess"
+      ],
+      "phonemes": [
+        "p",
+        "r",
+        "ĭ",
+        "n",
+        "s",
+        "ĕ",
+        "s"
+      ]
+    },
+    "queen": {
+      "phonemes": [
+        "k",
+        "w",
+        "ē",
+        "n"
+      ]
+    },
+    "soldier": {
+      "syllables": [
+        "SOL",
+        "dier"
+      ],
+      "phonemes": [
+        "s",
+        "ō",
+        "l",
+        "j",
+        "er"
+      ]
+    },
+    "thief": {
+      "phonemes": [
+        "th",
+        "ē",
+        "f"
+      ]
+    },
+    "dancer": {
+      "syllables": [
+        "DANC",
+        "er"
+      ],
+      "phonemes": [
+        "d",
+        "ă",
+        "n",
+        "s",
+        "er"
+      ]
+    },
+    "bakery": {
+      "syllables": [
+        "BAK",
+        "er",
+        "y"
+      ],
+      "phonemes": [
+        "b",
+        "ā",
+        "k",
+        "er",
+        "ē"
+      ]
+    },
+    "bank": {
+      "phonemes": [
+        "b",
+        "ā",
+        "ng",
+        "k"
+      ]
+    },
+    "farm": {
+      "phonemes": [
+        "f",
+        "aw",
+        "r",
+        "m"
+      ]
+    },
+    "garden": {
+      "syllables": [
+        "GAR",
+        "den"
+      ],
+      "phonemes": [
+        "g",
+        "aw",
+        "r",
+        "d",
+        "ĕ",
+        "n"
+      ]
+    },
+    "planet": {
+      "syllables": [
+        "PLAN",
+        "et"
+      ],
+      "phonemes": [
+        "p",
+        "l",
+        "ă",
+        "n",
+        "ĕ",
+        "t"
+      ]
+    },
+    "pool": {
+      "phonemes": [
+        "p",
+        "ū",
+        "l"
+      ]
+    },
+    "school": {
+      "phonemes": [
+        "s",
+        "k",
+        "ū",
+        "l"
+      ]
+    },
+    "shop": {
+      "phonemes": [
+        "sh",
+        "ŏ",
+        "p"
+      ]
+    },
+    "bookshop": {
+      "syllables": [
+        "BOOK",
+        "shop"
+      ],
+      "phonemes": [
+        "b",
+        "oo",
+        "k",
+        "sh",
+        "ŏ",
+        "p"
+      ],
+      "compound": true
+    },
+    "park": {
+      "phonemes": [
+        "p",
+        "aw",
+        "r",
+        "k"
+      ]
+    },
+    "store": {
+      "phonemes": [
+        "s",
+        "t",
+        "ō",
+        "r"
+      ]
+    },
+    "supermarket": {
+      "syllables": [
+        "SU",
+        "per",
+        "mar",
+        "ket"
+      ],
+      "phonemes": [
+        "s",
+        "y",
+        "ū",
+        "p",
+        "er",
+        "m",
+        "aw",
+        "r",
+        "k",
+        "ĕ",
+        "t"
+      ]
+    },
+    "zoo": {
+      "phonemes": [
+        "z",
+        "ū"
+      ]
+    },
+    "hall": {
+      "phonemes": [
+        "h",
+        "aw",
+        "l"
+      ]
+    },
+    "living room": {
+      "syllables": [
+        "LIV",
+        "ing",
+        "room"
+      ],
+      "phonemes": [
+        "l",
+        "ĭ",
+        "v",
+        "ĭ",
+        "ng",
+        "r",
+        "ū",
+        "m"
+      ],
+      "compound": true
+    },
+    "stairs": {
+      "phonemes": [
+        "s",
+        "t",
+        "ā",
+        "r",
+        "z"
+      ]
+    },
+    "toilet": {
+      "syllables": [
+        "TOI",
+        "let"
+      ],
+      "phonemes": [
+        "t",
+        "oy",
+        "l",
+        "ĕ",
+        "t"
+      ]
+    },
+    "teddy bear": {
+      "syllables": [
+        "TED",
+        "dy",
+        "bear"
+      ],
+      "phonemes": [
+        "t",
+        "ĕ",
+        "d",
+        "ē",
+        "b",
+        "ā",
+        "r"
+      ],
+      "compound": true
+    },
+    "bomb": {
+      "phonemes": [
+        "b",
+        "ŏ",
+        "m"
+      ]
+    },
+    "battery": {
+      "syllables": [
+        "BAT",
+        "ter",
+        "y"
+      ],
+      "phonemes": [
+        "b",
+        "ă",
+        "t",
+        "er",
+        "ē"
+      ]
+    },
+    "coin": {
+      "phonemes": [
+        "k",
+        "oy",
+        "n"
+      ]
+    },
+    "hook": {
+      "phonemes": [
+        "h",
+        "oo",
+        "k"
+      ]
+    },
+    "key": {
+      "phonemes": [
+        "k",
+        "ē"
+      ]
+    },
+    "magnet": {
+      "syllables": [
+        "MAG",
+        "net"
+      ],
+      "phonemes": [
+        "m",
+        "ă",
+        "g",
+        "n",
+        "ĕ",
+        "t"
+      ]
+    },
+    "trash can": {
+      "syllables": [
+        "TRASH",
+        "can"
+      ],
+      "phonemes": [
+        "t",
+        "r",
+        "ă",
+        "sh",
+        "k",
+        "ă",
+        "n"
+      ],
+      "compound": true
+    },
+    "lamp": {
+      "phonemes": [
+        "l",
+        "ă",
+        "m",
+        "p"
+      ]
+    },
+    "bath": {
+      "phonemes": [
+        "b",
+        "ă",
+        "th"
+      ]
+    },
+    "couch": {
+      "phonemes": [
+        "k",
+        "ow",
+        "ch"
+      ]
+    },
+    "desk": {
+      "phonemes": [
+        "d",
+        "ĕ",
+        "s",
+        "k"
+      ]
+    },
+    "bin": {
+      "phonemes": [
+        "b",
+        "ĭ",
+        "n"
+      ]
+    },
+    "bottle": {
+      "phonemes": [
+        "b",
+        "ŏ",
+        "t",
+        "ŭ",
+        "l"
+      ]
+    },
+    "candle": {
+      "phonemes": [
+        "k",
+        "ă",
+        "n",
+        "d",
+        "ŭ",
+        "l"
+      ]
+    },
+    "clock": {
+      "phonemes": [
+        "k",
+        "l",
+        "ŏ",
+        "k"
+      ]
+    },
+    "door": {
+      "phonemes": [
+        "d",
+        "ō",
+        "r"
+      ]
+    },
+    "pan": {
+      "phonemes": [
+        "p",
+        "ă",
+        "n"
+      ]
+    },
+    "plate": {
+      "phonemes": [
+        "p",
+        "l",
+        "ā",
+        "t"
+      ]
+    },
+    "rope": {
+      "phonemes": [
+        "r",
+        "ō",
+        "p"
+      ]
+    },
+    "vase": {
+      "phonemes": [
+        "v",
+        "ā",
+        "s"
+      ]
+    },
+    "air": {
+      "phonemes": [
+        "ā",
+        "r"
+      ]
+    },
+    "clay": {
+      "phonemes": [
+        "k",
+        "l",
+        "ā"
+      ]
+    },
+    "stone": {
+      "phonemes": [
+        "s",
+        "t",
+        "ō",
+        "n"
+      ]
+    },
+    "wood": {
+      "phonemes": [
+        "w",
+        "oo",
+        "d"
+      ]
+    },
+    "dirt": {
+      "phonemes": [
+        "d",
+        "er",
+        "t"
+      ]
+    },
+    "brush": {
+      "phonemes": [
+        "b",
+        "r",
+        "ŭ",
+        "sh"
+      ]
+    },
+    "fork": {
+      "phonemes": [
+        "f",
+        "ō",
+        "r",
+        "k"
+      ]
+    },
+    "knife": {
+      "phonemes": [
+        "n",
+        "ī",
+        "f"
+      ]
+    },
+    "pen": {
+      "phonemes": [
+        "p",
+        "ĕ",
+        "n"
+      ]
+    },
+    "saw": {
+      "phonemes": [
+        "s",
+        "aw"
+      ]
+    },
+    "spoon": {
+      "phonemes": [
+        "s",
+        "p",
+        "ū",
+        "n"
+      ]
+    },
+    "cupboard": {
+      "syllables": [
+        "CUP",
+        "board"
+      ],
+      "phonemes": [
+        "k",
+        "ŭ",
+        "p",
+        "b",
+        "ō",
+        "r",
+        "d"
+      ],
+      "compound": true
+    },
+    "radio": {
+      "syllables": [
+        "RA",
+        "di",
+        "o"
+      ],
+      "phonemes": [
+        "r",
+        "ā",
+        "d",
+        "ē",
+        "ō"
+      ]
+    },
+    "apartment": {
+      "syllables": [
+        "a",
+        "PART",
+        "ment"
+      ],
+      "phonemes": [
+        "ŭ",
+        "p",
+        "aw",
+        "r",
+        "t",
+        "m",
+        "ĕ",
+        "n",
+        "t"
+      ]
+    },
+    "painting": {
+      "syllables": [
+        "PAINT",
+        "ing"
+      ],
+      "phonemes": [
+        "p",
+        "ā",
+        "n",
+        "t",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "sofa": {
+      "phonemes": [
+        "s",
+        "ō",
+        "f",
+        "ŭ"
+      ]
+    },
+    "armchair": {
+      "syllables": [
+        "ARM",
+        "chair"
+      ],
+      "phonemes": [
+        "aw",
+        "r",
+        "m",
+        "ch",
+        "ā",
+        "r"
+      ],
+      "compound": true
+    },
+    "rug": {
+      "phonemes": [
+        "r",
+        "ŭ",
+        "g"
+      ]
+    },
+    "wall": {
+      "phonemes": [
+        "w",
+        "aw",
+        "l"
+      ]
+    },
+    "ruler": {
+      "syllables": [
+        "RU",
+        "ler"
+      ],
+      "phonemes": [
+        "r",
+        "ū",
+        "l",
+        "er"
+      ]
+    },
+    "eraser": {
+      "syllables": [
+        "e",
+        "RAS",
+        "er"
+      ],
+      "phonemes": [
+        "ē",
+        "r",
+        "ā",
+        "s",
+        "er"
+      ]
+    },
+    "page": {
+      "phonemes": [
+        "p",
+        "ā",
+        "j"
+      ]
+    },
+    "part": {
+      "phonemes": [
+        "p",
+        "aw",
+        "r",
+        "t"
+      ]
+    },
+    "line": {
+      "phonemes": [
+        "l",
+        "ī",
+        "n"
+      ]
+    },
+    "alphabet": {
+      "syllables": [
+        "AL",
+        "pha",
+        "bet"
+      ],
+      "phonemes": [
+        "ă",
+        "l",
+        "f",
+        "ŭ",
+        "b",
+        "ĕ",
+        "t"
+      ]
+    },
+    "class": {
+      "phonemes": [
+        "k",
+        "l",
+        "ă",
+        "s"
+      ]
+    },
+    "cross": {
+      "phonemes": [
+        "k",
+        "r",
+        "ŏ",
+        "s"
+      ]
+    },
+    "kite": {
+      "phonemes": [
+        "k",
+        "ī",
+        "t"
+      ]
+    },
+    "shell": {
+      "phonemes": [
+        "sh",
+        "ĕ",
+        "l"
+      ]
+    },
+    "black": {
+      "phonemes": [
+        "b",
+        "l",
+        "ă",
+        "k"
+      ]
+    },
+    "brown": {
+      "phonemes": [
+        "b",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    "red": {
+      "phonemes": [
+        "r",
+        "ĕ",
+        "d"
+      ]
+    },
+    "white": {
+      "phonemes": [
+        "w",
+        "ī",
+        "t"
+      ]
+    },
+    "green": {
+      "phonemes": [
+        "g",
+        "r",
+        "ē",
+        "n"
+      ]
+    },
+    "blue": {
+      "phonemes": [
+        "b",
+        "l",
+        "ū"
+      ]
+    },
+    "one": {
+      "phonemes": [
+        "w",
+        "ŭ",
+        "n"
+      ]
+    },
+    "two": {
+      "phonemes": [
+        "t",
+        "ū"
+      ]
+    },
+    "three": {
+      "phonemes": [
+        "th",
+        "r",
+        "ē"
+      ]
+    },
+    "four": {
+      "phonemes": [
+        "f",
+        "ō",
+        "r"
+      ]
+    },
+    "five": {
+      "phonemes": [
+        "f",
+        "ī",
+        "v"
+      ]
+    },
+    "six": {
+      "phonemes": [
+        "s",
+        "ĭ",
+        "k",
+        "s"
+      ]
+    },
+    "eight": {
+      "phonemes": [
+        "ā",
+        "t"
+      ]
+    },
+    "nine": {
+      "phonemes": [
+        "n",
+        "ī",
+        "n"
+      ]
+    },
+    "ten": {
+      "phonemes": [
+        "t",
+        "ĕ",
+        "n"
+      ]
+    },
+    "christmas": {
+      "syllables": [
+        "Christ",
+        "mas"
+      ],
+      "phonemes": [
+        "k",
+        "r",
+        "ĭ",
+        "s",
+        "m",
+        "ŭ",
+        "s"
+      ]
+    },
+    "santa claus": {
+      "syllables": [
+        "SAN",
+        "ta",
+        "claus"
+      ],
+      "phonemes": [
+        "s",
+        "ă",
+        "n",
+        "t",
+        "ŭ",
+        "k",
+        "l",
+        "aw",
+        "s"
+      ],
+      "compound": true
+    },
+    "away": {
+      "syllables": [
+        "a",
+        "WAY"
+      ],
+      "phonemes": [
+        "ŭ",
+        "w",
+        "ā"
+      ]
+    },
+    "down": {
+      "phonemes": [
+        "d",
+        "ow",
+        "n"
+      ]
+    },
+    "find": {
+      "phonemes": [
+        "f",
+        "ī",
+        "n",
+        "d"
+      ]
+    },
+    "help": {
+      "phonemes": [
+        "h",
+        "ĕ",
+        "l",
+        "p"
+      ]
+    },
+    "jump": {
+      "phonemes": [
+        "j",
+        "ŭ",
+        "m",
+        "p"
+      ]
+    },
+    "look": {
+      "phonemes": [
+        "l",
+        "oo",
+        "k"
+      ]
+    },
+    "make": {
+      "phonemes": [
+        "m",
+        "ā",
+        "k"
+      ]
+    },
+    "play": {
+      "phonemes": [
+        "p",
+        "l",
+        "ā"
+      ]
+    },
+    "good": {
+      "phonemes": [
+        "g",
+        "oo",
+        "d"
+      ]
+    },
+    "have": {
+      "phonemes": [
+        "h",
+        "ă",
+        "v"
+      ]
+    },
+    "new": {
+      "phonemes": [
+        "n",
+        "ū"
+      ]
+    },
+    "please": {
+      "phonemes": [
+        "p",
+        "l",
+        "ē",
+        "z"
+      ]
+    },
+    "pretty": {
+      "syllables": [
+        "PRET",
+        "ty"
+      ],
+      "phonemes": [
+        "p",
+        "r",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "ride": {
+      "phonemes": [
+        "r",
+        "ī",
+        "d"
+      ]
+    },
+    "soon": {
+      "phonemes": [
+        "s",
+        "ū",
+        "n"
+      ]
+    },
+    "there": {
+      "phonemes": [
+        "th",
+        "ā",
+        "r"
+      ]
+    },
+    "after": {
+      "syllables": [
+        "AF",
+        "ter"
+      ],
+      "phonemes": [
+        "ă",
+        "f",
+        "t",
+        "er"
+      ]
+    },
+    "again": {
+      "syllables": [
+        "a",
+        "GAIN"
+      ],
+      "phonemes": [
+        "ŭ",
+        "g",
+        "ĕ",
+        "n"
+      ]
+    },
+    "give": {
+      "phonemes": [
+        "g",
+        "ĭ",
+        "v"
+      ]
+    },
+    "know": {
+      "phonemes": [
+        "n",
+        "ō"
+      ]
+    },
+    "live": {
+      "phonemes": [
+        "l",
+        "ĭ",
+        "v"
+      ]
+    },
+    "old": {
+      "phonemes": [
+        "ō",
+        "l",
+        "d"
+      ]
+    },
+    "open": {
+      "syllables": [
+        "O",
+        "pen"
+      ],
+      "phonemes": [
+        "ō",
+        "p",
+        "ĕ",
+        "n"
+      ]
+    },
+    "stop": {
+      "phonemes": [
+        "s",
+        "t",
+        "ŏ",
+        "p"
+      ]
+    },
+    "thank": {
+      "phonemes": [
+        "th",
+        "ā",
+        "ng",
+        "k"
+      ]
+    },
+    "think": {
+      "phonemes": [
+        "th",
+        "ĭ",
+        "ng",
+        "k"
+      ]
+    },
+    "walk": {
+      "phonemes": [
+        "w",
+        "aw",
+        "k"
+      ]
+    },
+    "always": {
+      "syllables": [
+        "AL",
+        "ways"
+      ],
+      "phonemes": [
+        "aw",
+        "l",
+        "w",
+        "ā",
+        "z"
+      ]
+    },
+    "around": {
+      "syllables": [
+        "a",
+        "ROUND"
+      ],
+      "phonemes": [
+        "ŭ",
+        "r",
+        "ow",
+        "n",
+        "d"
+      ]
+    },
+    "because": {
+      "syllables": [
+        "be",
+        "CAUSE"
+      ],
+      "phonemes": [
+        "b",
+        "ē",
+        "k",
+        "ŭ",
+        "z"
+      ]
+    },
+    "before": {
+      "syllables": [
+        "be",
+        "FORE"
+      ],
+      "phonemes": [
+        "b",
+        "ē",
+        "f",
+        "ō",
+        "r"
+      ]
+    },
+    "best": {
+      "phonemes": [
+        "b",
+        "ĕ",
+        "s",
+        "t"
+      ]
+    },
+    "buy": {
+      "phonemes": [
+        "b",
+        "ī"
+      ]
+    },
+    "call": {
+      "phonemes": [
+        "k",
+        "aw",
+        "l"
+      ]
+    },
+    "cold": {
+      "phonemes": [
+        "k",
+        "ō",
+        "l",
+        "d"
+      ]
+    },
+    "fast": {
+      "phonemes": [
+        "f",
+        "ă",
+        "s",
+        "t"
+      ]
+    },
+    "first": {
+      "phonemes": [
+        "f",
+        "er",
+        "s",
+        "t"
+      ]
+    },
+    "found": {
+      "phonemes": [
+        "f",
+        "ow",
+        "n",
+        "d"
+      ]
+    },
+    "read": {
+      "phonemes": [
+        "r",
+        "ē",
+        "d"
+      ]
+    },
+    "right": {
+      "phonemes": [
+        "r",
+        "ī",
+        "t"
+      ]
+    },
+    "sing": {
+      "phonemes": [
+        "s",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "sleep": {
+      "phonemes": [
+        "s",
+        "l",
+        "ē",
+        "p"
+      ]
+    },
+    "wash": {
+      "phonemes": [
+        "w",
+        "aw",
+        "sh"
+      ]
+    },
+    "work": {
+      "phonemes": [
+        "w",
+        "er",
+        "k"
+      ]
+    },
+    "write": {
+      "phonemes": [
+        "r",
+        "ī",
+        "t"
+      ]
+    },
+    "about": {
+      "syllables": [
+        "a",
+        "BOUT"
+      ],
+      "phonemes": [
+        "ŭ",
+        "b",
+        "ow",
+        "t"
+      ]
+    },
+    "better": {
+      "syllables": [
+        "BET",
+        "ter"
+      ],
+      "phonemes": [
+        "b",
+        "ĕ",
+        "t",
+        "er"
+      ]
+    },
+    "bring": {
+      "phonemes": [
+        "b",
+        "r",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "carry": {
+      "syllables": [
+        "CAR",
+        "ry"
+      ],
+      "phonemes": [
+        "k",
+        "ā",
+        "r",
+        "ē"
+      ]
+    },
+    "clean": {
+      "phonemes": [
+        "k",
+        "l",
+        "ē",
+        "n"
+      ]
+    },
+    "drink": {
+      "phonemes": [
+        "d",
+        "r",
+        "ĭ",
+        "ng",
+        "k"
+      ]
+    },
+    "fall": {
+      "phonemes": [
+        "f",
+        "aw",
+        "l"
+      ]
+    },
+    "hot": {
+      "phonemes": [
+        "h",
+        "ŏ",
+        "t"
+      ]
+    },
+    "hurt": {
+      "phonemes": [
+        "h",
+        "er",
+        "t"
+      ]
+    },
+    "laugh": {
+      "phonemes": [
+        "l",
+        "ă",
+        "f"
+      ]
+    },
+    "light": {
+      "phonemes": [
+        "l",
+        "ī",
+        "t"
+      ]
+    },
+    "long": {
+      "phonemes": [
+        "l",
+        "ŏ",
+        "ng"
+      ]
+    },
+    "never": {
+      "syllables": [
+        "NEV",
+        "er"
+      ],
+      "phonemes": [
+        "n",
+        "ĕ",
+        "v",
+        "er"
+      ]
+    },
+    "show": {
+      "phonemes": [
+        "sh",
+        "ō"
+      ]
+    },
+    "small": {
+      "phonemes": [
+        "s",
+        "m",
+        "aw",
+        "l"
+      ]
+    },
+    "start": {
+      "phonemes": [
+        "s",
+        "t",
+        "aw",
+        "r",
+        "t"
+      ]
+    },
+    "together": {
+      "syllables": [
+        "to",
+        "GETH",
+        "er"
+      ],
+      "phonemes": [
+        "t",
+        "ū",
+        "g",
+        "ĕ",
+        "th",
+        "er"
+      ]
+    },
+    "bear": {
+      "phonemes": [
+        "b",
+        "ā",
+        "r"
+      ]
+    },
+    "bell": {
+      "phonemes": [
+        "b",
+        "ĕ",
+        "l"
+      ]
+    },
+    "bird": {
+      "phonemes": [
+        "b",
+        "er",
+        "d"
+      ]
+    },
+    "birthday": {
+      "syllables": [
+        "BIRTH",
+        "day"
+      ],
+      "phonemes": [
+        "b",
+        "er",
+        "th",
+        "d",
+        "ā"
+      ],
+      "compound": true
+    },
+    "bread": {
+      "phonemes": [
+        "b",
+        "r",
+        "ĕ",
+        "d"
+      ]
+    },
+    "cake": {
+      "phonemes": [
+        "k",
+        "ā",
+        "k"
+      ]
+    },
+    "coat": {
+      "phonemes": [
+        "k",
+        "ō",
+        "t"
+      ]
+    },
+    "corn": {
+      "phonemes": [
+        "k",
+        "ō",
+        "r",
+        "n"
+      ]
+    },
+    "cow": {
+      "phonemes": [
+        "k",
+        "ow"
+      ]
+    },
+    "day": {
+      "phonemes": [
+        "d",
+        "ā"
+      ]
+    },
+    "duck": {
+      "phonemes": [
+        "d",
+        "ŭ",
+        "k"
+      ]
+    },
+    "egg": {
+      "phonemes": [
+        "ĕ",
+        "g"
+      ]
+    },
+    "fish": {
+      "phonemes": [
+        "f",
+        "ĭ",
+        "sh"
+      ]
+    },
+    "goodbye": {
+      "syllables": [
+        "GOOD",
+        "bye"
+      ],
+      "phonemes": [
+        "g",
+        "oo",
+        "d",
+        "b",
+        "ī"
+      ]
+    },
+    "grass": {
+      "phonemes": [
+        "g",
+        "r",
+        "ă",
+        "s"
+      ]
+    },
+    "ground": {
+      "phonemes": [
+        "g",
+        "r",
+        "ow",
+        "n",
+        "d"
+      ]
+    },
+    "horse": {
+      "phonemes": [
+        "h",
+        "ō",
+        "r",
+        "s"
+      ]
+    },
+    "kitty": {
+      "syllables": [
+        "KIT",
+        "ty"
+      ],
+      "phonemes": [
+        "k",
+        "ĭ",
+        "t",
+        "ē"
+      ]
+    },
+    "milk": {
+      "phonemes": [
+        "m",
+        "ĭ",
+        "l",
+        "k"
+      ]
+    },
+    "money": {
+      "syllables": [
+        "MON",
+        "ey"
+      ],
+      "phonemes": [
+        "m",
+        "ŭ",
+        "n",
+        "ē"
+      ]
+    },
+    "morning": {
+      "syllables": [
+        "MORN",
+        "ing"
+      ],
+      "phonemes": [
+        "m",
+        "ō",
+        "r",
+        "n",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "name": {
+      "phonemes": [
+        "n",
+        "ā",
+        "m"
+      ]
+    },
+    "nest": {
+      "phonemes": [
+        "n",
+        "ĕ",
+        "s",
+        "t"
+      ]
+    },
+    "night": {
+      "phonemes": [
+        "n",
+        "ī",
+        "t"
+      ]
+    },
+    "picture": {
+      "syllables": [
+        "PIC",
+        "ture"
+      ],
+      "phonemes": [
+        "p",
+        "ĭ",
+        "k",
+        "ch",
+        "er"
+      ]
+    },
+    "pig": {
+      "phonemes": [
+        "p",
+        "ĭ",
+        "g"
+      ]
+    },
+    "seed": {
+      "phonemes": [
+        "s",
+        "ē",
+        "d"
+      ]
+    },
+    "sheep": {
+      "phonemes": [
+        "sh",
+        "ē",
+        "p"
+      ]
+    },
+    "song": {
+      "phonemes": [
+        "s",
+        "ŏ",
+        "ng"
+      ]
+    },
+    "stick": {
+      "phonemes": [
+        "s",
+        "t",
+        "ĭ",
+        "k"
+      ]
+    },
+    "street": {
+      "phonemes": [
+        "s",
+        "t",
+        "r",
+        "ē",
+        "t"
+      ]
+    },
+    "thing": {
+      "phonemes": [
+        "th",
+        "ĭ",
+        "ng"
+      ]
+    },
+    "time": {
+      "phonemes": [
+        "t",
+        "ī",
+        "m"
+      ]
+    },
+    "toy": {
+      "phonemes": [
+        "t",
+        "oy"
+      ]
+    },
+    "water": {
+      "syllables": [
+        "WA",
+        "ter"
+      ],
+      "phonemes": [
+        "w",
+        "aw",
+        "t",
+        "er"
+      ]
+    }
+  }
+}
