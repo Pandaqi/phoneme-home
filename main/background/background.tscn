@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bgm8pmh54cd7x"]
+
+[ext_resource type="Script" uid="uid://dwwry1m8d502q" path="res://main/background/background.gd" id="1_4ma16"]
+[ext_resource type="Texture2D" uid="uid://j0tq083djafp" path="res://main/background/bg-galaxy-1.png" id="2_qwruq"]
+[ext_resource type="Texture2D" uid="uid://b4kewpfpex0je" path="res://main/background/bg-galaxy-2.png" id="3_gvo41"]
+[ext_resource type="Texture2D" uid="uid://b85vud8gstdgm" path="res://main/background/bg-galaxy-3.png" id="4_fvq7u"]
+[ext_resource type="Texture2D" uid="uid://cnfcvuhcckggs" path="res://main/background/bg-galaxy-4.png" id="5_7m2xj"]
+[ext_resource type="Texture2D" uid="uid://dc1wqil8cbaxj" path="res://main/background/bg-galaxy-1-light.png" id="6_tdxa1"]
+[ext_resource type="Texture2D" uid="uid://c4ber3k82ed6n" path="res://main/background/bg-galaxy-2-light.png" id="7_d77fx"]
+[ext_resource type="Texture2D" uid="uid://b3i15ckhv4uxf" path="res://main/background/bg-galaxy-3-light.png" id="8_1hlny"]
+[ext_resource type="Texture2D" uid="uid://pi3ufrl6ah5y" path="res://main/background/bg-galaxy-4-light.png" id="9_t88io"]
+[ext_resource type="PackedScene" uid="uid://s8xo75j0cn7t" path="res://main/background/decoration.tscn" id="10_ia8mi"]
+
+[node name="Background" type="CanvasLayer" unique_id=1271719614 node_paths=PackedStringArray("texture_rect")]
+layer = -1
+script = ExtResource("1_4ma16")
+background_images_dark = Array[Texture2D]([ExtResource("2_qwruq"), ExtResource("3_gvo41"), ExtResource("4_fvq7u"), ExtResource("5_7m2xj")])
+background_images_light = Array[Texture2D]([ExtResource("6_tdxa1"), ExtResource("7_d77fx"), ExtResource("8_1hlny"), ExtResource("9_t88io")])
+texture_rect = NodePath("TextureRect")
+decoration_scene = ExtResource("10_ia8mi")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1375321962]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_qwruq")
+expand_mode = 1
+stretch_mode = 6

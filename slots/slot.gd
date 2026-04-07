@@ -39,8 +39,9 @@ func has_content() -> bool:
 func set_content(p:Phoneme) -> void:
 	reset()
 	content = p
+	if not content: return
 	PuzzleAudio.play_audio_nice(audio_assigned)
-	await p.put_into_slot(self)
+	await content.put_into_slot(self)
 
 func reset() -> void:
 	if not has_content(): return

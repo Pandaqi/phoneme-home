@@ -1,19 +1,10 @@
 [gd_scene format=3 uid="uid://cqnytuelskblt"]
 
 [ext_resource type="Script" uid="uid://dt0dutprrbwsr" path="res://main/main.gd" id="1_53q0u"]
+[ext_resource type="PackedScene" uid="uid://bgm8pmh54cd7x" path="res://main/background/background.tscn" id="2_bsumw"]
 [ext_resource type="Script" uid="uid://chphtvno1nc3a" path="res://generation/puzzle_visualizer.gd" id="2_c651c"]
-[ext_resource type="Script" uid="uid://dwwry1m8d502q" path="res://main/background/background.gd" id="2_kfbq2"]
-[ext_resource type="Texture2D" uid="uid://j0tq083djafp" path="res://main/background/bg-galaxy-1.png" id="3_bsumw"]
 [ext_resource type="PackedScene" uid="uid://c05kbed0jmra3" path="res://phonemes/phoneme.tscn" id="3_xwkvk"]
 [ext_resource type="PackedScene" uid="uid://cmjcxht2ic0hn" path="res://slots/slot.tscn" id="4_c651c"]
-[ext_resource type="Texture2D" uid="uid://b4kewpfpex0je" path="res://main/background/bg-galaxy-2.png" id="4_fwcvl"]
-[ext_resource type="Texture2D" uid="uid://b85vud8gstdgm" path="res://main/background/bg-galaxy-3.png" id="5_na0o7"]
-[ext_resource type="Texture2D" uid="uid://cnfcvuhcckggs" path="res://main/background/bg-galaxy-4.png" id="6_73k8k"]
-[ext_resource type="PackedScene" uid="uid://s8xo75j0cn7t" path="res://main/background/decoration.tscn" id="6_fwcvl"]
-[ext_resource type="Texture2D" uid="uid://dc1wqil8cbaxj" path="res://main/background/bg-galaxy-1-light.png" id="7_s758e"]
-[ext_resource type="Texture2D" uid="uid://c4ber3k82ed6n" path="res://main/background/bg-galaxy-2-light.png" id="8_4hmqs"]
-[ext_resource type="Texture2D" uid="uid://b3i15ckhv4uxf" path="res://main/background/bg-galaxy-3-light.png" id="9_piupu"]
-[ext_resource type="Texture2D" uid="uid://pi3ufrl6ah5y" path="res://main/background/bg-galaxy-4-light.png" id="10_q0sk7"]
 [ext_resource type="Texture2D" uid="uid://cbagp8ykaoifx" path="res://phonemes/sprites/spaceship.webp" id="11_bsumw"]
 [ext_resource type="PackedScene" uid="uid://2xygcypttdo7" path="res://puzzle-framework/game/game_menu.tscn" id="12_na0o7"]
 [ext_resource type="PackedScene" uid="uid://q1jom8bphw8d" path="res://puzzle-framework/gameover/game_over_dialog.tscn" id="13_73k8k"]
@@ -87,24 +78,7 @@ script = ExtResource("1_53q0u")
 vis = NodePath("PuzzleVisualizer")
 tutorial = NodePath("PuzzleTutorial")
 
-[node name="Background" type="CanvasLayer" parent="." unique_id=659387011 node_paths=PackedStringArray("texture_rect")]
-layer = -1
-script = ExtResource("2_kfbq2")
-background_images_dark = Array[Texture2D]([ExtResource("3_bsumw"), ExtResource("4_fwcvl"), ExtResource("5_na0o7"), ExtResource("6_73k8k")])
-background_images_light = Array[Texture2D]([ExtResource("7_s758e"), ExtResource("8_4hmqs"), ExtResource("9_piupu"), ExtResource("10_q0sk7")])
-texture_rect = NodePath("TextureRect")
-decoration_scene = ExtResource("6_fwcvl")
-
-[node name="TextureRect" type="TextureRect" parent="Background" unique_id=785453354]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
-texture = ExtResource("3_bsumw")
-expand_mode = 1
-stretch_mode = 6
+[node name="Background" parent="." unique_id=1271719614 instance=ExtResource("2_bsumw")]
 
 [node name="PuzzleVisualizer" type="Node2D" parent="." unique_id=1205035023 node_paths=PackedStringArray("solution_visualizer", "spaceship", "label_debug")]
 script = ExtResource("2_c651c")
@@ -129,12 +103,13 @@ text = "Word Here"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="SolutionVisualizer" type="Node2D" parent="PuzzleVisualizer" unique_id=1367878952 node_paths=PackedStringArray("sprite", "label", "anim_player")]
+[node name="SolutionVisualizer" type="Node2D" parent="PuzzleVisualizer" unique_id=1367878952 node_paths=PackedStringArray("sprite", "label", "anim_player", "audio_player")]
 position = Vector2(640, 360)
 script = ExtResource("15_4hmqs")
 sprite = NodePath("Sprite/Sprite2D")
 label = NodePath("Word/Label")
 anim_player = NodePath("AnimationPlayer")
+audio_player = NodePath("AudioStreamPlayer")
 
 [node name="Sprite" type="Node2D" parent="PuzzleVisualizer/SolutionVisualizer" unique_id=874060681]
 position = Vector2(0, -180)
@@ -171,6 +146,8 @@ vertical_alignment = 1
 [node name="AnimationPlayer" type="AnimationPlayer" parent="PuzzleVisualizer/SolutionVisualizer" unique_id=279868086]
 libraries/ = SubResource("AnimationLibrary_q0sk7")
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="PuzzleVisualizer/SolutionVisualizer" unique_id=431375042]
+
 [node name="Spaceship" type="Node2D" parent="PuzzleVisualizer" unique_id=73014016]
 z_index = 512
 position = Vector2(0, 357)
@@ -187,5 +164,6 @@ debug_disabled = true
 metadata/_custom_type_script = "uid://dpg60n5rlnn4j"
 
 [node name="GameMenu" parent="." unique_id=950523672 instance=ExtResource("12_na0o7")]
+allow_hint = true
 
 [node name="GameOverDialog" parent="." unique_id=1270097331 instance=ExtResource("13_73k8k")]

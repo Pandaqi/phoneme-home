@@ -10,6 +10,6 @@ properties = Dictionary[String, Variant]({
 "allow_nostart": false,
 "diff_bounds": Vector2i(1, 3),
 "require_solution_sprite": false,
-"size_bounds": Vector2i(4, 12)
+"size_bounds": Vector2i(4, 10)
 })
 metadata/_custom_type_script = "uid://7a03fervi8xj"

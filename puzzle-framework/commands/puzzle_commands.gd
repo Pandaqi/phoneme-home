@@ -25,6 +25,10 @@ signal do_finished(cmd:PuzzleCommand)
 signal undo_started(commands:Array[PuzzleCommand])
 signal undo_finished(commands:Array[PuzzleCommand])
 
+func clear() -> void:
+	solution = []
+	history = []
+
 func has_turns() -> bool:
 	return count() > 0
 

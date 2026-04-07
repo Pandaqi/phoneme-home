@@ -28,19 +28,44 @@ func get_all_phonemes() -> Array[String]:
 	arr.assign(phonemes_data.keys())
 	return arr
 
-func debug_missing_solutions() -> void:
+func debug_missing_solutions(include:Array[String] = []) -> void:
+	if not OS.is_debug_build(): return
+	
 	var missing : Array[String] = []
 	for word in word_data:
-		var path : String = get_word_sprite_path(word)
+		if include.size() > 0 and not include.has(word): continue
+		var path : String = get_solution_sprite_path(word)
 		var file := load(path)
 		if not file: missing.append(path)
 	missing.sort()
 	
 	for elem in missing:
 		print("Debug | Missing Solution Sprite | " + elem)
+
+func debug_missing_solution_sounds(include:Array[String] = []) -> void:
+	if not OS.is_debug_build(): return
 	
+	var missing : Array[String] = []
+	for word in word_data:
+		if include.size() > 0 and not include.has(word): continue
+		if not ("sprite" in word_data[word]): continue
+		
+		# if something has a SPRITE but no AUDIO, we consider the audio missing
+		# if it has an audio file set that can't be found, then it's also obviously missing
+		var path : String = get_solution_sound_path(word)
+		if ("sound" in word_data[word]):
+			if not load(path): missing.append(path)
+			continue
+		missing.append(path)
+	
+	missing.sort()
+	
+	for elem in missing:
+		print("Debug | Missing Solution Sound | " + elem)
 
 func debug_missing_sounds() -> void:
+	if not OS.is_debug_build(): return
+	
 	var missing : Array[String] = []
 	for phoneme in phonemes_data:
 		var path : String = get_phoneme_sound_path(phoneme)
@@ -52,6 +77,8 @@ func debug_missing_sounds() -> void:
 		print("Debug | Missing Sound | " + elem)
 
 func debug_missing_sprites() -> void:
+	if not OS.is_debug_build(): return
+	
 	var missing : Array[String] = []
 	for phoneme in phonemes_data:
 		var sprites = get_phoneme_sprites(phoneme)
@@ -116,8 +143,11 @@ func get_word_phonemes(key:String) -> Array[String]:
 	arr.assign(get_word_data(key).phonemes)
 	return arr
 
-func get_word_sprite_path(key:String) -> String:
-	return "res://phonemes/solutions/" + key + ".webp"
+func get_solution_sprite_path(key:String) -> String:
+	return "res://phonemes/sprites/" + key + ".webp"
+
+func get_solution_sound_path(key:String) -> String:
+	return "res://phonemes/sounds-solutions/" + key + ".ogg"
 
 # sound?: String
 # sprites?: Array[String]
@@ -126,6 +156,25 @@ func get_phoneme_data(key:String) -> Dictionary:
 
 func get_phoneme_sound_path(key:String) -> String:
 	return "res://phonemes/sounds/phoneme-" + get_phoneme_data(key).sound + ".ogg"
+
+func get_all_words_with_phonemes(phonemes:Array[String]) -> Array[String]:
+	var options := words_by_phoneme_freq[phonemes.size()]
+	var arr : Array[String] = []
+	for option in options:
+		var my_phonemes := get_word_phonemes(option)
+		if not array_string_match(phonemes, my_phonemes): continue
+		arr.append(option)
+	return arr
+
+# @NOTE: Arrays are duplicated to prevent sorting in-place
+func array_string_match(a1:Array[String], a2:Array[String]) -> bool:
+	a1 = a1.duplicate(false)
+	a1.sort()
+	a2 = a2.duplicate(false)
+	a2.sort()
+	for i in range(a1.size()):
+		if a1[i] != a2[i]: return false
+	return true
 
 # In JSON file, we can set an int (1/2/3/4) on how long a phoneme should take, 
 # we just multiply that by a (float) variable in here for customization

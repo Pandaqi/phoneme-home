@@ -2,6 +2,7 @@ extends Node2D
 class_name PuzzleVisualizer
 
 var generator : PuzzleGenerator
+var commands : PuzzleCommands
 
 @export var phoneme_scene : PackedScene
 var phonemes : Array[Phoneme] = []
@@ -28,6 +29,9 @@ func _ready() -> void:
 	label_debug.set_visible(debug and OS.is_debug_build())
 	solution_visualizer.finished.connect(_on_solution_visualization_finished)
 
+func count() -> int:
+	return slots.size()
+
 func visualize(gen:PuzzleGenerator) -> void:
 	generator = gen
 	label_debug.set_text(str(generator.solution))
@@ -35,21 +39,34 @@ func visualize(gen:PuzzleGenerator) -> void:
 	
 	visualize_slots()
 	visualize_phonemes()
+	
+	commands = PuzzleCommands.new()
+	commands.prepare_for_play()
+	
+	var solution : Array[PuzzleCommand] = []
+	for i in range(count()):
+		solution.append(CommandTurn.new(phonemes[i], slots[i], self))
+	commands.set_solution(solution)
 
 func visualize_phonemes() -> void:
 	var vp := Vector2(1280, 720)
 	var grid_size := Vector2i((vp / element_size).floor())
+	var center_pos_grid := (0.5 * Vector2(grid_size)).floor()
 	var grid_positions : Array[Vector2i] = []
-	for x in range(grid_size.x):
-		for y in range(grid_size.y):
-			if abs(y - 0.5*grid_size.y) <= y: continue
+	for x in range(1, grid_size.x):
+		for y in range(grid_size.y - 1):
+			if y == center_pos_grid.y: continue
 			grid_positions.append(Vector2i(x,y))
 	grid_positions.shuffle()
+	
+	# calculate distance between REAL center (where slots are placed) and GRID center
+	# so we can align this grid with the slots
+	var grid_offset := 0.5 * vp - center_pos_grid * element_size
 	
 	for phoneme_string in generator.phonemes:
 		var phoneme : Phoneme = phoneme_scene.instantiate()
 		var grid_pos : Vector2i = grid_positions.pop_back()
-		var real_pos := (Vector2(grid_pos) + Vector2(0.5, 0.5)) * element_size
+		var real_pos := Vector2(grid_pos) * element_size + grid_offset
 		phoneme.set_position(real_pos)
 		phoneme.set_type(phoneme_string)
 		phoneme.set_size(element_size)
@@ -84,15 +101,11 @@ func _physics_process(_dt:float) -> void:
 func _on_slot_clicked(s:Slot) -> void:
 	if not phoneme_selected: return
 	if is_busy(): return
-	busy = true
-	await s.set_content(phoneme_selected)
-	reset_phoneme_selected()
-	check_if_word_completed()
-	phoneme_dragging = null
-	busy = false
+	var cmd := CommandTurn.new(phoneme_selected, s, self)
+	commands.execute_command(cmd)
 
 func is_busy() -> bool:
-	return busy
+	return busy or commands.is_busy()
 
 func reset_phoneme_selected() -> void:
 	if not phoneme_selected: return
@@ -102,6 +115,7 @@ func reset_phoneme_selected() -> void:
 func select_phoneme(p:Phoneme) -> void:
 	reset_phoneme_selected()
 	phoneme_selected = p
+	if not phoneme_selected: return
 	phoneme_selected.select()
 
 func _on_phoneme_clicked(p:Phoneme) -> void:
@@ -149,21 +163,34 @@ func get_random_position() -> Vector2:
 	return Vector2(randf(), randf()) * Vector2(1280, 720)
 
 func mark_correct_solution() -> bool:
-	var is_correct := true
+	# turn solution into concatenated string of phonemes
+	var solution_string := ""
+	for i in range(slots.size()):
+		if not slots[i].has_content(): 
+			solution_string += " "
+			continue
+		solution_string += slots[i].content.phoneme
+	
+	# check if this is part of any solution
+	var is_correct := generator.all_solutions_contatenated.has(solution_string)
+	
+	# now mark each individual one as correct or wrong
+	# (if we already know we're correct, even on an alternative word, just mark all correct)
 	for i in range(slots.size()):
 		if not slots[i].has_content(): continue
 		
 		var phoneme_in_slot := slots[i].content
-		if phoneme_in_slot.phoneme == phonemes[i].phoneme:
+		if phoneme_in_slot.phoneme == phonemes[i].phoneme or is_correct:
 			await phoneme_in_slot.mark_correct()
 			continue
 		await phoneme_in_slot.mark_wrong()
-		is_correct = false
+
 	return is_correct
 
 func reset_slots() -> void:
 	for slot in slots:
 		slot.reset()
+	commands.clear()
 
 func check_if_word_completed() -> void:
 	var empty_slots := slots.filter(func(s:Slot): return not s.has_content())

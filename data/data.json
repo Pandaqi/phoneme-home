@@ -224,6 +224,14 @@
   },
 
   "words": {
+    "owl": {
+      "sprite": true,
+      "phonemes": [
+        "ow",
+        "l"
+      ]
+    },
+
     "alarm clock": {
       "syllables": [
         "a",
@@ -420,6 +428,15 @@
         "bag"
       ],
       "compound": true
+    },
+    "jar": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "j",
+        "aw",
+        "r"
+      ]
     },
     "cookie jar": {
       "syllables": [
@@ -745,6 +762,13 @@
       ],
       "compound": true
     },
+    "earth": {
+      "sprite": true,
+      "phonemes": [
+        "er",
+        "th"
+      ]
+    },
     "earthquake": {
       "syllables": [
         "EARTH",
@@ -932,6 +956,34 @@
         "hole"
       ],
       "compound": true
+    },
+    "onion": {
+      "sprite": true,
+      "phonemes": [
+        "ŭ",
+        "n",
+        "y",
+        "ŭ",
+        "n"
+      ],
+      "diff": 2
+    },
+    "olive": {
+      "sprite": true,
+      "phonemes": [
+        "ŏ",
+        "l",
+        "ĭ",
+        "v"
+      ],
+      "diff": 2
+    },
+    "off": {
+      "sprite": true,
+      "phonemes": [
+        "ŏ",
+        "f"
+      ]
     },
     "kickoff": {
       "syllables": [
@@ -1185,6 +1237,14 @@
       ],
       "compound": true
     },
+    "sky": {
+      "sprite": true,
+      "phonemes": [
+        "s",
+        "k",
+        "ī"
+      ]
+    },
     "skyscraper": {
       "syllables": [
         "SKY",
@@ -1225,6 +1285,7 @@
       "diff": 2
     },
     "spaceship": {
+      "sound": true,
       "syllables": [
         "SPACE",
         "ship"
@@ -1460,6 +1521,8 @@
       ]
     },
     "baby": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "BA",
         "by"
@@ -1620,6 +1683,7 @@
       ]
     },
     "coffee": {
+      "sprite": true,
       "syllables": [
         "COF",
         "fee"
@@ -1870,7 +1934,25 @@
         "m"
       ]
     },
+    "eat": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "ē",
+        "t"
+      ]
+    },
+    "emote": {
+      "sprite": true,
+      "phonemes": [
+        "ē",
+        "m",
+        "ō",
+        "t"
+      ]
+    },
     "eagle": {
+      "sprite": true,
       "syllables": [
         "EA",
         "gle"
@@ -2026,6 +2108,21 @@
         "t",
         "ŭ",
         "l"
+      ]
+    },
+    "ape": {
+      "sprite": true,
+      "phonemes": [
+        "ā",
+        "p"
+      ]
+    },
+    "ant": {
+      "sprite": true,
+      "phonemes": [
+        "ĕ",
+        "n",
+        "t"
       ]
     },
     "giant": {
@@ -2226,6 +2323,7 @@
       ]
     },
     "hippo": {
+      "sprite": true,
       "syllables": [
         "HIP",
         "po"
@@ -2235,7 +2333,8 @@
         "ĭ",
         "p",
         "ō"
-      ]
+      ],
+      "diff": 2
     },
     "husband": {
       "syllables": [
@@ -2280,6 +2379,7 @@
       "diff": 2
     },
     "insect": {
+      "sprite": true,
       "syllables": [
         "IN",
         "sect"
@@ -2346,7 +2446,16 @@
       ],
       "diff": 2
     },
+    "ill": {
+      "sprite": true,
+      "phonemes": [
+        "ĭ",
+        "l"
+      ]
+    },
     "image": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "IM",
         "age"
@@ -2421,6 +2530,13 @@
         "ē"
       ],
       "diff": 2
+    },
+    "joy": {
+      "sprite": true,
+      "phonemes": [
+        "j",
+        "oy"
+      ]
     },
     "joyful": {
       "syllables": [
@@ -2514,6 +2630,14 @@
         "n"
       ]
     },
+    "king": {
+      "sprite": true,
+      "phonemes": [
+        "k",
+        "ĭ",
+        "ng"
+      ]
+    },
     "kingdom": {
       "syllables": [
         "KING",
@@ -2596,7 +2720,16 @@
         "d"
       ]
     },
+    "mail": {
+      "sprite": true,
+      "phonemes": [
+        "m",
+        "ā",
+        "l"
+      ]
+    },
     "letter": {
+      "sprite": true,
       "syllables": [
         "LET",
         "ter"
@@ -2920,6 +3053,7 @@
       "diff": 2
     },
     "ocean": {
+      "sprite": true,
       "syllables": [
         "O",
         "cean"
@@ -2955,6 +3089,7 @@
       ]
     },
     "otter": {
+      "sprite": true,
       "syllables": [
         "OT",
         "ter"
@@ -3094,6 +3229,7 @@
       ]
     },
     "pancake": {
+      "sound": true,
       "syllables": [
         "PAN",
         "cake"
@@ -3176,6 +3312,8 @@
       "diff": 2
     },
     "panda": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "PAN",
         "da"
@@ -3746,6 +3884,14 @@
         "er"
       ]
     },
+    "tea": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "t",
+        "ē"
+      ]
+    },
     "teapot": {
       "syllables": [
         "TEA",
@@ -3982,7 +4128,17 @@
         "l"
       ]
     },
+    "wing": {
+      "sprite": true,
+      "phonemes": [
+        "w",
+        "ĭ",
+        "ng"
+      ]
+    },
     "window": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "WIN",
         "dow"
@@ -4098,7 +4254,18 @@
         "ē"
       ]
     },
+    "yarn": {
+      "sprite": true,
+      "phonemes": [
+        "y",
+        "aw",
+        "r",
+        "n"
+      ]
+    },
     "yellow": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "YEL",
         "low"
@@ -4164,7 +4331,19 @@
         "er"
       ]
     },
+    "zombie": {
+      "sprite": true,
+      "phonemes": [
+        "z",
+        "ŏ",
+        "m",
+        "b",
+        "ē"
+      ],
+      "diff": 2
+    },
     "zero": {
+      "sprite": true,
       "syllables": [
         "ZE",
         "ro"
@@ -4466,6 +4645,7 @@
       ]
     },
     "flamingo": {
+      "sprite": true,
       "syllables": [
         "fla",
         "MIN",
@@ -4725,6 +4905,15 @@
         "ŭ"
       ]
     },
+    "bug": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "b",
+        "ŭ",
+        "g"
+      ]
+    },
     "ladybug": {
       "syllables": [
         "LA",
@@ -4919,6 +5108,8 @@
       ]
     },
     "potato": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "po",
         "TA",
@@ -5088,6 +5279,24 @@
         "ā",
         "r",
         "ē"
+      ]
+    },
+    "rat": {
+      "sprite": true,
+      "phonemes": [
+        "r",
+        "ă",
+        "t"
+      ]
+    },
+    "snake": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "s",
+        "n",
+        "ā",
+        "k"
       ]
     },
     "rattlesnake": {
@@ -5424,6 +5633,29 @@
         "ŭ",
         "l"
       ]
+    },
+    "you": {
+      "sprite": true,
+      "phonemes": [
+        "y",
+        "ū"
+      ]
+    },
+    "yes": {
+       "sound": true,
+       "sprite": true,
+       "phonemes": [
+        "y",
+        "ĕ",
+        "s"
+       ]
+    },
+    "no": {
+      "sound": true,
+       "phonemes": [
+        "n",
+        "ō"
+       ]
     },
     "yesterday": {
       "syllables": [
@@ -6389,6 +6621,16 @@
         "ā",
         "t",
         "er"
+      ]
+    },
+    "rhino": {
+      "sprite": true,
+      "phonemes": [
+        "r",
+        "ī",
+        "n",
+        "ŏ",
+        "s"
       ]
     },
     "rhinoceros": {
@@ -7464,6 +7706,8 @@
       ]
     },
     "apple": {
+      "sound": true,
+      "sprite": true,
       "frame": 0,
       "syllables": [
         "AP",
@@ -7477,6 +7721,7 @@
       ]
     },
     "pillow": {
+      "sprite": true,
       "frame": 1,
       "syllables": [
         "PIL",
@@ -7490,6 +7735,8 @@
       ]
     },
     "table": {
+      "sound": true,
+      "sprite": true,
       "frame": 2,
       "syllables": [
         "TA",
@@ -7504,6 +7751,8 @@
       ]
     },
     "rainbow": {
+      "sound": true,
+      "sprite": true,
       "frame": 3,
       "syllables": [
         "RAIN",
@@ -7550,6 +7799,8 @@
       "compound": true
     },
     "tiger": {
+      "sound": true,
+      "sprite": true,
       "frame": 6,
       "syllables": [
         "TI",
@@ -7563,6 +7814,7 @@
       ]
     },
     "monkey": {
+      "sprite": true,
       "frame": 7,
       "syllables": [
         "MON",
@@ -7576,7 +7828,26 @@
         "ē"
       ]
     },
+    "pizza": {
+      "sprite": true,
+      "phonemes": [
+        "p",
+        "e",
+        "t",
+        "s",
+        "ŭ"
+      ]
+    },
+    "pin": {
+      "sprite": true,
+      "phonemes": [
+        "p",
+        "ĭ",
+        "n"
+      ]
+    },
     "piano": {
+      "sprite": true,
       "frame": 8,
       "syllables": [
         "pi",
@@ -7592,6 +7863,8 @@
       ]
     },
     "elephant": {
+      "sound": true,
+      "sprite": true,
       "frame": 9,
       "syllables": [
         "EL",
@@ -7626,6 +7899,8 @@
       ]
     },
     "banana": {
+      "sound": true,
+      "sprite": true,
       "frame": 11,
       "syllables": [
         "ba",
@@ -7676,6 +7951,8 @@
       ]
     },
     "tomato": {
+      "sound": true,
+      "sprite": true,
       "frame": 14,
       "syllables": [
         "to",
@@ -7783,6 +8060,7 @@
       ]
     },
     "umbrella": {
+      "sprite": true,
       "frame": 21,
       "syllables": [
         "um",
@@ -7837,6 +8115,8 @@
       "compound": true
     },
     "cat": {
+      "sound": true,
+      "sprite": true,
       "frame": 24,
       "syllables": [
         "cat"
@@ -7848,6 +8128,8 @@
       ]
     },
     "dog": {
+      "sound": true,
+      "sprite": true,
       "frame": 25,
       "syllables": [
         "dog"
@@ -7858,7 +8140,18 @@
         "g"
       ]
     },
+    "fox": {
+      "sprite": true,
+      "phonemes": [
+        "f",
+        "ŏ",
+        "k",
+        "s"
+      ]
+    },
     "fly": {
+      "sound": true,
+      "sprite": true,
       "frame": 26,
       "syllables": [
         "fly"
@@ -7870,6 +8163,7 @@
       ]
     },
     "frog": {
+      "sprite": true,
       "frame": 27,
       "syllables": [
         "frog"
@@ -7882,6 +8176,8 @@
       ]
     },
     "tree": {
+      "sound": true,
+      "sprite": true,
       "frame": 28,
       "syllables": [
         "tree"
@@ -7893,6 +8189,8 @@
       ]
     },
     "train": {
+      "sound": true,
+      "sprite": true,
       "frame": 29,
       "syllables": [
         "train"
@@ -7904,7 +8202,17 @@
         "n"
       ]
     },
+    "cheese": {
+      "sprite": true,
+      "phonemes": [
+        "ch",
+        "ē",
+        "z"
+      ]
+    },
     "chair": {
+      "sound": true,
+      "sprite": true,
       "frame": 30,
       "syllables": [
         "chair"
@@ -7916,6 +8224,7 @@
       ]
     },
     "house": {
+      "sprite": true,
       "frame": 31,
       "syllables": [
         "house"
@@ -7941,6 +8250,7 @@
       ]
     },
     "giraffe": {
+      "sprite": true,
       "frame": 33,
       "syllables": [
         "gi",
@@ -7969,6 +8279,8 @@
       ]
     },
     "bunny": {
+      "sound": true,
+      "sprite": true,
       "frame": 35,
       "syllables": [
         "BUN",
@@ -7997,6 +8309,8 @@
       ]
     },
     "cookie": {
+      "sound": true,
+      "sprite": true,
       "frame": 37,
       "syllables": [
         "COOK",
@@ -8010,6 +8324,8 @@
       ]
     },
     "flower": {
+      "sound": true,
+      "sprite": true,
       "frame": 38,
       "syllables": [
         "FLOW",
@@ -8152,6 +8468,7 @@
       ]
     },
     "zebra": {
+      "sprite": true,
       "frame": 48,
       "syllables": [
         "ZE",
@@ -8183,6 +8500,7 @@
       ]
     },
     "penguin": {
+      "sprite": true,
       "frame": 50,
       "syllables": [
         "PEN",
@@ -8215,6 +8533,8 @@
       "compound": true
     },
     "box": {
+      "sound": true,
+      "sprite": true,
       "frame": 52,
       "syllables": [
         "box"
@@ -8241,7 +8561,17 @@
         "m"
       ]
     },
+    "mug": {
+      "sprite": true,
+      "phonemes": [
+        "m",
+        "ŭ",
+        "g"
+      ]
+    },
     "mother": {
+      "sound": true,
+      "sprite": true,
       "frame": 54,
       "syllables": [
         "MOTH",
@@ -8254,7 +8584,16 @@
         "er"
       ]
     },
+    "van": {
+      "sprite": true,
+      "phonemes": [
+        "v",
+        "ă",
+        "n"
+      ]
+    },
     "volcano": {
+      "sprite": true,
       "frame": 55,
       "syllables": [
         "vol",
@@ -8303,6 +8642,7 @@
       ]
     },
     "angel": {
+      "sprite": true,
       "frame": 58,
       "syllables": [
         "AN",
@@ -8332,6 +8672,7 @@
       ]
     },
     "elbow": {
+      "sprite": true,
       "frame": 60,
       "syllables": [
         "EL",
@@ -8359,6 +8700,7 @@
       ]
     },
     "floor": {
+      "sprite": true,
       "frame": 62,
       "syllables": [
         "floor"
@@ -8388,6 +8730,8 @@
       ]
     },
     "ball": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "aw",
@@ -8410,6 +8754,8 @@
       ]
     },
     "car": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "k",
         "aw",
@@ -8417,6 +8763,8 @@
       ]
     },
     "truck": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "t",
         "r",
@@ -8425,6 +8773,7 @@
       ]
     },
     "bike": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ī",
@@ -8445,6 +8794,7 @@
       ]
     },
     "mommy": {
+      "sound": true,
       "syllables": [
         "MOM",
         "my"
@@ -8457,6 +8807,7 @@
       ]
     },
     "daddy": {
+      "sound": true,
       "syllables": [
         "DAD",
         "dy"
@@ -8478,6 +8829,7 @@
       ]
     },
     "hand": {
+      "sprite": true,
       "phonemes": [
         "h",
         "ă",
@@ -8485,7 +8837,17 @@
         "d"
       ]
     },
+    "fruit": {
+      "sprite": true,
+      "phonemes": [
+        "f",
+        "r",
+        "ū",
+        "t"
+      ]
+    },
     "foot": {
+      "sprite": true,
       "phonemes": [
         "f",
         "oo",
@@ -8493,18 +8855,40 @@
       ]
     },
     "eye": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "ī"
       ]
     },
     "nose": {
+      "sprite": true,
       "phonemes": [
         "n",
         "ō",
         "z"
       ]
     },
+    "lips": {
+      "sprite": true,
+      "phonemes": [
+        "l",
+        "ĭ",
+        "p",
+        "s"
+      ]
+    },
+    "mouse": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "m",
+        "ow",
+        "s"
+      ]
+    },
     "mouth": {
+      "sprite": true,
       "phonemes": [
         "m",
         "ow",
@@ -8512,6 +8896,7 @@
       ]
     },
     "bed": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ĕ",
@@ -8519,6 +8904,8 @@
       ]
     },
     "cup": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "k",
         "ŭ",
@@ -8526,12 +8913,16 @@
       ]
     },
     "shoe": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "sh",
         "ū"
       ]
     },
     "hat": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "h",
         "ă",
@@ -8539,6 +8930,8 @@
       ]
     },
     "book": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "oo",
@@ -8561,6 +8954,7 @@
       ]
     },
     "bus": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ŭ",
@@ -8568,6 +8962,8 @@
       ]
     },
     "boat": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "ō",
@@ -8575,6 +8971,7 @@
       ]
     },
     "arm": {
+      "sprite": true,
       "phonemes": [
         "aw",
         "r",
@@ -8595,6 +8992,7 @@
       ]
     },
     "hair": {
+      "sprite": true,
       "phonemes": [
         "h",
         "ā",
@@ -8602,6 +9000,7 @@
       ]
     },
     "heart": {
+      "sprite": true,
       "phonemes": [
         "h",
         "aw",
@@ -8618,6 +9017,7 @@
       ]
     },
     "smile": {
+      "sprite": true,
       "phonemes": [
         "s",
         "m",
@@ -8626,6 +9026,7 @@
       ]
     },
     "tail": {
+      "sprite": true,
       "phonemes": [
         "t",
         "ā",
@@ -8640,6 +9041,8 @@
       ]
     },
     "boot": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "ū",
@@ -8690,11 +9093,21 @@
       ]
     },
     "dress": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "d",
         "r",
         "ĕ",
         "s"
+      ]
+    },
+    "head": {
+      "sprite": true,
+      "phonemes": [
+        "h",
+        "ĕ",
+        "d"
       ]
     },
     "headphones": {
@@ -8714,6 +9127,7 @@
       "compound": true
     },
     "ring": {
+      "sprite": true,
       "phonemes": [
         "r",
         "ĭ",
@@ -8721,6 +9135,8 @@
       ]
     },
     "shirt": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "sh",
         "er",
@@ -8728,6 +9144,7 @@
       ]
     },
     "skirt": {
+      "sprite": true,
       "phonemes": [
         "s",
         "k",
@@ -8736,10 +9153,20 @@
       ]
     },
     "sock": {
+      "sprite": true,
       "phonemes": [
         "s",
         "ŏ",
         "k"
+      ]
+    },
+    "socks": {
+      "sprite": true,
+      "phonemes": [
+        "s",
+        "ŏ",
+        "k",
+        "s"
       ]
     },
     "card": {
@@ -8775,6 +9202,7 @@
       ]
     },
     "flag": {
+      "sprite": true,
       "phonemes": [
         "f",
         "l",
@@ -8797,6 +9225,8 @@
       ]
     },
     "fire": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "f",
         "ī",
@@ -8857,9 +9287,11 @@
         "t",
         "r",
         "ē"
-      ]
+      ],
+      "diff": 2
     },
     "phone": {
+      "sprite": true,
       "phonemes": [
         "f",
         "ō",
@@ -8931,6 +9363,7 @@
       ]
     },
     "flute": {
+      "sprite": true,
       "phonemes": [
         "f",
         "l",
@@ -8955,6 +9388,7 @@
       ]
     },
     "singer": {
+      "sprite": true,
       "syllables": [
         "SING",
         "er"
@@ -9101,6 +9535,7 @@
       ]
     },
     "star": {
+      "sprite": true,
       "phonemes": [
         "s",
         "t",
@@ -9126,6 +9561,7 @@
       ]
     },
     "beach": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ē",
@@ -9133,6 +9569,7 @@
       ]
     },
     "cloud": {
+      "sprite": true,
       "phonemes": [
         "k",
         "l",
@@ -9168,12 +9605,15 @@
       ]
     },
     "ice": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "ī",
         "s"
       ]
     },
     "island": {
+      "sprite": true,
       "syllables": [
         "IS",
         "land"
@@ -9187,6 +9627,7 @@
       ]
     },
     "leaf": {
+      "sprite": true,
       "phonemes": [
         "l",
         "ē",
@@ -9194,6 +9635,8 @@
       ]
     },
     "moon": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "m",
         "ū",
@@ -9209,6 +9652,8 @@
       ]
     },
     "sun": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "s",
         "ŭ",
@@ -9239,6 +9684,8 @@
       ]
     },
     "rain": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "r",
         "ā",
@@ -9246,6 +9693,8 @@
       ]
     },
     "snow": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "s",
         "n",
@@ -9276,6 +9725,7 @@
       ]
     },
     "bridge": {
+      "sprite": true,
       "phonemes": [
         "b",
         "r",
@@ -9368,7 +9818,18 @@
         "ā"
       ]
     },
+    "rocks": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "r",
+        "ŏ",
+        "k",
+        "s"
+      ]
+    },
     "rocket": {
+      "sprite": true,
       "syllables": [
         "ROCK",
         "et"
@@ -9382,6 +9843,8 @@
       ]
     },
     "ship": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "sh",
         "ĭ",
@@ -9405,6 +9868,8 @@
       ]
     },
     "boy": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "oy"
@@ -9424,6 +9889,7 @@
       ]
     },
     "dad": {
+      "sprite": true,
       "phonemes": [
         "d",
         "ă",
@@ -9440,6 +9906,8 @@
       ]
     },
     "father": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "FA",
         "ther"
@@ -9452,13 +9920,23 @@
       ]
     },
     "girl": {
+      "sprite": true,
       "phonemes": [
         "g",
         "er",
         "l"
       ]
     },
+    "goat": {
+      "sprite": true,
+      "phonemes": [
+        "g",
+        "ō",
+        "t"
+      ]
+    },
     "grandma": {
+      "sprite": true,
       "syllables": [
         "GRAND",
         "ma"
@@ -9474,6 +9952,7 @@
       ]
     },
     "grandpa": {
+      "sprite": true,
       "syllables": [
         "GRAND",
         "pa"
@@ -9510,6 +9989,7 @@
       ]
     },
     "man": {
+      "sprite": true,
       "phonemes": [
         "m",
         "ă",
@@ -9517,6 +9997,7 @@
       ]
     },
     "mom": {
+      "sprite": true,
       "phonemes": [
         "m",
         "ŏ",
@@ -9551,6 +10032,8 @@
       ]
     },
     "witch": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "w",
         "ĭ",
@@ -9568,6 +10051,15 @@
         "z",
         "er",
         "d"
+      ]
+    },
+    "wolf": {
+      "sprite": true,
+      "phonemes": [
+        "w",
+        "oo",
+        "l",
+        "f"
       ]
     },
     "woman": {
@@ -9606,6 +10098,7 @@
       ]
     },
     "daughter": {
+      "sprite": true,
       "syllables": [
         "DAUGH",
         "ter"
@@ -9656,6 +10149,14 @@
         "d"
       ]
     },
+    "bee": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "b",
+        "ē"
+      ]
+    },
     "frisbee": {
       "syllables": [
         "FRIS",
@@ -9670,7 +10171,16 @@
         "ē"
       ]
     },
+    "gem": {
+      "sprite": true,
+      "phonemes": [
+        "j",
+        "ĕ",
+        "m"
+      ]
+    },
     "game": {
+      "sprite": true,
       "phonemes": [
         "g",
         "ā",
@@ -9794,6 +10304,7 @@
       ]
     },
     "clown": {
+      "sprite": true,
       "phonemes": [
         "k",
         "l",
@@ -9863,6 +10374,7 @@
       ]
     },
     "queen": {
+      "sprite": true,
       "phonemes": [
         "k",
         "w",
@@ -9962,6 +10474,7 @@
       ]
     },
     "pool": {
+      "sprite": true,
       "phonemes": [
         "p",
         "ū",
@@ -9977,6 +10490,7 @@
       ]
     },
     "shop": {
+      "sprite": true,
       "phonemes": [
         "sh",
         "ŏ",
@@ -10007,6 +10521,7 @@
       ]
     },
     "store": {
+      "sprite": true,
       "phonemes": [
         "s",
         "t",
@@ -10036,6 +10551,7 @@
       ]
     },
     "zoo": {
+      "sprite": true,
       "phonemes": [
         "z",
         "ū"
@@ -10112,6 +10628,15 @@
         "m"
       ]
     },
+    "bat": {
+      "sound": true,
+      "sprite": true,
+      "phonemes": [
+        "b",
+        "ă",
+        "t"
+      ]
+    },
     "battery": {
       "syllables": [
         "BAT",
@@ -10127,6 +10652,7 @@
       ]
     },
     "coin": {
+      "sprite": true,
       "phonemes": [
         "k",
         "oy",
@@ -10134,6 +10660,7 @@
       ]
     },
     "hook": {
+      "sprite": true,
       "phonemes": [
         "h",
         "oo",
@@ -10141,6 +10668,7 @@
       ]
     },
     "key": {
+      "sprite": true,
       "phonemes": [
         "k",
         "ē"
@@ -10177,6 +10705,7 @@
       "compound": true
     },
     "lamp": {
+      "sprite": true,
       "phonemes": [
         "l",
         "ă",
@@ -10185,6 +10714,7 @@
       ]
     },
     "bath": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ă",
@@ -10207,6 +10737,7 @@
       ]
     },
     "bin": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ĭ",
@@ -10233,6 +10764,7 @@
       ]
     },
     "clock": {
+      "sprite": true,
       "phonemes": [
         "k",
         "l",
@@ -10241,6 +10773,7 @@
       ]
     },
     "door": {
+      "sprite": true,
       "phonemes": [
         "d",
         "ō",
@@ -10255,6 +10788,7 @@
       ]
     },
     "plate": {
+      "sprite": true,
       "phonemes": [
         "p",
         "l",
@@ -10270,6 +10804,7 @@
       ]
     },
     "vase": {
+      "sprite": true,
       "phonemes": [
         "v",
         "ā",
@@ -10277,6 +10812,8 @@
       ]
     },
     "air": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "ā",
         "r"
@@ -10290,6 +10827,8 @@
       ]
     },
     "stone": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "s",
         "t",
@@ -10298,6 +10837,7 @@
       ]
     },
     "wood": {
+      "sprite": true,
       "phonemes": [
         "w",
         "oo",
@@ -10312,6 +10852,7 @@
       ]
     },
     "brush": {
+      "sprite": true,
       "phonemes": [
         "b",
         "r",
@@ -10335,6 +10876,7 @@
       ]
     },
     "pen": {
+      "sound": true,
       "phonemes": [
         "p",
         "ĕ",
@@ -10348,6 +10890,8 @@
       ]
     },
     "spoon": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "s",
         "p",
@@ -10447,7 +10991,32 @@
         "g"
       ]
     },
+    "wheel": {
+      "sprite": true,
+      "phonemes": [
+        "w",
+        "ē",
+        "l"
+      ]
+    },
+    "whale": {
+      "sprite": true,
+      "phonemes": [
+        "w",
+        "ā",
+        "l"
+      ]
+    },
+    "well": {
+      "sprite": true,
+      "phonemes": [
+        "w",
+        "ĕ",
+        "l"
+      ]
+    },
     "wall": {
+      "sprite": true,
       "phonemes": [
         "w",
         "aw",
@@ -10481,6 +11050,7 @@
       ]
     },
     "page": {
+      "sound": true,
       "phonemes": [
         "p",
         "ā",
@@ -10535,6 +11105,8 @@
       ]
     },
     "kite": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "k",
         "ī",
@@ -10542,6 +11114,7 @@
       ]
     },
     "shell": {
+      "sprite": true,
       "phonemes": [
         "sh",
         "ĕ",
@@ -10549,6 +11122,8 @@
       ]
     },
     "black": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "l",
@@ -10557,6 +11132,8 @@
       ]
     },
     "brown": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "r",
@@ -10565,6 +11142,8 @@
       ]
     },
     "red": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "r",
         "ĕ",
@@ -10572,6 +11151,8 @@
       ]
     },
     "white": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "w",
         "ī",
@@ -10579,6 +11160,8 @@
       ]
     },
     "green": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "g",
         "r",
@@ -10587,6 +11170,8 @@
       ]
     },
     "blue": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "l",
@@ -10606,7 +11191,16 @@
         "ū"
       ]
     },
+    "thumb": {
+      "sprite": true,
+      "phonemes": [
+        "th",
+        "ŭ",
+        "m"
+      ]
+    },
     "three": {
+      "sprite": true,
       "phonemes": [
         "th",
         "r",
@@ -10636,6 +11230,7 @@
       ]
     },
     "eight": {
+      "sprite": true,
       "phonemes": [
         "ā",
         "t"
@@ -10866,6 +11461,7 @@
       ]
     },
     "open": {
+      "sprite": true,
       "syllables": [
         "O",
         "pen"
@@ -11146,13 +11742,33 @@
       ]
     },
     "laugh": {
+      "sprite": true,
       "phonemes": [
         "l",
         "ă",
         "f"
       ]
     },
+    "log": {
+      "sprite": true,
+      "phonemes": [
+        "l",
+        "ŏ",
+        "g"
+      ]
+    },
+    "lion": {
+      "sprite": true,
+      "phonemes": [
+        "l",
+        "ī",
+        "ŭ",
+        "n"
+      ]
+    },
     "light": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "l",
         "ī",
@@ -11217,6 +11833,7 @@
       ]
     },
     "bear": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ā",
@@ -11224,13 +11841,24 @@
       ]
     },
     "bell": {
+      "sprite": true,
       "phonemes": [
         "b",
         "ĕ",
         "l"
       ]
     },
+    "bone": {
+      "sprite": true,
+      "phonemes": [
+        "b",
+        "ō",
+        "n"
+      ]
+    },
     "bird": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "b",
         "er",
@@ -11252,6 +11880,7 @@
       "compound": true
     },
     "bread": {
+      "sprite": true,
       "phonemes": [
         "b",
         "r",
@@ -11260,6 +11889,8 @@
       ]
     },
     "cake": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "k",
         "ā",
@@ -11267,6 +11898,7 @@
       ]
     },
     "coat": {
+      "sprite": true,
       "phonemes": [
         "k",
         "ō",
@@ -11274,6 +11906,7 @@
       ]
     },
     "corn": {
+      "sprite": true,
       "phonemes": [
         "k",
         "ō",
@@ -11281,7 +11914,18 @@
         "n"
       ]
     },
+    "crown": {
+      "sprite": true,
+      "phonemes": [
+        "k",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
     "cow": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "k",
         "ow"
@@ -11294,6 +11938,8 @@
       ]
     },
     "duck": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "d",
         "ŭ",
@@ -11301,12 +11947,16 @@
       ]
     },
     "egg": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "ĕ",
         "g"
       ]
     },
     "fish": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "f",
         "ĭ",
@@ -11344,6 +11994,7 @@
       ]
     },
     "horse": {
+      "sprite": true,
       "phonemes": [
         "h",
         "ō",
@@ -11352,6 +12003,7 @@
       ]
     },
     "kitty": {
+      "sprite": true,
       "syllables": [
         "KIT",
         "ty"
@@ -11364,6 +12016,7 @@
       ]
     },
     "milk": {
+      "sprite": true,
       "phonemes": [
         "m",
         "ĭ",
@@ -11372,6 +12025,7 @@
       ]
     },
     "money": {
+      "sprite": true,
       "syllables": [
         "MON",
         "ey"
@@ -11405,6 +12059,7 @@
       ]
     },
     "nest": {
+      "sprite": true,
       "phonemes": [
         "n",
         "ĕ",
@@ -11413,6 +12068,7 @@
       ]
     },
     "night": {
+      "sprite": true,
       "phonemes": [
         "n",
         "ī",
@@ -11433,6 +12089,8 @@
       ]
     },
     "pig": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "p",
         "ĭ",
@@ -11447,6 +12105,7 @@
       ]
     },
     "sheep": {
+      "sprite": true,
       "phonemes": [
         "sh",
         "ē",
@@ -11492,12 +12151,16 @@
       ]
     },
     "toy": {
+      "sound": true,
+      "sprite": true,
       "phonemes": [
         "t",
         "oy"
       ]
     },
     "water": {
+      "sound": true,
+      "sprite": true,
       "syllables": [
         "WA",
         "ter"

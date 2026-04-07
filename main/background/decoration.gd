@@ -45,7 +45,7 @@ func set_random_look(scale_bounds:Vector2, alpha_bounds:Vector2) -> void:
 	
 	if type == Type.TEXTURE:
 		scale *= 5.0
-		modulate.a = 0.1
+		modulate.a = 0.05
 	
 	if not PuzzleSettings.get_value("animate_background"): return
 	

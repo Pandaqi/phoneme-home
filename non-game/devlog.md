@@ -67,6 +67,28 @@ I had to painstakingly create a new set of phoneme sounds for this game.
 
 For many unfortunate reasons, I am not able to record these sounds myself at the moment or in the near future. I begrudgingly used an AI voice to say some random sentences, then performed some heavy editing to acquire all these individual phonemes.
 
+This was a massive improvement ... **but still not great**.
+
+I tried using the default _text to speech_-support within my Game Engine, I tried recording and editing the sounds in a different way, I even looked up the average duration of specific phonemes in the English language ... only to conclude that _this wasn't going to work_. The duration and exact sound of a phoneme simply depends on the context. In some words, my "b" sound was perfect, whilst in other words it sounded very weird and made the word nearly unintelligible. 
+
+I realized why converting text to audio requires sophisticated technology :p I decided it was a bit foolish (or ambitious?) to think I could turn recordings of individual phonemes into realistic, natural sounding words (no matter their order). It simply doesn't work that way. Some words sounded great, others were choppy and bad, because speech is highly variable and context-dependent.
+
+While experimenting with the timings and recordings, I discovered that the words were _much_ easier to understand if I actually **slowed down playback**. That is, if I did not even _try_ to make it a single word, but kept each phoneme as its individual sound (with some pauses between them). Whenever I did that, it was easy to understand what the entire word was, and it sounded consistent and professional. 
+
+I think the key word here is "consistent". By making the duration of each phoneme _identical_, the playback gets a nice predictable pattern that makes it sound better and makes it easier to understand. So yes, in the final version, all phonemes actually wait for the same amount of time before continuing to the next. This makes the "choppy" sound---one phoneme at a time, not one word as a whole---actually okay and usable.
+
+Finally, I realized that I could just ... add a **separate recording of the correct word in its entirety** to the game. I can't do this for _all_ words---it's too much---but I can do it for the easiest difficulties. In other words, I have a file called `bed.mp3` which contains someone saying the word BED in one go, as it should sound. When you complete a puzzle, I play _that file_ to confirm the right word, instead of only playing the individual phonemes. It seems a bit of a trick at first, but it just made sense once I'd actually implemented it. 
+
+We now get a pretty nice flow for the puzzle.
+
+* Try to sort the phonemes. 
+* The system can play _any attempt_ by just playing the individual phonemes in order. So even wrong attempts are turned into audio.
+* If you get it _right_, 
+  * The system first plays the word slowly, as usual. (B-E-D)
+  * Then it plays the word quickly, correctly, using that second recording as a sort of "confirmation". (BED!)
+
+It's a bit annoying that I had to waste so many hours to get here, and throw away all that work just to return to this simpler solution. But at least the idea is possible and playable now.
+
 ## Everything Else
 
 The name of the game, _Phoneme Home_, was a pun on _Phoning Home_. That phrase has a clear space / galaxy theme, about sending signals (sound waves?) back to your home planet. And so it was decided that the whole game would have a starry space theme.
@@ -87,49 +109,31 @@ I also realized that I just did not have the time/resources to create an image f
 
 I decided to simply move all such words to higher difficulties, at which point you only get to see the _word_ (written out: "AFTER") you created at the end.
 
-I'm somewhat skipping past this step, even though it was a large chunk of the game's development, because it's not that interesting and nothing new really happens here. The crucial, new part was in the puzzle idea and the breaking up/playing of individual phonemes.
+I'm somewhat skipping past this step, even though it was a large chunk of the game's development, because it's not that interesting and nothing new really happens here. The crucial and unique part was in the puzzle idea and the breaking up/playing of individual phonemes.
+
+Some other interesting improvements I made near the end where,
+
+* Sometimes you can create multiple words with the phonemes (e.g. NET and TEN). When checking if your solution is "correct", I needed to check if your final word occurs anywhere in my big list. (Otherwise it's very annoying if you make TEN and think you've solved it, but the system says you're wrong because it wanted NET!)
+  * This does not happen a lot, because the two words not only need to use the same phonemes but also be of identical length. 
+  * But it happens surprisingly often. Often enough that I wanted to support this, instead of discarding all those duplicates from the dataset.
+* Similarly, some words contain multiple of the same phoneme. I needed to change my code to make sure it doesn't matter in what order you use the two "k"-phonemes in cactus, for example.
+* Finally, I wanted to be able to give "hints" in case you're stuck (even though this isn't your typical puzzle game). So I connected the default Hint button (in my puzzle framework) to some code that immediately places the right phoneme in the first open slot.
+  * Everything in a puzzle game is just a "command". So, placing a phoneme in a slot, is just a command that can DO that, but also knows how to UNDO that.
+  * Whenever you click a slot, I spawn a new command to DO it. 
+  * So, when you press the "Hint" button, I UNDO any mistakes you've made and then simply call the next command from the correct solution.
 
 As such, with this part done ... the puzzle game was done!
 
+## Conclusion
 
+I think the core idea is very solid. Even short words already create a nice little puzzle (for older kids/adults too!). All complexity is in the _task being taught_ (recognize phonemes + how they stitch together into word); actually giving your answer/solution is as simple as a few clicks. The game looks and feels nice to play thanks to some time spent on animations and effects, without overdoing it.
 
+I'm still a bit disappointed about not finding a way to just play the phonemes and get a natural sounding final word out of that. My workaround required a _lot_ of work, and I still had to leave many words without that extra recording because it was just too much. The same thing is true for _images_ confirming you have the correct word (e.g. after spelling "bed" the final screen shows an image of a BED). It was a _lot_ of tedious work to get all images, sounds, and other data, and link them up properly. 
 
-# To-Do
+But in the end this allowed the game to work very well and have over 500 words in its database. I tried to make the marketing material do justice to the amount of content inside the game, asking a higher price than I asked for previous puzzle games. I have a habit of severely underselling what I make, going so far as forgetting to even _mention_ how much you get with a certain product, so I'm trying to be conscious of this ;)
 
-## Crucial
+There is probably some even _better_ language puzzle game for pre-readers out there. This puzzle game is a good first step towards finding it.
 
-* Get started with _better_ phoneme recordings.
-  * Only do a few test words now with common phonemes: BED, NIGHT, RISKY (add that one?)
-* Missing Solution Sprites => Only on lowest difficulties; Add a `sprite` property to those entries with the filename for it
+Until the next devlog,
 
-* Also accept OTHER words you'll be able to make from those phonemes. (They are likely in that same list.)
-* Allow giving hints anyway, using a mock command for phoneme->slot in order.
-
-
-## Other
-
-@NOTE: Generate Mipmaps for all textures imported. It's the only way to make those thin outlines around them look antialiased. (Also, stick to powers of 2 scaling for all these sprites, everywhere!)
-
-@IDEA: Also some hover on the slots? I kind of like NOT reacting there to really sell the idea of "this is a slot, not a phoneme, this is a final position"
-
-
-
-
-Vowels typically last significantly longer than consonants in English, with short vowels lasting about 100–150 milliseconds and long vowels lasting around 200–300 milliseconds
-. While the specific ratio varies, vowels often last roughly 1.5 times longer than consonants. 
-Factors Influencing Duration:
-
-    Vowel Type: Long vowels (e.g., in "bead") can last nearly twice as long as "short" vowels (e.g., in "bid").
-    Following Consonant: Vowels are substantially longer when followed by a voiced consonant (e.g., d, g, z, v) compared to a voiceless/unvoiced consonant (e.g., t, k, s, f).
-        "Bead" has a longer vowel than "beat".
-        "Bag" has a longer vowel than "back".
-    Syllable Position: Vowels at the end of a syllable (open syllables, e.g., "be") are usually the longest. 
-
-Examples of Duration:
-
-    Bead: ~350 milliseconds
-    Beat: ~190 milliseconds
-    Short Vowels: 100–150 ms
-    Long Vowels: 200–300 ms 
-
-In summary, a vowel's duration is highly dependent on its surroundings, particularly the voiced or unvoiced nature of the following consonant, a phenomenon often described in phonetics as pre-fortis clipping. 
+Pandaqi
