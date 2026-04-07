@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cmjcxht2ic0hn"]
+
+[ext_resource type="Script" uid="uid://blo0h1h588wry" path="res://slots/slot.gd" id="1_jo1ma"]
+[ext_resource type="Texture2D" uid="uid://bwrvgwb2qtbey" path="res://slots/slot-spritesheet.png" id="3_lreun"]
+[ext_resource type="AudioStream" uid="uid://cch0wwwcrfh4u" path="res://puzzle-framework/game/sfx/lock-unlock.ogg" id="4_lreun"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3wy1v"]
+size = Vector2(130, 132)
+
+[node name="Slot" type="Node2D" unique_id=294983651 node_paths=PackedStringArray("sprite", "sprite_bg", "area", "col_shape", "audio_assigned")]
+script = ExtResource("1_jo1ma")
+sprite = NodePath("Sprite2D")
+sprite_bg = NodePath("SpriteBackground")
+area = NodePath("Area2D")
+col_shape = NodePath("Area2D/CollisionShape2D")
+audio_assigned = NodePath("AudioAssigned")
+
+[node name="SpriteBackground" type="Sprite2D" parent="." unique_id=1347086381]
+modulate = Color(1, 1, 1, 0.20784314)
+texture = ExtResource("3_lreun")
+hframes = 4
+frame = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1407723648]
+texture = ExtResource("3_lreun")
+hframes = 4
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2091967726]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=150497106]
+shape = SubResource("RectangleShape2D_3wy1v")
+
+[node name="AudioAssigned" type="AudioStreamPlayer2D" parent="." unique_id=155610765]
+stream = ExtResource("4_lreun")

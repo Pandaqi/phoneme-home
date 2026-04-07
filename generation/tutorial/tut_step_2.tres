@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="PuzzleTutorialStage" format=3 uid="uid://dwgk5gyqmqw76"]
+
+[ext_resource type="AudioStream" uid="uid://4drm1veos3mb" path="res://main/tutorial/tut-narration-2.ogg" id="1_0k507"]
+[ext_resource type="Script" uid="uid://dbnf0revlghrs" path="res://puzzle-framework/tutorial/puzzle_tutorial_stage.gd" id="1_rtvqc"]
+
+[resource]
+script = ExtResource("1_rtvqc")
+audio = ExtResource("1_0k507")
+transition = 2
+duration = 3.0
+object_focus_index = 1
+object_focus_is_pointer = true
+persistent = false
+metadata/_custom_type_script = "uid://dbnf0revlghrs"

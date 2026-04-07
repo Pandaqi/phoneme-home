@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bqhtxrn1r54m3"]
+
+[ext_resource type="Script" uid="uid://kme3xvun4gc4" path="res://puzzle-framework/puzzle_framework.gd" id="1_57jsw"]
+[ext_resource type="Resource" uid="uid://qhrefxvfvhrh" path="res://generation/difficulties/diff_easiest.tres" id="2_swsbt"]
+[ext_resource type="Script" uid="uid://7a03fervi8xj" path="res://puzzle-framework/puzzle_difficulty.gd" id="3_tgv6f"]
+[ext_resource type="Script" uid="uid://xoy87uum5v5s" path="res://puzzle-framework/settings/setting.gd" id="4_2jvrg"]
+[ext_resource type="Resource" uid="uid://cm7orwdmoycvx" path="res://generation/difficulties/diff_easy.tres" id="4_ftmnh"]
+[ext_resource type="AudioStream" uid="uid://diqfyauqs4my6" path="res://main/bg-theme.mp3" id="4_g61x5"]
+[ext_resource type="Resource" uid="uid://b5h75jjc8yjpn" path="res://puzzle-framework/settings/common/setting_fullscreen.tres" id="5_n02j5"]
+[ext_resource type="Resource" uid="uid://b1v17nqcu6l4s" path="res://generation/difficulties/diff_medium.tres" id="5_w5ts3"]
+[ext_resource type="Resource" uid="uid://c73mtja0x8ce0" path="res://puzzle-framework/settings/common/setting_tutorial.tres" id="6_k0h2b"]
+[ext_resource type="Resource" uid="uid://d1ryj4t6tj8gp" path="res://generation/difficulties/diff_hard.tres" id="6_rtetl"]
+[ext_resource type="Resource" uid="uid://bd8gld8ygdqub" path="res://generation/difficulties/diff_hardest.tres" id="7_rwo2v"]
+[ext_resource type="Resource" uid="uid://blt5hmy8kqxw" path="res://puzzle-framework/settings/common/setting_volume_bg.tres" id="7_w5xje"]
+[ext_resource type="Resource" uid="uid://doyw0pbgpwr17" path="res://puzzle-framework/settings/common/setting_volume_game.tres" id="8_ftmnh"]
+[ext_resource type="Resource" uid="uid://bpx3va84mb70o" path="res://puzzle-framework/settings/common/setting_volume_ui.tres" id="9_w5ts3"]
+[ext_resource type="Resource" uid="uid://nbn6etwmyb6l" path="res://generation/settings/setting_animate_background.tres" id="10_rtetl"]
+[ext_resource type="Resource" uid="uid://b8vpwoe46t0vn" path="res://generation/settings/setting_light_mode.tres" id="11_rwo2v"]
+[ext_resource type="Resource" uid="uid://bcfpb833hvy35" path="res://generation/settings/setting_sound_waves.tres" id="12_hsw23"]
+[ext_resource type="Resource" uid="uid://bqrg7g0nrnvkc" path="res://generation/settings/setting_show_letter.tres" id="17_w5ts3"]
+[ext_resource type="Resource" uid="uid://dsrj506sr48sg" path="res://generation/settings/setting_drag_drop.tres" id="18_rtetl"]
+
+[node name="PuzzleFramework" type="Node" unique_id=835186744]
+script = ExtResource("1_57jsw")
+game_name = "Phoneme Home"
+game_version = "1.3.3"
+game_tagline = "Teaches Phonemes & Early Language"
+menu_pattern_enabled = true
+difficulties = Array[ExtResource("3_tgv6f")]([ExtResource("2_swsbt"), ExtResource("4_ftmnh"), ExtResource("5_w5ts3"), ExtResource("6_rtetl"), ExtResource("7_rwo2v")])
+settings = Array[ExtResource("4_2jvrg")]([ExtResource("5_n02j5"), ExtResource("6_k0h2b"), ExtResource("7_w5xje"), ExtResource("8_ftmnh"), ExtResource("9_w5ts3"), ExtResource("10_rtetl"), ExtResource("11_rwo2v"), ExtResource("12_hsw23"), ExtResource("17_w5ts3"), ExtResource("18_rtetl")])
+bg_music = Array[AudioStream]([ExtResource("4_g61x5")])

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PuzzleSettingCheckbox" format=3 uid="uid://bcfpb833hvy35"]
+
+[ext_resource type="Script" uid="uid://dhfd6mahjlglv" path="res://puzzle-framework/settings/setting_checkbox.gd" id="1_qgbi8"]
+
+[resource]
+script = ExtResource("1_qgbi8")
+key = "sound_waves"
+label = "Animate Sound Waves"
+default = true
+tooltip = "Show a nice sound wave effect when clicking an image (to hear its phoneme)."
+metadata/_custom_type_script = "uid://dhfd6mahjlglv"

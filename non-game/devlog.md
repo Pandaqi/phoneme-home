@@ -67,19 +67,69 @@ I had to painstakingly create a new set of phoneme sounds for this game.
 
 For many unfortunate reasons, I am not able to record these sounds myself at the moment or in the near future. I begrudgingly used an AI voice to say some random sentences, then performed some heavy editing to acquire all these individual phonemes.
 
+## Everything Else
 
+The name of the game, _Phoneme Home_, was a pun on _Phoning Home_. That phrase has a clear space / galaxy theme, about sending signals (sound waves?) back to your home planet. And so it was decided that the whole game would have a starry space theme.
+
+Now, the game is a very simple and somewhat abstract puzzle, so this "theme" does not have a lot of chance to shine through or do much. But it still helps a lot to make the game feel a bit more interesting.
+
+* I created some faint backgrounds of starry skies and galaxies. The puzzle randomly picks one to display across the whole background.
+* I created some standalone planets, stars, asteroids, etcetera. A large number of these are randomly placed in the background, slowly drifting or pulsing to add a bit of liveliness. (This also includes some random "textures" that make the background look less like the same solid color each time. If you're not looking for it, you probably won't notice these random blobs overlaying the background in several places.)
+* The phonemes became _stars_. The slots to place them into became stars too (to match).
+* I created a LIGHT mode too, in case people prefer a bright background and black text/elements instead.
+* Whenever you click a phoneme to hear its sound, I emit a few "sound waves" from it. (Just white thin circles that expand outwards quickly, like a ripple in a pond.) Makes it look even more alive and like "phoning home".
+* I added the default effects and changes whenever you select/hover something, such as making it pop up (slightly bigger), or making that star _green_ when the phoneme was in the right place.
+* And I added a little spaceship flying from left to right across the screen as it plays your word. This felt like a fun, fitting thing to add, but it also reinforces what's actually happening to a child playing. (As the spaceship moves left->right, it triggers the sounds of the slots left->right, so that's what you hear.)
+
+All these things together take a few hours to illustrate, place, figure out, tweak. But in the end you have a puzzle game that looks much more lively and fun to play, even though you're still just clicking phonemes in the right order to get very simple words.
+
+I also realized that I just did not have the time/resources to create an image for _every_ possible word. Words like "bus" and "bed" obviously show the image of the word you created (when you solve the puzzle), confirming and reaffirming it. But words like "after" of "before"? You can't illustrate them easily, which is why my shared library of assets (for the online store) does not have anything for it. 
+
+I decided to simply move all such words to higher difficulties, at which point you only get to see the _word_ (written out: "AFTER") you created at the end.
+
+I'm somewhat skipping past this step, even though it was a large chunk of the game's development, because it's not that interesting and nothing new really happens here. The crucial, new part was in the puzzle idea and the breaking up/playing of individual phonemes.
+
+As such, with this part done ... the puzzle game was done!
 
 
 
 
 # To-Do
 
-* Input Slots
-  * Display
-  * Slot In
-  * Play final result
-  * Check if correct or not
-* Missing Phoneme Sprites
-* Missing Solution Sprites
-  * Only do this for a much smaller subselection
-  * Everything else just displays a standard sound sprite ---> these are only used at higher difficulties!
+## Crucial
+
+* Get started with _better_ phoneme recordings.
+  * Only do a few test words now with common phonemes: BED, NIGHT, RISKY (add that one?)
+* Missing Solution Sprites => Only on lowest difficulties; Add a `sprite` property to those entries with the filename for it
+
+* Also accept OTHER words you'll be able to make from those phonemes. (They are likely in that same list.)
+* Allow giving hints anyway, using a mock command for phoneme->slot in order.
+
+
+## Other
+
+@NOTE: Generate Mipmaps for all textures imported. It's the only way to make those thin outlines around them look antialiased. (Also, stick to powers of 2 scaling for all these sprites, everywhere!)
+
+@IDEA: Also some hover on the slots? I kind of like NOT reacting there to really sell the idea of "this is a slot, not a phoneme, this is a final position"
+
+
+
+
+Vowels typically last significantly longer than consonants in English, with short vowels lasting about 100–150 milliseconds and long vowels lasting around 200–300 milliseconds
+. While the specific ratio varies, vowels often last roughly 1.5 times longer than consonants. 
+Factors Influencing Duration:
+
+    Vowel Type: Long vowels (e.g., in "bead") can last nearly twice as long as "short" vowels (e.g., in "bid").
+    Following Consonant: Vowels are substantially longer when followed by a voiced consonant (e.g., d, g, z, v) compared to a voiceless/unvoiced consonant (e.g., t, k, s, f).
+        "Bead" has a longer vowel than "beat".
+        "Bag" has a longer vowel than "back".
+    Syllable Position: Vowels at the end of a syllable (open syllables, e.g., "be") are usually the longest. 
+
+Examples of Duration:
+
+    Bead: ~350 milliseconds
+    Beat: ~190 milliseconds
+    Short Vowels: 100–150 ms
+    Long Vowels: 200–300 ms 
+
+In summary, a vowel's duration is highly dependent on its surroundings, particularly the voiced or unvoiced nature of the following consonant, a phenomenon often described in phonetics as pre-fortis clipping. 

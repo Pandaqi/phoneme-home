@@ -16,11 +16,15 @@
     },
 
     "ĭ": {
+        "tts": "i",
+        "duration": 2,
         "sound": "i-short",
         "sprites": ["image", "ill", "insect"]
     },
 
     "ī": {
+        "tts": "ai",
+        "duration": 2,
         "sound": "i-long",
         "sprites": ["eye", "ice", "island"]
     },
@@ -41,11 +45,15 @@
     },
 
     "ē": {
+        "tts": "ee",
+        "duration": 2,
         "sound": "e-long",
         "sprites": ["eat", "eagle", "emote"]
     },
 
     "ĕ": {
+        "tts": "e",
+        "duration": 2,
         "sound": "e-short",
         "sprites": ["elbow", "egg", "elephant"]
     },
@@ -66,11 +74,15 @@
     },
 
     "ă": {
+        "tts": "a",
+        "duration": 2,
         "sound": "a-short",
-        "sprites": ["apple", "ant", "aunt"]
+        "sprites": ["apple", "ant"]
     },
 
     "ā": {
+        "tts": "aa",
+        "duration": 2,
         "sound": "a-long",
         "sprites": ["ape", "eight", "angel"]
     },
@@ -91,18 +103,22 @@
     },
 
     "ō": {
+        "tts": "oh",
+        "duration": 2,
         "sound": "o-long",
         "sprites": ["oak", "ocean", "open", "over"]
     },
 
     "ŏ": {
+        "tts": "o",
+        "duration": 2,
         "sound": "o-short",
         "sprites": ["otter", "off", "olive"]
     },
 
     "h": {
         "sound": "h",
-        "sprites": ["hat", "horse", "hand", "hair", "house"]
+        "sprites": ["hat", "horse", "hand", "hair", "house", "heart"]
     },
 
     "ng": {
@@ -124,18 +140,23 @@
     },
 
     "ŭ": {
+        "tts": "u",
+        "duration": 2,
         "sound": "u-short",
         "sprites": ["umbrella", "onion", "bus"],
         "nostart": true
     },
 
     "ū": {
+        "tts": "uu",
+        "duration": 2,
         "sound": "u-long",
         "sprites": ["shoe", "moon", "fruit"],
         "nostart": true
     },
 
     "oo": {
+        "duration": 2,
         "sound": "oo",
         "sprites": ["book", "wolf", "foot"],
         "nostart": true
@@ -169,28 +190,32 @@
 
     "g": {
         "sound": "g",
-        "sprites": ["game", "green", "girl", "ghost"]
+        "sprites": ["game", "green", "girl", "grandma", "grandpa", "goat"]
     },
 
     "aw": {
+        "duration": 2,
         "sound": "aw",
         "sprites": ["arm", "car"],
         "nostart": true
     },
 
     "oy": {
+        "duration": 2,
         "sound": "oy",
         "sprites": ["toy", "boy"],
         "nostart": true
     },
 
     "ow": {
+        "duration": 2,
         "sound": "ow",
         "sprites": ["owl", "cow", "house", "cloud", "crown"],
         "nostart": true
     },
 
     "er": {
+        "duration": 2, 
         "sound": "er",
         "sprites": ["earth", "bird", "tiger", "water"],
         "nostart": true
@@ -9071,7 +9096,7 @@
         "s",
         "k",
         "w",
-        "ā",
+        "ĕ",
         "r"
       ]
     },

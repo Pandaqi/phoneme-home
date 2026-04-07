@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PuzzleSettingCheckbox" format=3 uid="uid://nbn6etwmyb6l"]
+
+[ext_resource type="Script" uid="uid://dhfd6mahjlglv" path="res://puzzle-framework/settings/setting_checkbox.gd" id="1_5kohi"]
+
+[resource]
+script = ExtResource("1_5kohi")
+key = "animate_background"
+label = "Animate Background"
+default = true
+tooltip = "If disabled, the background is just a static image."
+metadata/_custom_type_script = "uid://dhfd6mahjlglv"

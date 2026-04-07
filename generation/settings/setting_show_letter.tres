@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PuzzleSettingCheckbox" format=3 uid="uid://bqrg7g0nrnvkc"]
+
+[ext_resource type="Script" uid="uid://dhfd6mahjlglv" path="res://puzzle-framework/settings/setting_checkbox.gd" id="1_f5aqm"]
+
+[resource]
+script = ExtResource("1_f5aqm")
+key = "show_letter"
+label = "Show Alphabet Letter"
+default = false
+tooltip = "Shows the letter for the phoneme instead of an image of something that contains it."
+metadata/_custom_type_script = "uid://dhfd6mahjlglv"

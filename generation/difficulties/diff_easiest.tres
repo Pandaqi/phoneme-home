@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="PuzzleDifficulty" format=3 uid="uid://qhrefxvfvhrh"]
+
+[ext_resource type="Script" uid="uid://7a03fervi8xj" path="res://puzzle-framework/puzzle_difficulty.gd" id="1_gnrw5"]
+[ext_resource type="Script" uid="uid://dbnf0revlghrs" path="res://puzzle-framework/tutorial/puzzle_tutorial_stage.gd" id="2_lk5x5"]
+[ext_resource type="Resource" uid="uid://ddl3d5upbkahm" path="res://generation/tutorial/tut_step_1.tres" id="3_ydyyk"]
+[ext_resource type="Resource" uid="uid://dwgk5gyqmqw76" path="res://generation/tutorial/tut_step_2.tres" id="4_6r4vx"]
+
+[resource]
+script = ExtResource("1_gnrw5")
+tutorial = Array[ExtResource("2_lk5x5")]([ExtResource("3_ydyyk"), ExtResource("4_6r4vx")])
+properties = Dictionary[String, Variant]({
+"allow_nostart": false,
+"diff_bounds": Vector2i(1, 1),
+"require_solution_sprite": true,
+"size_bounds": Vector2i(2, 4)
+})
+metadata/_custom_type_script = "uid://7a03fervi8xj"

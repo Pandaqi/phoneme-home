@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PuzzleSettingCheckbox" format=3 uid="uid://dsrj506sr48sg"]
+
+[ext_resource type="Script" uid="uid://dhfd6mahjlglv" path="res://puzzle-framework/settings/setting_checkbox.gd" id="1_lyljc"]
+
+[resource]
+script = ExtResource("1_lyljc")
+key = "allow_drag_drop"
+label = "Allow Drag & Drop"
+default = false
+tooltip = "Move phonemes into slots by dragging and dropping them instead."
+metadata/_custom_type_script = "uid://dhfd6mahjlglv"
