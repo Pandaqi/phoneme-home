@@ -18,6 +18,11 @@ You can click on stuff to hear their sound, and must then put stuff in the right
 
 ## Crucial
 
+@IDEA: Dino(saur), Dragon, other animals (literally the word ANIMAL)?
+
+
+@IDEA: Add setting to _show_ the solution sprite + text. You just need to _spell it_ yourself!
+
 * @BUG: If the Hint button requires pushing something out of a slot and immediately putting it back somewhere else, it breaks!
 * POSSIBLE BETTER PHONEMES:
   * The schwa/short `u` could be a bit shorter/less pronounced.
