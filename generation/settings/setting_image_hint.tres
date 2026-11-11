@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PuzzleSettingCheckbox" format=3 uid="uid://bjrppv7hxtd0p"]
+
+[ext_resource type="Script" uid="uid://dhfd6mahjlglv" path="res://puzzle-framework/settings/setting_checkbox.gd" id="1_lqwxg"]
+
+[resource]
+script = ExtResource("1_lqwxg")
+key = "show_image_hint"
+label = "Show Image Hints"
+default = false
+tooltip = "Shows the image/letters of the word you're looking for, to help you (if possible)"
+metadata/_custom_type_script = "uid://dhfd6mahjlglv"

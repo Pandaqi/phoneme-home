@@ -65,10 +65,12 @@ func get_tts_string() -> String:
 
 func _on_input_event(_vp:Node, ev:InputEvent, _sidx:int) -> void:
 	if not (ev is InputEventMouseButton or ev is InputEventScreenTouch): return
-	if ev.is_pressed(): 
+	if ev.is_pressed():
 		click_started.emit()
 		return
-	if is_inside_slot(): return
+	if is_inside_slot(): 
+		play_sound()
+		return
 	clicked.emit()
 
 func _on_mouse_entered() -> void:

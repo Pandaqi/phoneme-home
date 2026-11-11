@@ -16,30 +16,137 @@ You can click on stuff to hear their sound, and must then put stuff in the right
 
 # To-Do
 
-## Crucial
+## Expanding the Dataset
 
 @IDEA: Dino(saur), Dragon, other animals (literally the word ANIMAL)?
+@TODO: Sound for PLATE
+@TODO: Add "late" (phoneme-match for TAIL), "roast", "roads"
 
-
-@IDEA: Add setting to _show_ the solution sprite + text. You just need to _spell it_ yourself!
-
-* @BUG: If the Hint button requires pushing something out of a slot and immediately putting it back somewhere else, it breaks!
+* Create number sprites `0` to `10` in style of the few I already did, add to shared assets?
+* More Solution sprites + sounds.
 * POSSIBLE BETTER PHONEMES:
   * The schwa/short `u` could be a bit shorter/less pronounced.
   * The `d` could sound more like a dee and less like a tee.
-* Create number sprites `0` to `10` in style of the few I already did, add to shared assets?
-* Missing Solution Sprites => Only on lowest difficulties; 
-  * Add a `sprite` property to those entries
-  * Add a `sound` property with some audio for the full word ---> I can start by using the words I already have in shared assets!
-    * Require BOTH sprite and sound on lowest difficulty? Or just ensure they all exist?
 
-Create unique marketing image (from AI result) for this game?
+
 
 ## Other
 
 @NOTE: Generate Mipmaps for all textures imported. It's the only way to make those thin outlines around them look antialiased. (Also, stick to powers of 2 scaling for all these sprites, everywhere!)
 
+@BUG: If the Hint button requires pushing something out of a slot and immediately putting it back somewhere else, it sometimes breaks!
+
 @IDEA: Also some hover on the slots? I kind of like NOT reacting there to really sell the idea of "this is a slot, not a phoneme, this is a final position"
+
+
+
+
+
+# Missing Images
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/anchor.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/arrow.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/bag.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/bank.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/block.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/board.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/body.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/bomb.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/card.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/cross.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/day.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/desk.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/dirt.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/doll.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/down.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/ear.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/erase.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/face.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/fairy.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/fall.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/farm.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/five.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/fork.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/four.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/ghost.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/grass.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/hammer.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/hockey.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/honey.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/jeans.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/jump.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/knife.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/line.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/mirror.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/nature.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/net.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/nine.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/oven.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/page.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/pan.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/paper.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/park.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/pen.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/river.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/rope.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/ruler.webp
+
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/sand.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/six.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/sleep.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/stick.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/ten.webp
+Debug | Missing Solution Sprite | res://phonemes/sprites/two.webp
+
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/wind.webp
+
+Debug | Missing Solution Sprite | res://phonemes/sprites/zipper.webp
+
+
+
 
 
 

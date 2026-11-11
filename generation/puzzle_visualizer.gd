@@ -15,6 +15,7 @@ var slots : Array[Slot] = []
 @export var use_text_to_speech := false
 
 var busy := false
+var solved := false
 
 var phoneme_dragging : Phoneme
 var phoneme_selected : Phoneme
@@ -47,6 +48,9 @@ func visualize(gen:PuzzleGenerator) -> void:
 	for i in range(count()):
 		solution.append(CommandTurn.new(phonemes[i], slots[i], self))
 	commands.set_solution(solution)
+	
+	if PuzzleSettings.get_value("show_image_hint"):
+		solution_visualizer.visualize(generator, true)
 
 func visualize_phonemes() -> void:
 	var vp := Vector2(1280, 720)
@@ -105,7 +109,7 @@ func _on_slot_clicked(s:Slot) -> void:
 	commands.execute_command(cmd)
 
 func is_busy() -> bool:
-	return busy or commands.is_busy()
+	return busy or commands.is_busy() or solved
 
 func reset_phoneme_selected() -> void:
 	if not phoneme_selected: return
@@ -203,15 +207,18 @@ func check_if_word_completed() -> void:
 	var is_correct := await mark_correct_solution()
 	print("Checked Word -> Correct? ", is_correct)
 	
+	solved = false
 	if is_correct:
 		# @NOTE: this plays some animations, 
 		# then sends a signal that will finish the puzzle for good
+		solved = true
 		solution_visualizer.visualize(generator)
 		return
 	
 	reset_slots()
 
 func _on_solution_visualization_finished() -> void:
+	if not solved: return
 	PuzzleFramework.finish_puzzle(true)
 
 func _input(ev:InputEvent) -> void:

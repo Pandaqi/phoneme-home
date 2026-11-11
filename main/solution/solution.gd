@@ -11,7 +11,7 @@ var sprite_size_base := 512.0
 
 signal finished()
 
-func visualize(gen:PuzzleGenerator) -> void:
+func visualize(gen:PuzzleGenerator, mute_audio := false) -> void:
 	var word_data := Data.get_word_data(gen.solution)
 	
 	# display the full word you made
@@ -27,7 +27,7 @@ func visualize(gen:PuzzleGenerator) -> void:
 		sprite.texture = load(Data.get_solution_sprite_path(gen.solution))
 	
 	# play custom sound for full word (if one is available)
-	if "sound" in word_data:
+	if ("sound" in word_data) and not mute_audio:
 		audio_player.stream = load(Data.get_solution_sound_path(gen.solution))
 		audio_player.play()
 	
